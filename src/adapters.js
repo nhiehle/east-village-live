@@ -215,6 +215,8 @@ function parseOttos(html) {
 
     const title = decodeHtml(stripTags(row.groups.title)).replace(/\s+/g, " ").trim();
     const desc = decodeHtml(stripTags(row.groups.desc)).replace(/\s+/g, " ").trim();
+    if (!isOttoMusicEvent(title, desc)) continue;
+
     const time = desc.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i);
     const hour = time ? toTwentyFourHour(`${time[1]}:${time[2] || "00"}`, time[3]) : "20:00";
 
@@ -231,6 +233,33 @@ function parseOttos(html) {
   }
 
   return events;
+}
+
+function isOttoMusicEvent(title, desc) {
+  const text = `${title} ${desc}`.toLowerCase();
+  const include = [
+    "band",
+    "dj",
+    "music",
+    "rock",
+    "ska",
+    "soul",
+    "surf",
+    "punk",
+    "garage",
+    "goth",
+    "dance",
+    "reggae",
+    "dub",
+    "electro",
+    "synth",
+    "new wave",
+    "rockabilly",
+    "shindig",
+    "shakin"
+  ];
+  const exclude = ["comedy", "poetry", "reading series", "writers", "performers age", "experimental works"];
+  return include.some((word) => text.includes(word)) && !exclude.some((word) => text.includes(word));
 }
 
 function parseDrom(html) {

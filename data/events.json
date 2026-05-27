@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T16:03:45.952Z",
+  "fetchedAt": "2026-05-27T16:25:50.964Z",
   "adapterStatus": [
     {
       "venueId": "lucindas",
@@ -34,7 +34,7 @@
     {
       "venueId": "ottos",
       "ok": true,
-      "count": 47,
+      "count": 22,
       "message": "Loaded from venue page"
     },
     {
@@ -1626,16 +1626,6 @@
       "dataSource": "live"
     },
     {
-      "id": "ottos-2026-06-15-carmine-street-metrics",
-      "title": "Carmine Street Metrics",
-      "startsAt": "2026-06-15T00:00:00.000Z",
-      "note": "4:30-6:30 CARMINE STREET METRICS POETRY READING SERIES: Two stellar featured poets each month, ted open mic and time to mingle.",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
       "id": "ottos-2026-06-21-the-hipp-pipps-rock-n-roll-party-earlybird-special",
       "title": "The Hipp Pipps Rock’n’Roll Party Earlybird Special!",
       "startsAt": "2026-06-21T22:00:00.000Z",
@@ -1646,210 +1636,10 @@
       "dataSource": "live"
     },
     {
-      "id": "ottos-2026-06-03-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-06-03T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-10-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-06-10T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-17-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-06-17T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-24-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-06-24T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-01-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-07-01T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-08-bird-friends-cosmic-unity",
-      "title": "BIRD & FRIENDS - COSMIC UNITY",
-      "startsAt": "2026-07-08T00:00:00.000Z",
-      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-03-lmao-show",
-      "title": "LMAO Show",
-      "startsAt": "2026-06-03T02:00:00.000Z",
-      "note": "Are you, like millions of Americans, tired of having nothing to do on Tuesdays between 10 PM and midnight? Come to the LMAO Show live at Otto’s Shrunken Head! Featuring comics you may have seen on Adult Swim, Amazon Prime, and Just for Laughs. One drink minimum.",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-08-lmao-show",
-      "title": "LMAO Show",
-      "startsAt": "2026-07-08T02:00:00.000Z",
-      "note": "Are you, like millions of Americans, tired of having nothing to do on Tuesdays between 10 PM and midnight? Come to the LMAO Show live at Otto’s Shrunken Head! Featuring comics you may have seen on Adult Swim, Amazon Prime, and Just for Laughs. One drink minimum.",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-03-old-2-begin",
-      "title": "OLD 2 BEGIN",
-      "startsAt": "2026-06-03T00:00:00.000Z",
-      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-08-old-2-begin",
-      "title": "OLD 2 BEGIN",
-      "startsAt": "2026-07-08T00:00:00.000Z",
-      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-10-party-city",
-      "title": "PARTY CITY",
-      "startsAt": "2026-06-10T02:00:00.000Z",
-      "note": "10PM Party City is a comedy hour featuring comedians with fresh sets made only from your suggestions! Sign-ups and newbies welcome for a 5-minute slot of fun!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
       "id": "ottos-2026-06-17-dark-waters",
       "title": "DARK WATERS",
       "startsAt": "2026-06-17T01:00:00.000Z",
       "note": "9pm-close We're BACK!! Come join us for the rebirth of Dark Water Tuesday's back where it all began! Every third Tuesday night with your Hostess and Resident DJ Paradox with DJ Pitter Pat spinning your favorite goth,punk,rock from the 80's onward. To continue in Father Vincent's memory and Honor one of his many Legacies!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-17-old-2-begin",
-      "title": "OLD 2 BEGIN",
-      "startsAt": "2026-06-17T00:00:00.000Z",
-      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-01-party-city",
-      "title": "PARTY CITY",
-      "startsAt": "2026-07-01T02:00:00.000Z",
-      "note": "10PM Party City is a comedy hour featuring comedians with fresh sets made only from your suggestions! Sign-ups and newbies welcome for a 5-minute slot of fun!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-05-27-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-05-27T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-03-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-06-03T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-10-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-06-10T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-17-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-06-17T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-24-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-06-24T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-01-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-07-01T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-08-otto-s-wednesday-open-mic",
-      "title": "Otto's Wednesday Open Mic",
-      "startsAt": "2026-07-08T22:00:00.000Z",
-      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
       "price": "Varies",
       "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
       "venueId": "ottos",
@@ -1946,16 +1736,6 @@
       "dataSource": "live"
     },
     {
-      "id": "ottos-2026-06-19-neuronautic-institute-presents",
-      "title": "NeuroNautic Institute Presents",
-      "startsAt": "2026-06-19T00:00:00.000Z",
-      "note": "7-9 NeuroNautic Institute / Neuronautic Press an art collective and Poetry Press dedicated to open eyes, minds, and hearts. A monthly reading series every third Thursday of the month.",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
       "id": "ottos-2026-06-06-apfel-krebs-simone-presents-flip-flop-fly",
       "title": "Apfel/Krebs/Simone Presents: FLIP FLOP & FLY!",
       "startsAt": "2026-06-06T00:00:00.000Z",
@@ -1976,26 +1756,6 @@
       "dataSource": "live"
     },
     {
-      "id": "ottos-2026-06-05-no-name-and-a-bag-of-chips",
-      "title": "NO NAME...AND A BAG OF CHIPS",
-      "startsAt": "2026-06-05T23:00:00.000Z",
-      "note": "7pm-8:30pm No Name…And a Bag of Chips, New York City's longest running comedy variety show, celebrates its 30th anniversary in 2024 by returning to the scene of some of its greatest triumphs, Otto’s Shrunken Head. They return with their beloved blend of some of the country's best stand-up comics alongside an eclectic mix of variety acts, including storytellers, musicians, and magicians, among others. Holding it all together is their house band, The Summer Replacements. The shows always end with a cheap door prize giveaway. It's always fun, and it's always free. Hosted by No Name co-founder and producer, the amiable Eric Vetter.",
-      "price": "Free",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-07-03-no-name-and-a-bag-of-chips",
-      "title": "NO NAME...AND A BAG OF CHIPS",
-      "startsAt": "2026-07-03T23:00:00.000Z",
-      "note": "7pm-8:30pm No Name…And a Bag of Chips, New York City's longest running comedy variety show, celebrates its 30th anniversary in 2024 by returning to the scene of some of its greatest triumphs, Otto’s Shrunken Head. They return with their beloved blend of some of the country's best stand-up comics alongside an eclectic mix of variety acts, including storytellers, musicians, and magicians, among others. Holding it all together is their house band, The Summer Replacements. The shows always end with a cheap door prize giveaway. It's always fun, and it's always free. Hosted by No Name co-founder and producer, the amiable Eric Vetter.",
-      "price": "Free",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
       "id": "ottos-2026-06-13-subway-to-skaville",
       "title": "SUBWAY TO SKAVILLE",
       "startsAt": "2026-06-13T00:00:00.000Z",
@@ -2010,16 +1770,6 @@
       "title": "SUBWAY TO SKAVILLE",
       "startsAt": "2026-07-11T00:00:00.000Z",
       "note": "Subway to Skaville is your monthly ska party with a tiki twist, hosted the second Friday of every month at Otto’s Shrunken Head (East Village, NYC), and bringing you the best of the ska genre in all its styles. You’ll hear bands with traditional 60s influence to ska-core and everything in between, along with the best NYC selectors spinning you a potpourri of ska, rocksteady, reggae, and dub! Our shows feature a mix of local, regional, and touring bands. You never know who may be playing at the next subway stop!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-06-20-poetry",
-      "title": "POETRY",
-      "startsAt": "2026-06-20T00:00:00.000Z",
-      "note": "6-8pm Adverse Abstraction: A Community of Experimental Expression A showcase of poetic and experimental works curated to highlight the talents of both emerging and established artists alike.",
       "price": "Varies",
       "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
       "venueId": "ottos",
@@ -2162,6 +1912,8 @@
       "note": "Doors 6 PM",
       "price": "Ticketed",
       "dataSource": "seed",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": false
     },
     {
@@ -2171,6 +1923,8 @@
       "note": "Check venue for lineup",
       "price": "Ticketed",
       "dataSource": "seed",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": false
     },
     {
@@ -2180,6 +1934,8 @@
       "note": "Late show",
       "price": "Ticketed",
       "dataSource": "seed",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": false
     },
     {
@@ -2189,6 +1945,8 @@
       "note": "At 101 Avenue A",
       "price": "Ticketed",
       "dataSource": "seed",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": false
     },
     {
@@ -2198,6 +1956,8 @@
       "note": "At 101 Avenue A",
       "price": "Ticketed",
       "dataSource": "seed",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": false
     },
     {
@@ -2205,9 +1965,11 @@
       "title": "Monday Bluegrass Jam",
       "dayOfWeek": 1,
       "time": "21:00",
-      "note": "Neighborhood recurring night",
-      "price": "Usually free",
+      "note": "Appalachian fiddle, bluegrass, and old-school country jam session",
+      "price": "Free",
       "dataSource": "recurring",
+      "sourceUrl": "https://www.groovehub.io/events/monas-monday-night-bluegrass-session/20260629",
+      "sourceName": "Groovehub",
       "recurring": true
     },
     {
@@ -2215,9 +1977,11 @@
       "title": "Tuesday Trad Jazz",
       "dayOfWeek": 2,
       "time": "21:00",
-      "note": "Get there early",
+      "note": "Mona's Hot Five weekly Tuesday session",
       "price": "Usually free",
       "dataSource": "recurring",
+      "sourceUrl": "https://www.dennislichtman.com/monas",
+      "sourceName": "Dennis Lichtman",
       "recurring": true
     },
     {
@@ -2228,6 +1992,8 @@
       "note": "Every third Tuesday, goth/punk/new wave DJs",
       "price": "Free",
       "dataSource": "recurring",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": true
     },
     {
@@ -2238,6 +2004,8 @@
       "note": "Check venue socials for each lineup",
       "price": "Varies",
       "dataSource": "recurring",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": true
     },
     {
@@ -2248,6 +2016,8 @@
       "note": "Punk, surf, rock, DJs",
       "price": "Varies",
       "dataSource": "recurring",
+      "sourceUrl": "",
+      "sourceName": "",
       "recurring": true
     }
   ]

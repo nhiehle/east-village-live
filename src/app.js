@@ -237,7 +237,7 @@ function renderVenueChip(venue) {
 
 function renderEvent(item) {
   const sourceUrl = item.sourceUrl || item.venue.sourceUrl;
-  const sourceName = item.dataSource === "live" ? "Live source" : item.venue.sourceName;
+  const sourceName = item.sourceName || (item.dataSource === "live" ? "Live source" : item.venue.sourceName);
   return `
     <article class="event-card ${item.dataSource === "live" ? "live" : ""}" style="--venue:${item.venue.color}">
       <div class="date-block">

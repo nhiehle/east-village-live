@@ -97,17 +97,37 @@ export const fallbackEventSeeds = [
   single("nightclub101", "Jake Sondy", "2026-05-14T22:00:00", "Late show", "Ticketed", "seed"),
   single("nightclub101", "Nappy Nina, Swarvy, H31R", "2026-05-15T19:00:00", "At 101 Avenue A", "Ticketed", "seed"),
   single("nightclub101", "Nara's Room, Wulfer, Raavo", "2026-05-16T19:00:00", "At 101 Avenue A", "Ticketed", "seed"),
-  recurring("monas", "Monday Bluegrass Jam", 1, "21:00", "Neighborhood recurring night", "Usually free", "recurring"),
-  recurring("monas", "Tuesday Trad Jazz", 2, "21:00", "Get there early", "Usually free", "recurring"),
+  recurring(
+    "monas",
+    "Monday Bluegrass Jam",
+    1,
+    "21:00",
+    "Appalachian fiddle, bluegrass, and old-school country jam session",
+    "Free",
+    "recurring",
+    "https://www.groovehub.io/events/monas-monday-night-bluegrass-session/20260629",
+    "Groovehub"
+  ),
+  recurring(
+    "monas",
+    "Tuesday Trad Jazz",
+    2,
+    "21:00",
+    "Mona's Hot Five weekly Tuesday session",
+    "Usually free",
+    "recurring",
+    "https://www.dennislichtman.com/monas",
+    "Dennis Lichtman"
+  ),
   recurring("ottos", "Dark Water Tuesday", 2, "21:00", "Every third Tuesday, goth/punk/new wave DJs", "Free", "recurring"),
   recurring("ottos", "Back room live bands", 5, "20:00", "Check venue socials for each lineup", "Varies", "recurring"),
   recurring("ottos", "Weekend tiki back room", 6, "20:00", "Punk, surf, rock, DJs", "Varies", "recurring")
 ];
 
-function single(venueId, title, startsAt, note, price, dataSource) {
-  return { venueId, title, startsAt, note, price, dataSource, recurring: false };
+function single(venueId, title, startsAt, note, price, dataSource, sourceUrl = "", sourceName = "") {
+  return { venueId, title, startsAt, note, price, dataSource, sourceUrl, sourceName, recurring: false };
 }
 
-function recurring(venueId, title, dayOfWeek, time, note, price, dataSource) {
-  return { venueId, title, dayOfWeek, time, note, price, dataSource, recurring: true };
+function recurring(venueId, title, dayOfWeek, time, note, price, dataSource, sourceUrl = "", sourceName = "") {
+  return { venueId, title, dayOfWeek, time, note, price, dataSource, sourceUrl, sourceName, recurring: true };
 }
