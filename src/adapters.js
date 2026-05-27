@@ -205,6 +205,12 @@ function parseNublu(html) {
 }
 
 function parseOttos(html) {
+  const individual = parseOttoIndividualEvents(html);
+  const recurring = parseOttoRecurringEvents(html).filter((event) => !overlapsOttoIndividual(event, individual));
+  return [...individual, ...recurring];
+}
+
+function parseOttoRecurringEvents(html) {
   const events = [];
   const rowPattern =
     /<tr[^>]*>\s*<td[^>]*class=["']day["'][^>]*>(?<day>[\s\S]*?)<\/td>\s*<td[^>]*>[\s\S]*?<div class=["']title["']>(?<title>[\s\S]*?)<\/div>\s*<div class=["']desc["']>(?<desc>[\s\S]*?)<\/div>/gi;
@@ -235,6 +241,67 @@ function parseOttos(html) {
   return events;
 }
 
+function parseOttoIndividualEvents(html) {
+  const events = [];
+  const oneOffStart = html.indexOf('id="EVTS"');
+  const section = oneOffStart === -1 ? html : html.slice(oneOffStart);
+  const rowPattern =
+    /<tr[^>]*>\s*<td[^>]*class=["']date["'][^>]*>(?<date>[\s\S]*?)<br>\s*<span class=["']time["']>(?<time>[\s\S]*?)<\/span><\/td>\s*<td[^>]*>[\s\S]*?<div class=["']title["']>(?<title>[\s\S]*?)<\/div>\s*<div class=["']desc["']>(?<desc>[\s\S]*?)<\/div>/gi;
+
+  for (const row of section.matchAll(rowPattern)) {
+    const rawTitle = decodeHtml(stripTags(row.groups.title)).replace(/\s+/g, " ").trim();
+    const desc = decodeHtml(stripTags(row.groups.desc)).replace(/\s+/g, " ").trim();
+    if (!isOttoMusicEvent(rawTitle, desc)) continue;
+
+    const startsAt = ottoDate(row.groups.date, row.groups.time);
+    if (!startsAt) continue;
+    const title = ottoDisplayTitle(rawTitle, desc);
+
+    events.push({
+      id: `ottos-${startsAt.toISOString().slice(0, 10)}-${slug(title)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+      title,
+      startsAt: startsAt.toISOString(),
+      note: desc || "Otto's event",
+      price: /free|no cover/i.test(desc) ? "Free" : "Varies",
+      sourceUrl: "https://www.ottosshrunkenhead.com/pages/events.php#EVTS"
+    });
+  }
+
+  return events;
+}
+
+function overlapsOttoIndividual(event, individualEvents) {
+  return individualEvents.some((individual) => {
+    if (!sameLocalDay(new Date(event.startsAt), new Date(individual.startsAt))) return false;
+    const recurringText = `${event.title} ${event.note}`.toLowerCase();
+    const individualText = `${individual.title} ${individual.note}`.toLowerCase();
+    return (
+      normalizedTitle(event.title) === normalizedTitle(individual.title) ||
+      recurringText.includes("open mic") && individualText.includes("open mic") ||
+      recurringText.includes("get weird") && individualText.includes("get weird") ||
+      recurringText.includes("alice's house") && individualText.includes("alice's house")
+    );
+  });
+}
+
+function ottoDisplayTitle(title, desc) {
+  if (!/^live music$/i.test(title)) return title;
+  const acts = desc
+    .split(/\s*(?:\d{1,2}(?::\d{2})?\s*(?:am|pm))\s*/i)
+    .map((part) => part.replace(/^\d{1,2}:\d{2}\s+/, "").replace(/\s+/g, " ").trim())
+    .filter(Boolean)
+    .slice(0, 3);
+  return acts.length ? `Live Music: ${acts.join(" / ")}` : title;
+}
+
+function normalizedTitle(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function sameLocalDay(a, b) {
+  return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+}
+
 function isOttoMusicEvent(title, desc) {
   const text = `${title} ${desc}`.toLowerCase();
   const include = [
@@ -256,10 +323,31 @@ function isOttoMusicEvent(title, desc) {
     "new wave",
     "rockabilly",
     "shindig",
-    "shakin"
+    "shakin",
+    "open mic",
+    "musician",
+    "singer songwriter",
+    "acoustic",
+    "blues"
   ];
   const exclude = ["comedy", "poetry", "reading series", "writers", "performers age", "experimental works"];
   return include.some((word) => text.includes(word)) && !exclude.some((word) => text.includes(word));
+}
+
+function ottoDate(dateValue, timeValue) {
+  const dateText = decodeHtml(stripTags(dateValue)).replace(/\s+/g, " ").trim();
+  const timeText = decodeHtml(stripTags(timeValue)).replace(/\s+/g, " ").trim();
+  const dateMatch = dateText.match(/\b(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+([A-Z][a-z]+)\s+(\d{1,2})/);
+  const timeMatch = timeText.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i);
+  if (!dateMatch || !timeMatch) return null;
+
+  const [, monthName, day] = dateMatch;
+  const year = eventYear(monthName);
+  const month = monthIndex(monthName);
+  if (month === -1) return null;
+
+  const [hours, minutes] = toTwentyFourHour(`${timeMatch[1]}:${timeMatch[2] || "00"}`, timeMatch[3]).split(":").map(Number);
+  return new Date(year, month, Number(day), hours, minutes, 0, 0);
 }
 
 function parseDrom(html) {

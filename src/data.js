@@ -119,9 +119,6 @@ export const fallbackEventSeeds = [
     "https://www.dennislichtman.com/monas",
     "Dennis Lichtman"
   ),
-  recurring("ottos", "Dark Water Tuesday", 2, "21:00", "Every third Tuesday, goth/punk/new wave DJs", "Free", "recurring"),
-  recurring("ottos", "Back room live bands", 5, "20:00", "Check venue socials for each lineup", "Varies", "recurring"),
-  recurring("ottos", "Weekend tiki back room", 6, "20:00", "Punk, surf, rock, DJs", "Varies", "recurring")
 ];
 
 function single(venueId, title, startsAt, note, price, dataSource, sourceUrl = "", sourceName = "") {

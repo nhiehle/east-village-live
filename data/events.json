@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T16:25:50.964Z",
+  "fetchedAt": "2026-05-27T16:32:34.579Z",
   "adapterStatus": [
     {
       "venueId": "lucindas",
@@ -34,7 +34,7 @@
     {
       "venueId": "ottos",
       "ok": true,
-      "count": 22,
+      "count": 34,
       "message": "Loaded from venue page"
     },
     {
@@ -1606,6 +1606,86 @@
       "dataSource": "live"
     },
     {
+      "id": "ottos-2026-05-27-otto-s-wednesday-band-night-19-0",
+      "title": "Otto's Wednesday Band Night",
+      "startsAt": "2026-05-27T23:00:00.000Z",
+      "note": "7PM SINGER SONGWRITER OPEN MIC WITH THE BAND: OTTO'S SHRUNKEN DEAD, EARLY DAYS, THE OTTO'S WEDNESDAY BAND. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-28-live-music-warhead-west-hill-road-19-0",
+      "title": "Live Music: WARHEAD / WEST HILL ROAD",
+      "startsAt": "2026-05-28T23:00:00.000Z",
+      "note": "7PM WARHEAD 9PM WEST HILL ROAD",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-29-alice-s-house-w-dj-pitter-pat-21-0",
+      "title": "Alice's House w/ DJ PITTER PAT",
+      "startsAt": "2026-05-29T01:00:00.000Z",
+      "note": "A night of Alternative Dance! Industrial/EBM/Electroclash/New wave/minimal Syth And 80’s classic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-30-live-music-michael-lynch-and-his-invisible-band-20-30",
+      "title": "Live Music: Michael Lynch and His Invisible Band",
+      "startsAt": "2026-05-30T00:30:00.000Z",
+      "note": "8:30 Michael Lynch and His Invisible Band",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-30-let-s-rock-21-30",
+      "title": "LET'S ROCK!",
+      "startsAt": "2026-05-30T01:30:00.000Z",
+      "note": "9:30PM ROCKET80HD (Instro Surf Spy Garage Punk) 10:15PM Best Dressed Ghost (NJ) 11:00PM James Godwin (Memphis TN) DJs She Devil & The Oscillot (spin HotWax) DJ Special guest Eric Davidson)",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-30-live-music-banji-headzo-haunting-ghosts-17-0",
+      "title": "Live Music: Banji / Headzo / Haunting Ghosts",
+      "startsAt": "2026-05-30T21:00:00.000Z",
+      "note": "5PM Banji 5:40PM Headzo 6:20PM Haunting Ghosts",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-30-get-weird-19-0",
+      "title": "GET WEIRD!",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "GET WEIRD is a rock and roll party featuring wild live bands, while DJ GREG-GORY and guest DJs spin garage rock, surf, punk, psychobilly and more to the delights of all trash weirdos everywhere.” 8PM OONGOW 9PM FLORIDA MANS 10PM HARRY KATZ and the PISTACHIOS GUEST DJs Erica Martinez and Sommer Santoro",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-31-live-music-jezo-ronnie-acoustic-exit-99-bedpan-fight-18-0",
+      "title": "Live Music: Jezo & Ronnie Acoustic / Exit 99 / Bedpan Fight",
+      "startsAt": "2026-05-31T22:00:00.000Z",
+      "note": "6PM Jezo & Ronnie Acoustic 6:30PM Exit 99 7:20PM Bedpan Fight 8:10PM Steve Krebs & The Maynard G’s 9:05PM Danny’s Devils Blues",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php#EVTS",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
       "id": "ottos-2026-06-07-ghost-town-strut-w-dj-one-ice-jack-featuring-the-mermaid-and-mai-tai-mar",
       "title": "Ghost Town Strut w/ DJ One Ice Jack & Featuring The Mermaid and Mai Tai Market",
       "startsAt": "2026-06-07T21:00:00.000Z",
@@ -1646,6 +1726,66 @@
       "dataSource": "live"
     },
     {
+      "id": "ottos-2026-06-03-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-03T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-10-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-10T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-17-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-17T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-24-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-24T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-01-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-07-01T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-07-08T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
       "id": "ottos-2026-06-10-take-5",
       "title": "🎯Take 5🎯",
       "startsAt": "2026-06-10T23:00:00.000Z",
@@ -1660,16 +1800,6 @@
       "title": "🎯Take 5🎯",
       "startsAt": "2026-07-08T23:00:00.000Z",
       "note": "7PM-11PM DJ Yana Lil’Jerk and guests spin selections from the Cool Brittania era. Late 80s to early 2000s UK Indie, Indie Dance, Britpop, Shoegaze plus. All vinyl!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-05-29-alice-s-house",
-      "title": "Alice's House",
-      "startsAt": "2026-05-29T01:00:00.000Z",
-      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
       "price": "Varies",
       "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
       "venueId": "ottos",
@@ -1800,16 +1930,6 @@
       "title": "The Empire State Soul Club",
       "startsAt": "2026-06-14T00:00:00.000Z",
       "note": "After 8 years with Soulfinger! Connie T. Empress is returning to her roots with The Empire State Soul Club monthly dance parties at Otto's starting January 2025. Every 2nd Saturday expect to hear new djs, plus ones you know and love all playing so you get the feelin' deep down to your toes! Genres spanning Classic to Latin, Boogaloo, Northern/Southern, soul adjacent crossover and modern 45s will fill your senses in every way. You CAN'T sit down!",
-      "price": "Varies",
-      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
-      "venueId": "ottos",
-      "dataSource": "live"
-    },
-    {
-      "id": "ottos-2026-05-31-get-weird",
-      "title": "GET WEIRD",
-      "startsAt": "2026-05-31T00:00:00.000Z",
-      "note": "GET WEIRD is a rock and roll party featuring wild live bands, while DJ GREG-GORY and guests spin garage rock, surf, punk, psychobilly and more to the delights of all trash weirdos everywhere.”",
       "price": "Varies",
       "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
       "venueId": "ottos",
@@ -1982,42 +2102,6 @@
       "dataSource": "recurring",
       "sourceUrl": "https://www.dennislichtman.com/monas",
       "sourceName": "Dennis Lichtman",
-      "recurring": true
-    },
-    {
-      "venueId": "ottos",
-      "title": "Dark Water Tuesday",
-      "dayOfWeek": 2,
-      "time": "21:00",
-      "note": "Every third Tuesday, goth/punk/new wave DJs",
-      "price": "Free",
-      "dataSource": "recurring",
-      "sourceUrl": "",
-      "sourceName": "",
-      "recurring": true
-    },
-    {
-      "venueId": "ottos",
-      "title": "Back room live bands",
-      "dayOfWeek": 5,
-      "time": "20:00",
-      "note": "Check venue socials for each lineup",
-      "price": "Varies",
-      "dataSource": "recurring",
-      "sourceUrl": "",
-      "sourceName": "",
-      "recurring": true
-    },
-    {
-      "venueId": "ottos",
-      "title": "Weekend tiki back room",
-      "dayOfWeek": 6,
-      "time": "20:00",
-      "note": "Punk, surf, rock, DJs",
-      "price": "Varies",
-      "dataSource": "recurring",
-      "sourceUrl": "",
-      "sourceName": "",
       "recurring": true
     }
   ]
