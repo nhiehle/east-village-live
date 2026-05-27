@@ -1,4 +1,4 @@
-const CACHE_NAME = "east-village-live-v3";
+const CACHE_NAME = "east-village-live-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -25,9 +25,31 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
-  if (new URL(event.request.url).pathname.endsWith("/data/events.json")) {
-    event.respondWith(fetch(event.request).catch(() => caches.match(event.request)));
+
+  const url = new URL(event.request.url);
+  if (isFreshFirst(url.pathname)) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
     return;
   }
+
   event.respondWith(caches.match(event.request).then((cached) => cached || fetch(event.request)));
 });
+
+function isFreshFirst(pathname) {
+  return (
+    pathname.endsWith("/") ||
+    pathname.endsWith("/index.html") ||
+    pathname.endsWith(".css") ||
+    pathname.endsWith(".js") ||
+    pathname.endsWith("/data/events.json") ||
+    pathname.endsWith("/manifest.webmanifest")
+  );
+}
