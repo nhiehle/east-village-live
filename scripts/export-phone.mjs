@@ -48,6 +48,7 @@ const state = {
   dateFilter: "week",
   venueFilter: "all",
   query: "",
+  pendingQuery: "",
   favorites: new Set(JSON.parse(localStorage.getItem("favoriteVenues") || "[]"))
 };
 
@@ -138,7 +139,7 @@ function render() {
         </div>
         <label class="search">
           <span>Search</span>
-          <input type="search" value="\${escapeHtml(state.query)}" placeholder="artist, venue, vibe" />
+          <input type="search" value="\${escapeHtml(state.pendingQuery)}" placeholder="artist, venue, genre" />
         </label>
         <select aria-label="Venue filter">
           <option value="all">All venues</option>
@@ -165,8 +166,15 @@ function render() {
     });
   });
   app.querySelector("input[type='search']").addEventListener("input", (event) => {
-    state.query = event.target.value;
-    render();
+    state.pendingQuery = event.target.value;
+  });
+  app.querySelector("input[type='search']").addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    applySearch(event.target.value);
+  });
+  app.querySelector("input[type='search']").addEventListener("search", (event) => {
+    applySearch(event.target.value);
   });
   app.querySelector("select").addEventListener("change", (event) => {
     state.venueFilter = event.target.value;
@@ -188,6 +196,23 @@ function render() {
       render();
     });
   });
+}
+
+function applySearch(value) {
+  state.pendingQuery = value;
+  state.query = value;
+  renderSchedule();
+}
+
+function renderSchedule() {
+  const filtered = filterEvents();
+  const status = document.querySelector(".status-pill");
+  const feed = document.querySelector(".feed");
+
+  if (status) status.textContent = \`\${filtered.length} shows\`;
+  if (feed) {
+    feed.innerHTML = filtered.length ? filtered.map(renderEvent).join("") : \`<div class="empty">No matching shows in this range.</div>\`;
+  }
 }
 
 function rangeButton(value, label) {
