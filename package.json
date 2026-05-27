@@ -1,0 +1,14 @@
+{
+  "name": "east-village-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node scripts/check.mjs",
+    "refresh:data": "node --input-type=module -e \"await import('./scripts/refresh-data.mjs')\"",
+    "export:phone": "node scripts/export-phone.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

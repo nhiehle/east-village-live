@@ -1,0 +1,2254 @@
+{
+  "fetchedAt": "2026-05-27T16:03:45.952Z",
+  "adapterStatus": [
+    {
+      "venueId": "lucindas",
+      "ok": true,
+      "count": 91,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "nublu",
+      "ok": true,
+      "count": 11,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "nightclub101",
+      "ok": true,
+      "count": 14,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "berlin",
+      "ok": true,
+      "count": 20,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "mercury",
+      "ok": true,
+      "count": 20,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "ottos",
+      "ok": true,
+      "count": 47,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "drom",
+      "ok": true,
+      "count": 8,
+      "message": "Loaded from venue page"
+    }
+  ],
+  "events": [
+    {
+      "id": "lucindas-4168",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-05-28T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-6/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4197",
+      "title": "Howlin Hurd",
+      "startsAt": "2026-05-28T01:00:00.000Z",
+      "note": "Show: 9:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/howlin-hurd-7/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3654",
+      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
+      "startsAt": "2026-05-28T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-16/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4198",
+      "title": "East Village CXntry",
+      "startsAt": "2026-05-29T01:00:00.000Z",
+      "note": "Show: 9:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/east-village-cxntry/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4223",
+      "title": "SPECIAL EARLY SHOW WITH THE WAYMORES",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/special-early-show-with-the-waymores/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3303",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-05-31T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-29/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3596",
+      "title": "Long Time Gone, A Birthday Tribute to Waylon Jennings feat: The Lonesome Prairie Guests & Friends plus Lenny Kaye, author of the Waylon Jennings Autobiography.",
+      "startsAt": "2026-06-01T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "$12.44",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/long-time-gone-a-deathiversary-tribute-to-waylon-jennings-feat-the-lonesome-prairie-guests-friends-plus-lenny-kaye-author-of-the-waylon-jennings-autobiography/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4169",
+      "title": "Mike Worthington's Suitcase Full of Woe",
+      "startsAt": "2026-06-01T22:00:00.000Z",
+      "note": "Show: 6:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/mike-worthingtons-suitcase-full-of-woe/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4117",
+      "title": "Eric McEntee/Early Show/Shayni Rae's Truckstop at Lucinda's NYC",
+      "startsAt": "2026-06-01T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "$12.44",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/eric-mcentee-early-show-shayni-raes-truckstop-at-lucindas-nyc/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3304",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-06-03T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-29/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4171",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-06-04T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-7/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3655",
+      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
+      "startsAt": "2026-06-04T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-17/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4212",
+      "title": "Happy Wife",
+      "startsAt": "2026-06-06T19:00:00.000Z",
+      "note": "Show: 3:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/happy-wife/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3305",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-06-07T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-30/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3306",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-06-10T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-30/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4172",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-06-11T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-8/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4208",
+      "title": "Bottle Rockets Tribute Show",
+      "startsAt": "2026-06-11T23:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "$24.88",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/bottle-rockets-tribute-show/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3656",
+      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
+      "startsAt": "2026-06-11T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-18/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3307",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-06-14T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-31/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4161",
+      "title": "The Wildmans",
+      "startsAt": "2026-06-16T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/the-wildmans-3/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4216",
+      "title": "Sasha Dobson",
+      "startsAt": "2026-06-16T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sasha-dobson/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3308",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-06-17T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-31/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4173",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-06-18T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-9/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3657",
+      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
+      "startsAt": "2026-06-18T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-19/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3309",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-06-21T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-32/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3310",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-06-24T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-32/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3736",
+      "title": "Caleb Caudle and the Sweet Critters",
+      "startsAt": "2026-06-24T23:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "$22.14",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/caleb-caudle-and-the-sweet-critters/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4174",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-06-25T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-10/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4200",
+      "title": "Howlin Hurd",
+      "startsAt": "2026-06-25T01:00:00.000Z",
+      "note": "Show: 9:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/howlin-hurd-8/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3658",
+      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
+      "startsAt": "2026-06-25T23:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-20/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3311",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-06-28T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-33/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3312",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-07-01T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-33/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4175",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-07-02T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-11/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3313",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-07-05T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-34/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3314",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-07-08T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-34/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4176",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-07-09T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-12/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3315",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-07-12T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-35/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3316",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-07-15T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-35/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4177",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-07-16T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-13/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3317",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-07-19T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-36/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3318",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-07-22T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-36/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4178",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-07-23T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-14/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3319",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-07-26T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-37/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3320",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-07-29T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-37/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4179",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-07-30T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-15/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3321",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-08-02T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-38/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3322",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-08-05T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-38/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4180",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-08-06T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-16/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3323",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-08-09T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-39/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3324",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-08-12T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-39/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4181",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-08-13T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-17/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3325",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-08-16T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-40/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3326",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-08-19T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-40/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4182",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-08-20T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-18/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3327",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-08-23T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-41/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3328",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-08-26T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-41/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4183",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-08-27T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-19/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3329",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-08-30T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-42/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3330",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-09-02T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-42/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4184",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-09-03T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-20/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3331",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-09-06T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-43/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3332",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-09-09T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-43/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4185",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-09-10T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-21/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3333",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-09-13T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-44/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3334",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-09-16T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-44/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4186",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-09-17T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-22/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3335",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-09-20T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-45/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3336",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-09-23T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-45/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4187",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-09-24T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-23/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3337",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-09-27T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-46/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3338",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-09-30T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-46/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4188",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-10-01T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-24/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3339",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-10-04T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-47/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3340",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-10-07T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-47/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4189",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-10-08T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-25/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3341",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-10-11T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-48/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3342",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-10-14T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-48/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4190",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-10-15T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-26/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3343",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-10-18T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-49/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3344",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-10-21T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-49/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4191",
+      "title": "Liza Colby Behind The Denim Curtain",
+      "startsAt": "2026-10-22T00:30:00.000Z",
+      "note": "Show: 8:30 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/liza-colby-behind-the-denim-curtain-27/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3345",
+      "title": "Sunday Songwriter's Open Mic Every Week at Lucinda's",
+      "startsAt": "2026-10-25T17:00:00.000Z",
+      "note": "Show: 1:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-50/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3346",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-10-28T00:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-50/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3347",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-11-04T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-51/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3348",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-11-11T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-52/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3349",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-11-18T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-53/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3350",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-11-25T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-54/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3351",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-12-02T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-55/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3352",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-12-09T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-56/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3353",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-12-16T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-57/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-3354",
+      "title": "Live Weekly Bluegrass with  Allison Kelly",
+      "startsAt": "2026-12-23T01:00:00.000Z",
+      "note": "Show: 8:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-58/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-27-late-stephen-winter-s-gemini-birthday-dance-party-free-event-19:00",
+      "title": "Late STEPHEN WINTER'S GEMINI BIRTHDAY DANCE PARTY FREE EVENT",
+      "startsAt": "2026-05-27T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/stephen-winters-gemini-birthday-dance-party",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-28-pique-nique-presents-take-two-jesse-fischer-raydar-ellis-19:00",
+      "title": "Pique-nique Presents: Take Two Jesse Fischer & Raydar Ellis",
+      "startsAt": "2026-05-28T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/piquenique-presents-take-twojesse-fischer-raydar-ellis",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-29-nao-yoshioka-19:00",
+      "title": "Nao Yoshioka",
+      "startsAt": "2026-05-29T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/nao-yoshioka",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-29-dlr-kalahari-pva-22:00",
+      "title": "DLR, Kalahari, PVA",
+      "startsAt": "2026-05-30T02:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/dlr-kalahari-pva-1",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-30-songs-from-the-sky-w-k-penny-sad-hippie-yasmii-good-yoleiny-19:00",
+      "title": "Songs from the Sky w/ K Penny, Sad Hippie, Yasmii Good, Yoleiny",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/skyloftnyc-presents-a-red-carpet-affair",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-30-nublu-night-clubbing-with-dj-eduardo-brecho-22:30",
+      "title": "Nublu Night Clubbing with Dj Eduardo Brecho",
+      "startsAt": "2026-05-31T02:30:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.nublu.net/",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-30-ushan-ze-nigro-23:30",
+      "title": "Ushan & Ze Nigro",
+      "startsAt": "2026-05-31T03:30:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.nublu.net/",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-30-2am-ilhan-ersahin-yusuke-yamamoto-gintas-janusonis-00:30",
+      "title": "& 2am Ilhan Ersahin, Yusuke Yamamoto, Gintas Janusonis -",
+      "startsAt": "2026-05-30T04:30:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/nublu-night-clubbing-6",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-05-31-1am-ilhan-ersahin-yusuke-yamamoto-gintas-janusonis-23:00",
+      "title": "& 1am- Ilhan Ersahin, Yusuke Yamamoto, Gintas Janusonis",
+      "startsAt": "2026-06-01T03:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/ilhan-ersahin-yusuke-yamamoto-gintas-janusonis-33",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-06-01-in-partnership-with-women-s-jam-generation-w-19:00",
+      "title": "In Partnership with Women's Jam Generation W",
+      "startsAt": "2026-06-01T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/in-partnership-with-womens-jam-generation-w",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-06-02-neverhome-noshows-jake-kulak-analog-future-19:00",
+      "title": "Neverhome, Noshows, Jake Kulak, Analog Future",
+      "startsAt": "2026-06-02T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://posh.vip/e/neverhome-noshows-jake-kulak-analog-future",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-the-tumblers-kai-weinkauf-night-club-101-t",
+      "title": "The Tumblers, Kai Weinkauf",
+      "startsAt": "2026-05-27T23:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/the-tumblers-kai-weinkauf-night-club-101-tickets/14824653",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-school-fair-night-club-101-tickets-1488467",
+      "title": "School Fair",
+      "startsAt": "2026-05-28T02:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/school-fair-night-club-101-tickets/14884673",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-the-upsides-fever-dolls-night-club-101-tic",
+      "title": "The Upsides, Fever Dolls",
+      "startsAt": "2026-05-28T22:30:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/the-upsides-fever-dolls-night-club-101-tickets/14865313",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-townies-doolittle-sunday-morning-night-clu",
+      "title": "Townies, Doolittle, Sunday Morning",
+      "startsAt": "2026-05-29T01:30:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/townies-doolittle-sunday-morning-night-club-101-tickets/14809873",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-a-million-bucks-ft-bro-night-club-101-tick",
+      "title": "A Million Bucks ft: bro systems, Sammy & Harry, SALVALA",
+      "startsAt": "2026-05-29T02:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/a-million-bucks-ft-bro-night-club-101-tickets/14840223",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-cooking-class-the-sheer-currents-night-clu",
+      "title": "Cooking Class, The Sheer Currents",
+      "startsAt": "2026-05-29T23:30:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/cooking-class-the-sheer-currents-night-club-101-tickets/14917593",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-callahan-witscher-sunburned-hand-night-clu",
+      "title": "Callahan & Witscher, Sunburned Hand Of The Man, The Conformists, Pregnancy",
+      "startsAt": "2026-05-30T02:30:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/callahan-witscher-sunburned-hand-night-club-101-tickets/14837023",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-samsara-camisole-dont-tell-iris-night-club",
+      "title": "Samsara, Camisole, Don't Tell Iris",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/samsara-camisole-dont-tell-iris-night-club-101-tickets/14839243",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-kiki-kramer-night-club-101-tickets-1491810",
+      "title": "Kiki Kramer",
+      "startsAt": "2026-05-31T02:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/kiki-kramer-night-club-101-tickets/14918103",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-tall-friend-pleasure-systems-100-night-clu",
+      "title": "tall friend, Pleasure Systems, 100 Watt Horse, Mx. Autumn",
+      "startsAt": "2026-05-31T23:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/tall-friend-pleasure-systems-100-night-club-101-tickets/14822023",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-rockniteny-night-club-101-tickets-14939313",
+      "title": "rocknite.ny",
+      "startsAt": "2026-06-02T01:30:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/rockniteny-night-club-101-tickets/14939313",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-wolves-of-glendale-night-club-101-tickets-",
+      "title": "Wolves of Glendale",
+      "startsAt": "2026-06-02T23:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/wolves-of-glendale-night-club-101-tickets/14886663",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-victor-jones-night-club-101-tickets-148918",
+      "title": "Victor Jones",
+      "startsAt": "2026-06-03T23:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/victor-jones-night-club-101-tickets/14891833",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "nightclub101-https-www-ticketweb-com-event-son-estrella-galicia-presents-joshua-night",
+      "title": "Son Estrella Galicia Presents: Joshua Chuquimia Crampton",
+      "startsAt": "2026-06-04T02:00:00.000Z",
+      "note": "Night Club 101",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/son-estrella-galicia-presents-joshua-night-club-101-tickets/14938573",
+      "venueId": "nightclub101",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-colin-hallahan-sophia-griswold-berlin-tick",
+      "title": "Colin Hallahan | Sophia Griswold | Jessica Woodlee",
+      "startsAt": "2026-05-27T22:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/colin-hallahan-sophia-griswold-berlin-tickets/14904753",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-save-for-later-greenstreets-berlin-tickets",
+      "title": "save for later | Greenstreets | Dylan Taganas & The Suitepaler | Sons of Mercury",
+      "startsAt": "2026-05-28T01:15:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/save-for-later-greenstreets-berlin-tickets/14935053",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-moon-owls-mages-jake-berlin-tickets-149287",
+      "title": "Moon Owl's Mages | Jake Schaefer and the Realm of Possibility | speedfriending",
+      "startsAt": "2026-05-29T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/moon-owls-mages-jake-berlin-tickets/14928723",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-the-vacants-the-orange-berlin-tickets-1486",
+      "title": "The Vacants | The Orange Blossoms",
+      "startsAt": "2026-05-30T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/the-vacants-the-orange-berlin-tickets/14868223",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-the-coux-lainey-day-berlin-tickets-1479107",
+      "title": "The Coux | Lainey Day | Good News!",
+      "startsAt": "2026-05-31T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/the-coux-lainey-day-berlin-tickets/14791073",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-moderate-rock-fleet-berlin-tickets-1477999",
+      "title": "Moderate Rock | FLEET | Birdie Wren",
+      "startsAt": "2026-05-31T22:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/moderate-rock-fleet-berlin-tickets/14779993",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-cut-the-kids-in-half-berlin-tickets-148923",
+      "title": "Cut The Kids In Half | Gwenn Malick | Swirl",
+      "startsAt": "2026-06-01T01:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/cut-the-kids-in-half-berlin-tickets/14892363",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-nofun-fest-week-1-berlin-tickets-14928783",
+      "title": "NoFun Fest Week 1",
+      "startsAt": "2026-06-01T12:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/nofun-fest-week-1-berlin-tickets/14928783",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-nofun-festpass-berlin-tickets-14940623",
+      "title": "NoFun FestPass",
+      "startsAt": "2026-06-02T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/nofun-festpass-berlin-tickets/14940623",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-plastic-waste-band-jewelry-berlin-tickets-",
+      "title": "Plastic Waste Band | Jewelry | Jairito Y La Onda | Quelastima",
+      "startsAt": "2026-06-03T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/plastic-waste-band-jewelry-berlin-tickets/14935003",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-chloe-tang-devika-berlin-tickets-14907703",
+      "title": "Chloe Tang | Devika",
+      "startsAt": "2026-06-03T22:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/chloe-tang-devika-berlin-tickets/14907703",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-turbogoth-golder-ashy-berlin-tickets-14904",
+      "title": "Turbogoth | Golder | Ashy Finn | Horrendous Downplay",
+      "startsAt": "2026-06-04T01:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/turbogoth-golder-ashy-berlin-tickets/14904743",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-ngny-presents-social-station-berlin-ticket",
+      "title": "NGNY Presents: Social Station | Clone| Winkie | DJ Ivy Oh",
+      "startsAt": "2026-06-05T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/ngny-presents-social-station-berlin-tickets/14769733",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-my-friend-noel-evelia-berlin-tickets-14892",
+      "title": "My Friend Noel | Evelia | Desk Job",
+      "startsAt": "2026-06-07T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/my-friend-noel-evelia-berlin-tickets/14892373",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-sandman-sleeps-dirt-birth-berlin-tickets-1",
+      "title": "Sandman Sleeps | Dirt Birth | Carissa Johnson",
+      "startsAt": "2026-06-07T22:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/sandman-sleeps-dirt-birth-berlin-tickets/14838173",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-colton-davies-turtle-rock-berlin-tickets-1",
+      "title": "Colton Davies | Turtle Rock | Cereal Monogamy",
+      "startsAt": "2026-06-08T01:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/colton-davies-turtle-rock-berlin-tickets/14907693",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-nofun-fest-week-2-berlin-tickets-14928793",
+      "title": "NoFun Fest Week 2",
+      "startsAt": "2026-06-09T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/nofun-fest-week-2-berlin-tickets/14928793",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-dani-rucker-layla-berlin-tickets-14904773",
+      "title": "Dani Rucker | Layla | Sophie Cozine",
+      "startsAt": "2026-06-10T00:00:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/dani-rucker-layla-berlin-tickets/14904773",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-hot-mic-with-india-beer-berlin-tickets-149",
+      "title": "Hot Mic with India Beer and Small Boat",
+      "startsAt": "2026-06-10T23:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/hot-mic-with-india-beer-berlin-tickets/14907743",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "berlin-https-www-ticketweb-com-event-sophie-kyle-collins-american-berlin-ticket",
+      "title": "Sophie Kyle Collins | American Seraphim | Sarah Once Was",
+      "startsAt": "2026-06-11T22:30:00.000Z",
+      "note": "Berlin",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketweb.com/event/sophie-kyle-collins-american-berlin-tickets/14878453",
+      "venueId": "berlin",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-alex-lambert-new-york-new-york-05-27-2026-eve",
+      "title": "Alex Lambert",
+      "startsAt": "2026-05-27T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/alex-lambert-new-york-new-york-05-27-2026/event/00006450A84C70D1",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-music-for-enophiles-new-york-new-york-05-27-2",
+      "title": "Music For Enophiles",
+      "startsAt": "2026-05-28T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/music-for-enophiles-new-york-new-york-05-27-2026/event/00006474DE3A207C",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-the-unlikely-candidates-new-york-new-york-05-",
+      "title": "The Unlikely Candidates",
+      "startsAt": "2026-05-29T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/the-unlikely-candidates-new-york-new-york-05-28-2026/event/00006473E27827DD",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-next-level-kpop-rave-new-york-new-york-05-29-",
+      "title": "Next Level: KPop Rave",
+      "startsAt": "2026-05-30T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/next-level-kpop-rave-new-york-new-york-05-29-2026/event/00006498CB6F6202",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-my-new-band-believe-new-york-new-york-05-30-2",
+      "title": "My New Band Believe",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/my-new-band-believe-new-york-new-york-05-30-2026/event/0000644DDCC66985",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-edwin-honoret-new-york-new-york-05-31-2026-ev",
+      "title": "Edwin Honoret",
+      "startsAt": "2026-05-31T21:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/edwin-honoret-new-york-new-york-05-31-2026/event/0000647EBB509111",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-tsushimamire-new-york-new-york-05-31-2026-eve",
+      "title": "Tsushimamire",
+      "startsAt": "2026-06-01T00:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/tsushimamire-new-york-new-york-05-31-2026/event/00006473C2C8E281",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-no-clue-make-girls-cry-sledgehammer-new-york-",
+      "title": "No Clue, Make Girls Cry, Sledgehammer",
+      "startsAt": "2026-06-01T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/no-clue-make-girls-cry-sledgehammer-new-york-new-york-06-01-2026/event/000064BAAAD1C446",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-hames-new-york-new-york-06-01-2026-event-0000",
+      "title": "Hames",
+      "startsAt": "2026-06-02T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/hames-new-york-new-york-06-01-2026/event/00006464E5DD598F",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-joshua-ray-walker-new-york-new-york-06-03-202",
+      "title": "Joshua Ray Walker",
+      "startsAt": "2026-06-03T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/joshua-ray-walker-new-york-new-york-06-03-2026/event/00006435C25FB9F8",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-leah-kate-the-genius-tour-new-york-new-york-0",
+      "title": "LEAH KATE \"The Genius Tour\"",
+      "startsAt": "2026-06-04T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/leah-kate-the-genius-tour-new-york-new-york-06-04-2026/event/0000638BCB48D050",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-parlour-magic-new-york-new-york-06-04-2026-ev",
+      "title": "Parlour Magic",
+      "startsAt": "2026-06-05T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/parlour-magic-new-york-new-york-06-04-2026/event/0000644DE0A67830",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-fantastic-cat-new-york-new-york-06-05-2026-ev",
+      "title": "Fantastic Cat",
+      "startsAt": "2026-06-05T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/fantastic-cat-new-york-new-york-06-05-2026/event/00006451D6E1D9AA",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-fantastic-cat-new-york-new-york-06-05-2026-ev",
+      "title": "Fantastic Cat",
+      "startsAt": "2026-06-06T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/fantastic-cat-new-york-new-york-06-05-2026/event/00006451D6A9D96E",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-gov-ball-after-dark-villanelle-presented-new-",
+      "title": "Gov Ball After Dark: Villanelle - Presented By NÜTRL",
+      "startsAt": "2026-06-06T03:59:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/gov-ball-after-dark-villanelle-presented-new-york-new-york-06-05-2026/event/0000648FB2AEB1BD",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-mekons-early-show-new-york-new-york-06-06-202",
+      "title": "mekons (early show)",
+      "startsAt": "2026-06-06T22:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/mekons-early-show-new-york-new-york-06-06-2026/event/00006379ADCB9E47",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-mekons-late-show-new-york-new-york-06-06-2026",
+      "title": "mekons (late show)",
+      "startsAt": "2026-06-07T01:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/mekons-late-show-new-york-new-york-06-06-2026/event/00006383E61BE271",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-celebration-of-kathleen-rivera-w-moonhound-ne",
+      "title": "Celebration of Kathleen Rivera w/ Moonhound, Amor Prohibido, Eleanor",
+      "startsAt": "2026-06-07T21:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/celebration-of-kathleen-rivera-w-moonhound-new-york-new-york-06-07-2026/event/000064A4B9D9498F",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-sena-new-york-new-york-06-07-2026-event-00006",
+      "title": "Sena",
+      "startsAt": "2026-06-08T00:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/sena-new-york-new-york-06-07-2026/event/000064BAAD4DC9E8",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "mercury-https-www-ticketmaster-com-gov-ball-after-dark-evening-elephants-new-yor",
+      "title": "Gov Ball After Dark: Evening Elephants - Presented By NÜTRL",
+      "startsAt": "2026-06-08T03:00:00.000Z",
+      "note": "Mercury Lounge",
+      "price": "Ticketed",
+      "sourceUrl": "https://www.ticketmaster.com/gov-ball-after-dark-evening-elephants-new-york-new-york-06-07-2026/event/0000648FB193B007",
+      "venueId": "mercury",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-07-ghost-town-strut-w-dj-one-ice-jack-featuring-the-mermaid-and-mai-tai-mar",
+      "title": "Ghost Town Strut w/ DJ One Ice Jack & Featuring The Mermaid and Mai Tai Market",
+      "startsAt": "2026-06-07T21:00:00.000Z",
+      "note": "5PM DJ ONE ICE JACK spins Rockabilly, R&B, Punk and Soul. The Mermaid and Mai Tai Market features vintage, art, jewelry and other one of a kind wonders and oddities! Hosted by Miss Frizz Dazzle Vintage and each month featuring different guest vendors. 5pm-10pm.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-05-ghost-town-strut-w-dj-one-ice-jack-featuring-the-mermaid-and-mai-tai-mar",
+      "title": "Ghost Town Strut w/ DJ One Ice Jack & Featuring The Mermaid and Mai Tai Market",
+      "startsAt": "2026-07-05T21:00:00.000Z",
+      "note": "5PM DJ ONE ICE JACK spins Rockabilly, R&B, Punk and Soul. The Mermaid and Mai Tai Market features vintage, art, jewelry and other one of a kind wonders and oddities! Hosted by Miss Frizz Dazzle Vintage and each month featuring different guest vendors. 5pm-10pm.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-15-carmine-street-metrics",
+      "title": "Carmine Street Metrics",
+      "startsAt": "2026-06-15T00:00:00.000Z",
+      "note": "4:30-6:30 CARMINE STREET METRICS POETRY READING SERIES: Two stellar featured poets each month, ted open mic and time to mingle.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-21-the-hipp-pipps-rock-n-roll-party-earlybird-special",
+      "title": "The Hipp Pipps Rock’n’Roll Party Earlybird Special!",
+      "startsAt": "2026-06-21T22:00:00.000Z",
+      "note": "6PM-9PM 3 bands in the back, 1 dj up front, 2 bartenders in between and you shakin’ yer tailfeather all over the place! No cover- just a whole lotta rock’n’roll!",
+      "price": "Free",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-03-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-06-03T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-10-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-06-10T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-17-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-06-17T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-24-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-06-24T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-01-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-07-01T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-bird-friends-cosmic-unity",
+      "title": "BIRD & FRIENDS - COSMIC UNITY",
+      "startsAt": "2026-07-08T00:00:00.000Z",
+      "note": "8PM-10PM \"Bird and Friends - Cosmic Unity\" 18-year improv veteran Michael Bird creates the improv show with the audience, including YOU…so come on out to Otto's to join the ultimate, improvised cosmic unity of PLAY!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-03-lmao-show",
+      "title": "LMAO Show",
+      "startsAt": "2026-06-03T02:00:00.000Z",
+      "note": "Are you, like millions of Americans, tired of having nothing to do on Tuesdays between 10 PM and midnight? Come to the LMAO Show live at Otto’s Shrunken Head! Featuring comics you may have seen on Adult Swim, Amazon Prime, and Just for Laughs. One drink minimum.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-lmao-show",
+      "title": "LMAO Show",
+      "startsAt": "2026-07-08T02:00:00.000Z",
+      "note": "Are you, like millions of Americans, tired of having nothing to do on Tuesdays between 10 PM and midnight? Come to the LMAO Show live at Otto’s Shrunken Head! Featuring comics you may have seen on Adult Swim, Amazon Prime, and Just for Laughs. One drink minimum.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-03-old-2-begin",
+      "title": "OLD 2 BEGIN",
+      "startsAt": "2026-06-03T00:00:00.000Z",
+      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-old-2-begin",
+      "title": "OLD 2 BEGIN",
+      "startsAt": "2026-07-08T00:00:00.000Z",
+      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-10-party-city",
+      "title": "PARTY CITY",
+      "startsAt": "2026-06-10T02:00:00.000Z",
+      "note": "10PM Party City is a comedy hour featuring comedians with fresh sets made only from your suggestions! Sign-ups and newbies welcome for a 5-minute slot of fun!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-17-dark-waters",
+      "title": "DARK WATERS",
+      "startsAt": "2026-06-17T01:00:00.000Z",
+      "note": "9pm-close We're BACK!! Come join us for the rebirth of Dark Water Tuesday's back where it all began! Every third Tuesday night with your Hostess and Resident DJ Paradox with DJ Pitter Pat spinning your favorite goth,punk,rock from the 80's onward. To continue in Father Vincent's memory and Honor one of his many Legacies!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-17-old-2-begin",
+      "title": "OLD 2 BEGIN",
+      "startsAt": "2026-06-17T00:00:00.000Z",
+      "note": "6-8pm Old 2 Begin: a Variety Open Mic for Writers & Performers Age 35+",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-01-party-city",
+      "title": "PARTY CITY",
+      "startsAt": "2026-07-01T02:00:00.000Z",
+      "note": "10PM Party City is a comedy hour featuring comedians with fresh sets made only from your suggestions! Sign-ups and newbies welcome for a 5-minute slot of fun!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-27-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-05-27T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-03-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-03T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-10-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-10T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-17-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-17T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-24-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-06-24T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-01-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-07-01T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-otto-s-wednesday-open-mic",
+      "title": "Otto's Wednesday Open Mic",
+      "startsAt": "2026-07-08T22:00:00.000Z",
+      "note": "6PM-12AM A weekly open mic. Hit this link for more info. Otto's Wednesday Open Mic",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-10-take-5",
+      "title": "🎯Take 5🎯",
+      "startsAt": "2026-06-10T23:00:00.000Z",
+      "note": "7PM-11PM DJ Yana Lil’Jerk and guests spin selections from the Cool Brittania era. Late 80s to early 2000s UK Indie, Indie Dance, Britpop, Shoegaze plus. All vinyl!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-08-take-5",
+      "title": "🎯Take 5🎯",
+      "startsAt": "2026-07-08T23:00:00.000Z",
+      "note": "7PM-11PM DJ Yana Lil’Jerk and guests spin selections from the Cool Brittania era. Late 80s to early 2000s UK Indie, Indie Dance, Britpop, Shoegaze plus. All vinyl!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-29-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-05-29T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-05-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-06-05T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-12-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-06-12T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-19-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-06-19T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-26-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-06-26T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-03-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-07-03T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-10-alice-s-house",
+      "title": "Alice's House",
+      "startsAt": "2026-07-10T01:00:00.000Z",
+      "note": "9PM DJ PITTER PAT He's back! Music consisting of 80's pop and......... Electrowave/Minimal sytnth/synth pop/EBM/ Industrial/Alternative Dance Dark Techno indie sleaze",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-19-neuronautic-institute-presents",
+      "title": "NeuroNautic Institute Presents",
+      "startsAt": "2026-06-19T00:00:00.000Z",
+      "note": "7-9 NeuroNautic Institute / Neuronautic Press an art collective and Poetry Press dedicated to open eyes, minds, and hearts. A monthly reading series every third Thursday of the month.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-06-apfel-krebs-simone-presents-flip-flop-fly",
+      "title": "Apfel/Krebs/Simone Presents: FLIP FLOP & FLY!",
+      "startsAt": "2026-06-06T00:00:00.000Z",
+      "note": "It's the first Friday of the month so it must be time for FLIP FLOP & FLY! That's right, come down to OTTO'S SHRUNKEN HEAD have a few Tiki drinks, put on your dancing shoes and check out the coolest sounds around! Dig the scene baby! Live music!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-04-apfel-krebs-simone-presents-flip-flop-fly",
+      "title": "Apfel/Krebs/Simone Presents: FLIP FLOP & FLY!",
+      "startsAt": "2026-07-04T00:00:00.000Z",
+      "note": "It's the first Friday of the month so it must be time for FLIP FLOP & FLY! That's right, come down to OTTO'S SHRUNKEN HEAD have a few Tiki drinks, put on your dancing shoes and check out the coolest sounds around! Dig the scene baby! Live music!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-05-no-name-and-a-bag-of-chips",
+      "title": "NO NAME...AND A BAG OF CHIPS",
+      "startsAt": "2026-06-05T23:00:00.000Z",
+      "note": "7pm-8:30pm No Name…And a Bag of Chips, New York City's longest running comedy variety show, celebrates its 30th anniversary in 2024 by returning to the scene of some of its greatest triumphs, Otto’s Shrunken Head. They return with their beloved blend of some of the country's best stand-up comics alongside an eclectic mix of variety acts, including storytellers, musicians, and magicians, among others. Holding it all together is their house band, The Summer Replacements. The shows always end with a cheap door prize giveaway. It's always fun, and it's always free. Hosted by No Name co-founder and producer, the amiable Eric Vetter.",
+      "price": "Free",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-03-no-name-and-a-bag-of-chips",
+      "title": "NO NAME...AND A BAG OF CHIPS",
+      "startsAt": "2026-07-03T23:00:00.000Z",
+      "note": "7pm-8:30pm No Name…And a Bag of Chips, New York City's longest running comedy variety show, celebrates its 30th anniversary in 2024 by returning to the scene of some of its greatest triumphs, Otto’s Shrunken Head. They return with their beloved blend of some of the country's best stand-up comics alongside an eclectic mix of variety acts, including storytellers, musicians, and magicians, among others. Holding it all together is their house band, The Summer Replacements. The shows always end with a cheap door prize giveaway. It's always fun, and it's always free. Hosted by No Name co-founder and producer, the amiable Eric Vetter.",
+      "price": "Free",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-13-subway-to-skaville",
+      "title": "SUBWAY TO SKAVILLE",
+      "startsAt": "2026-06-13T00:00:00.000Z",
+      "note": "Subway to Skaville is your monthly ska party with a tiki twist, hosted the second Friday of every month at Otto’s Shrunken Head (East Village, NYC), and bringing you the best of the ska genre in all its styles. You’ll hear bands with traditional 60s influence to ska-core and everything in between, along with the best NYC selectors spinning you a potpourri of ska, rocksteady, reggae, and dub! Our shows feature a mix of local, regional, and touring bands. You never know who may be playing at the next subway stop!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-11-subway-to-skaville",
+      "title": "SUBWAY TO SKAVILLE",
+      "startsAt": "2026-07-11T00:00:00.000Z",
+      "note": "Subway to Skaville is your monthly ska party with a tiki twist, hosted the second Friday of every month at Otto’s Shrunken Head (East Village, NYC), and bringing you the best of the ska genre in all its styles. You’ll hear bands with traditional 60s influence to ska-core and everything in between, along with the best NYC selectors spinning you a potpourri of ska, rocksteady, reggae, and dub! Our shows feature a mix of local, regional, and touring bands. You never know who may be playing at the next subway stop!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-20-poetry",
+      "title": "POETRY",
+      "startsAt": "2026-06-20T00:00:00.000Z",
+      "note": "6-8pm Adverse Abstraction: A Community of Experimental Expression A showcase of poetic and experimental works curated to highlight the talents of both emerging and established artists alike.",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-07-unsteady-freddie-s-surf-rock-shindig",
+      "title": "UNSTEADY FREDDIE'S SURF-ROCK SHINDIG",
+      "startsAt": "2026-06-07T00:00:00.000Z",
+      "note": "UNSTEADY FREDDIE known as \"The Ed Sullivan of Surf\", is a passionate cheerleader for the instrumental surf-beat music genre. This is due to his wildly popular Monthly SURF-ROCK SHINDIG concert series which he has been running successfully at a tiki bar in NYC called OTTO's SHRUNKEN HEAD, featuring reverb-drenched bands every first Saturday of the Month!! And no shows are ever alike!! He is also known for his internet radio show, TWANG SHEBANG. Unsteady Freddie archives a lot of live music events, such as those at OTTO's, which can be viewed at his YouTube Channel",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-07-05-unsteady-freddie-s-surf-rock-shindig",
+      "title": "UNSTEADY FREDDIE'S SURF-ROCK SHINDIG",
+      "startsAt": "2026-07-05T00:00:00.000Z",
+      "note": "UNSTEADY FREDDIE known as \"The Ed Sullivan of Surf\", is a passionate cheerleader for the instrumental surf-beat music genre. This is due to his wildly popular Monthly SURF-ROCK SHINDIG concert series which he has been running successfully at a tiki bar in NYC called OTTO's SHRUNKEN HEAD, featuring reverb-drenched bands every first Saturday of the Month!! And no shows are ever alike!! He is also known for his internet radio show, TWANG SHEBANG. Unsteady Freddie archives a lot of live music events, such as those at OTTO's, which can be viewed at his YouTube Channel",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-14-the-empire-state-soul-club",
+      "title": "The Empire State Soul Club",
+      "startsAt": "2026-06-14T00:00:00.000Z",
+      "note": "After 8 years with Soulfinger! Connie T. Empress is returning to her roots with The Empire State Soul Club monthly dance parties at Otto's starting January 2025. Every 2nd Saturday expect to hear new djs, plus ones you know and love all playing so you get the feelin' deep down to your toes! Genres spanning Classic to Latin, Boogaloo, Northern/Southern, soul adjacent crossover and modern 45s will fill your senses in every way. You CAN'T sit down!",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-05-31-get-weird",
+      "title": "GET WEIRD",
+      "startsAt": "2026-05-31T00:00:00.000Z",
+      "note": "GET WEIRD is a rock and roll party featuring wild live bands, while DJ GREG-GORY and guests spin garage rock, surf, punk, psychobilly and more to the delights of all trash weirdos everywhere.”",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "ottos-2026-06-28-get-weird",
+      "title": "GET WEIRD",
+      "startsAt": "2026-06-28T00:00:00.000Z",
+      "note": "GET WEIRD is a rock and roll party featuring wild live bands, while DJ GREG-GORY and guests spin garage rock, surf, punk, psychobilly and more to the delights of all trash weirdos everywhere.”",
+      "price": "Varies",
+      "sourceUrl": "https://www.ottosshrunkenhead.com/pages/events.php",
+      "venueId": "ottos",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-27-vocal-gumbo",
+      "title": "Vocal Gumbo",
+      "startsAt": "2026-05-27T22:30:00.000Z",
+      "note": "Join us at DROM for Vocal Gumbo, a joyful, one-of-a-kind night bringing together some of the most extraordinary vocals in jazz and beyond.",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/vocal-gumbo/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-28-flamenkora-a-night-of-ancestral-crossings-and-new-world-fire",
+      "title": "FlamenKora — A Night of Ancestral Crossings and New‑World Fire",
+      "startsAt": "2026-05-28T22:30:00.000Z",
+      "note": "For the first time in New York City, FlamenKora steps onto the DROM stage carrying the breath of three distant homelands, woven into one lum",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/flamenkora-a-night-of-ancestral-crossings-and-new%e2%80%91world-fire/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-29-nick-corredor-s-salsa-orchestra",
+      "title": "Nick Corredor’s Salsa Orchestra",
+      "startsAt": "2026-05-29T01:00:00.000Z",
+      "note": "Join us on May 28 for a fantastic night of salsa, bachata, merengue, and more! Live salsa music played by Nick Corredor's Salsa Orchestra.",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/nick-corredor-y-su-orquesta-la-herencia/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-29-levels-n-stuff-edm-festival-classics-early-party",
+      "title": "LEVELS ‘N’ STUFF [EDM FESTIVAL CLASSICS] EARLY PARTY",
+      "startsAt": "2026-05-29T23:00:00.000Z",
+      "note": "Join us for Levels 'N' Stuff - a night of EDM Festival classics, bangers and hands-in-the-air anthems",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/levels-n-stuff-edm-festival-classics-early-party-3/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-30-midnights-taylor-swift-dance-party",
+      "title": "MIDNIGHTS – TAYLOR SWIFT DANCE PARTY",
+      "startsAt": "2026-05-30T03:00:00.000Z",
+      "note": "Join us for a the party of your wildest dreams, as DJ Alex Jay will helps you shake it off and throw down to of Taylor's danciest cuts!",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/midnights-taylor-swift-dance-party-may-29/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-30-los-corners-celebrating-the-music-of-charly-garcia",
+      "title": "Los Corners – Celebrating the Music of Charly Garcia",
+      "startsAt": "2026-05-30T23:00:00.000Z",
+      "note": "Los Corners returns to DROM for a high-energy night of live music celebrating the iconic sounds of Charly García: the legend who forever ch",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/los-corners-celebrating-the-music-of-charly-garcia/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-31-lust-for-life-lana-del-rey-dance-party",
+      "title": "LUST FOR LIFE [LANA DEL REY DANCE PARTY]",
+      "startsAt": "2026-05-31T03:00:00.000Z",
+      "note": "DJ Winnie Wanders plays all the remixes, classics, and danciest cuts from Lana Del Rey's catalog at Drom on May 30, 2026.",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/lana-del-rey-dance-party-may30/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "id": "drom-2026-05-31-pixie-dust-pole-aerial-student-teacher-showcase",
+      "title": "Pixie Dust Pole & Aerial Student-Teacher Showcase",
+      "startsAt": "2026-05-31T22:00:00.000Z",
+      "note": "Join Pixie Dust Pole & Aerial for a night of passion, power, and creativity—featuring pole, Lyra, burlesque, and acrobatic performances yo",
+      "price": "Ticketed",
+      "sourceUrl": "https://dromnyc.com/event/pixie-dust-pole-student-showcase-may-31/",
+      "venueId": "drom",
+      "dataSource": "live"
+    },
+    {
+      "venueId": "berlin",
+      "title": "E.R.O.S. | Clorine | Effy Marella",
+      "startsAt": "2026-05-07T18:30:00",
+      "note": "Doors 6 PM",
+      "price": "Ticketed",
+      "dataSource": "seed",
+      "recurring": false
+    },
+    {
+      "venueId": "berlin",
+      "title": "Late show at Berlin",
+      "startsAt": "2026-05-07T21:30:00",
+      "note": "Check venue for lineup",
+      "price": "Ticketed",
+      "dataSource": "seed",
+      "recurring": false
+    },
+    {
+      "venueId": "nightclub101",
+      "title": "Jake Sondy",
+      "startsAt": "2026-05-14T22:00:00",
+      "note": "Late show",
+      "price": "Ticketed",
+      "dataSource": "seed",
+      "recurring": false
+    },
+    {
+      "venueId": "nightclub101",
+      "title": "Nappy Nina, Swarvy, H31R",
+      "startsAt": "2026-05-15T19:00:00",
+      "note": "At 101 Avenue A",
+      "price": "Ticketed",
+      "dataSource": "seed",
+      "recurring": false
+    },
+    {
+      "venueId": "nightclub101",
+      "title": "Nara's Room, Wulfer, Raavo",
+      "startsAt": "2026-05-16T19:00:00",
+      "note": "At 101 Avenue A",
+      "price": "Ticketed",
+      "dataSource": "seed",
+      "recurring": false
+    },
+    {
+      "venueId": "monas",
+      "title": "Monday Bluegrass Jam",
+      "dayOfWeek": 1,
+      "time": "21:00",
+      "note": "Neighborhood recurring night",
+      "price": "Usually free",
+      "dataSource": "recurring",
+      "recurring": true
+    },
+    {
+      "venueId": "monas",
+      "title": "Tuesday Trad Jazz",
+      "dayOfWeek": 2,
+      "time": "21:00",
+      "note": "Get there early",
+      "price": "Usually free",
+      "dataSource": "recurring",
+      "recurring": true
+    },
+    {
+      "venueId": "ottos",
+      "title": "Dark Water Tuesday",
+      "dayOfWeek": 2,
+      "time": "21:00",
+      "note": "Every third Tuesday, goth/punk/new wave DJs",
+      "price": "Free",
+      "dataSource": "recurring",
+      "recurring": true
+    },
+    {
+      "venueId": "ottos",
+      "title": "Back room live bands",
+      "dayOfWeek": 5,
+      "time": "20:00",
+      "note": "Check venue socials for each lineup",
+      "price": "Varies",
+      "dataSource": "recurring",
+      "recurring": true
+    },
+    {
+      "venueId": "ottos",
+      "title": "Weekend tiki back room",
+      "dayOfWeek": 6,
+      "time": "20:00",
+      "note": "Punk, surf, rock, DJs",
+      "price": "Varies",
+      "dataSource": "recurring",
+      "recurring": true
+    }
+  ]
+}

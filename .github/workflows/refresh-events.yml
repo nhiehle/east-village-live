@@ -1,0 +1,35 @@
+name: Refresh events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh event snapshot
+        run: npm run refresh:data
+
+      - name: Verify app
+        run: npm run build
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          git diff --cached --quiet || git commit -m "Refresh event snapshot"
+          git push
