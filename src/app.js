@@ -149,7 +149,7 @@ function render() {
 
       <section class="adapter-note">
         <h2>Adapters</h2>
-        <p>Live listings come from per-venue adapters when public pages expose usable event data. Otto's and Mona's still use recurring/fallback listings while we look for reliable public feeds.</p>
+        <p>Live listings come from per-venue adapters when public pages expose usable event data. Recurring neighborhood nights fill in places that publish stable weekly programming instead of dated calendars.</p>
       </section>
     </main>
   `;

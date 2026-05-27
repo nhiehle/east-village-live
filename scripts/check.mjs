@@ -20,7 +20,23 @@ for (const file of required) {
 
 const app = await readFile("src/app.js", "utf8");
 const data = await readFile("src/data.js", "utf8");
-for (const venue of ["Lucinda's", "Otto's Shrunken Head", "Berlin", "Mercury Lounge", "Night Club 101", "Drom", "Mona's", "Nublu"]) {
+for (const venue of [
+  "Lucinda's",
+  "Otto's Shrunken Head",
+  "Berlin",
+  "Mercury Lounge",
+  "Night Club 101",
+  "Drom",
+  "Mona's",
+  "Nublu",
+  "11th St. Bar",
+  "Club Cumming",
+  "Arlene's Grocery",
+  "Pianos",
+  "Bowery Palace",
+  "Sour Mouse",
+  "Sugar Mouse"
+]) {
   if (!data.includes(venue)) throw new Error(`Missing venue: ${venue}`);
 }
 

@@ -35,6 +35,16 @@ const adapterDefinitions = [
     venueId: "drom",
     url: "https://dromnyc.com/events/",
     parse: parseDrom
+  },
+  {
+    venueId: "clubcumming",
+    url: "https://clubcummingnyc.com/schedule",
+    parse: parseClubCumming
+  },
+  {
+    venueId: "bowerypalace",
+    url: "https://www.bowerypalace.com/",
+    parse: parseBoweryPalace
   }
 ];
 
@@ -375,6 +385,111 @@ function parseDrom(html) {
   return events;
 }
 
+function parseClubCumming(html) {
+  const events = [];
+  const blockPattern = /<article class="eventlist-event[\s\S]*?<\/article>/gi;
+
+  for (const block of html.matchAll(blockPattern)) {
+    const rawBlock = block[0];
+    const title = textFromMatch(rawBlock, /<h1 class="eventlist-title">\s*<a[^>]+href="(?<url>[^"]+)"[^>]*>(?<text>[\s\S]*?)<\/a>\s*<\/h1>/i);
+    if (!title) continue;
+
+    const dateLine = textFromMatch(rawBlock, /<time class="event-date"[^>]*>(?<text>[\s\S]*?)<\/time>/i);
+    const timeLine = textFromMatch(rawBlock, /<time class="event-time-12hr-start"[^>]*>(?<text>[\s\S]*?)<\/time>/i);
+    const startsAt = clubCummingDate(dateLine, timeLine);
+    if (!startsAt || startsAt < new Date()) continue;
+
+    const price = priceFromText(rawBlock) || (/no cover/i.test(rawBlock) ? "No cover" : "Check source");
+    const url = rawBlock.match(/<h1 class="eventlist-title">\s*<a[^>]+href="(?<url>[^"]+)"/i)?.groups?.url || "/schedule";
+
+    events.push({
+      id: `clubcumming-${startsAt.toISOString().slice(0, 10)}-${slug(title)}`,
+      title,
+      startsAt: startsAt.toISOString(),
+      note: clubCummingNote(rawBlock, title),
+      price,
+      sourceUrl: absoluteUrl(url, "https://clubcummingnyc.com")
+    });
+  }
+
+  return events;
+}
+
+function clubCummingDate(dateLine, timeLine) {
+  const dateMatch = dateLine.match(/\b([A-Z][a-z]+),\s+([A-Z][a-z]+)\s+(\d{1,2}),\s+(\d{4})/);
+  const timeMatch = timeLine.match(/(\d{1,2}):(\d{2})\s*([AP]M)/i);
+  if (!dateMatch || !timeMatch) return null;
+
+  const [, , monthName, day, year] = dateMatch;
+  const month = monthIndex(monthName);
+  if (month === -1) return null;
+
+  const [hours, minutes] = toTwentyFourHour(`${timeMatch[1]}:${timeMatch[2]}`, timeMatch[3]).split(":").map(Number);
+  return new Date(Number(year), month, Number(day), hours, minutes, 0, 0);
+}
+
+function parseBoweryPalace(html) {
+  const events = [];
+  const sectionPattern = /<div class="tw-section">[\s\S]*?(?=<div class="tw-section">|<div class="tw-pagination">|<\/div>\s*<\/div>\s*<\/div>\s*<div id="tw-event-list-pagination"|$)/gi;
+
+  for (const match of html.matchAll(sectionPattern)) {
+    const section = match[0];
+    const nameMatch = section.match(/<div class="tw-name">\s*<a[^>]+href="(?<eventUrl>[^"]+)"[^>]*>(?<title>[\s\S]*?)<\/a>/i);
+    if (!nameMatch) continue;
+
+    const title = decodeHtml(stripTags(nameMatch.groups.title)).replace(/\s+/g, " ").trim();
+    if (!title || /skip to content|calendar|party reservations|read full article/i.test(title)) continue;
+
+    const dateText = [
+      textFromMatch(section, /<span class="tw-day-of-week">(?<text>[\s\S]*?)<\/span>/i),
+      textFromMatch(section, /<span class="tw-event-date">(?<text>[\s\S]*?)<\/span>/i),
+      textFromMatch(section, /<span class="tw-event-time">(?<text>[\s\S]*?)<\/span>/i)
+    ].join(" ");
+
+    const startsAt = boweryPalaceDate(dateText);
+    if (!startsAt || startsAt < new Date()) continue;
+    const price = cleanPrice(textFromMatch(section, /<span class="tw-price">\s*(?<text>[\s\S]*?)<\/span>/i));
+    const ticketUrl = section.match(/href="(?<url>https?:\/\/www\.ticketweb\.com[^"]+)"/i)?.groups?.url;
+
+    events.push({
+      id: `bowerypalace-${startsAt.toISOString().slice(0, 10)}-${slug(title)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+      title,
+      startsAt: startsAt.toISOString(),
+      note: "Bowery Palace listing",
+      price: price || "Ticketed",
+      sourceUrl: ticketUrl || absoluteUrl(nameMatch.groups.eventUrl, "https://www.bowerypalace.com")
+    });
+  }
+
+  return events;
+}
+
+function boweryPalaceDate(value) {
+  const match = value.match(/\b(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+([A-Z][a-z]+)\s+(\d{1,2})\s+@\s+(\d{1,2}):(\d{2})\s*([AP]M)/);
+  if (!match) return null;
+
+  const [, monthName, day, hour, minute, meridiem] = match;
+  const month = monthIndex(monthName);
+  if (month === -1) return null;
+
+  const year = eventYear(monthName);
+  const [hours, minutes] = toTwentyFourHour(`${hour}:${minute}`, meridiem).split(":").map(Number);
+  return new Date(year, month, Number(day), hours, minutes, 0, 0);
+}
+
+function textFromMatch(html, pattern) {
+  const match = html.match(pattern);
+  return match?.groups?.text ? decodeHtml(stripTags(match.groups.text)).replace(/\s+/g, " ").trim() : "";
+}
+
+function clubCummingNote(html, title) {
+  const description = textFromMatch(html, /<div class="sqs-html-content"[^>]*>(?<text>[\s\S]*?)<\/div>/i)
+    .replace(title, "")
+    .replace(/\bFeaturing:\b[\s\S]*$/i, "")
+    .trim();
+  return description ? description.slice(0, 180) : "Club Cumming event";
+}
+
 function dromDate(value) {
   const text = decodeHtml(stripTags(value)).replace(/\s+/g, " ").trim();
   const match = text.match(/\b([A-Z][a-z]{2}),\s+([A-Z][a-z]+)\s+(\d{1,2})(?:\s+-\s+Doors:\s+(\d{1,2})(?::(\d{2}))?\s*([AP]M))?/);
@@ -394,6 +509,26 @@ function eventYear(monthName) {
   const eventMonth = monthIndex(monthName);
   const currentMonth = now.getMonth();
   return eventMonth < currentMonth - 6 ? now.getFullYear() + 1 : now.getFullYear();
+}
+
+function priceFromText(value) {
+  const text = decodeHtml(stripTags(value)).replace(/\s+/g, " ");
+  const match = text.match(/\$\d+(?:\.\d{2})?(?:\s*(?:-|to)\s*\$\d+(?:\.\d{2})?)?(?:\s*GA)?/i);
+  return match ? match[0] : "";
+}
+
+function cleanPrice(value = "") {
+  if (!value) return "";
+  if (/^\$0(?:\.00)?$/.test(value.trim())) return "Free";
+  return decodeHtml(stripTags(value)).replace(/\s+/g, " ").trim();
+}
+
+function absoluteUrl(value, base) {
+  try {
+    return new URL(decodeHtml(value), base).toString();
+  } catch {
+    return base;
+  }
 }
 
 function monthIndex(monthName) {

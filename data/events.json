@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T16:32:34.579Z",
+  "fetchedAt": "2026-05-27T16:57:27.308Z",
   "adapterStatus": [
     {
       "venueId": "lucindas",
@@ -41,6 +41,18 @@
       "venueId": "drom",
       "ok": true,
       "count": 8,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "clubcumming",
+      "ok": true,
+      "count": 6,
+      "message": "Loaded from venue page"
+    },
+    {
+      "venueId": "bowerypalace",
+      "ok": true,
+      "count": 12,
       "message": "Loaded from venue page"
     }
   ],
@@ -2026,6 +2038,186 @@
       "dataSource": "live"
     },
     {
+      "id": "clubcumming-2026-05-27-two-birds-with-megan-striff-cave-the-ruckus",
+      "title": "Two Birds with Megan Striff-Cave & The Ruckus",
+      "startsAt": "2026-05-27T23:00:00.000Z",
+      "note": "Two birds, one stone, you get the idea! Two Birds is a show that combines two of the best parts of life on planet Earth: comedy and of course, music. Hosted by Megan Striff-Cave , ",
+      "price": "$15 GA",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/twobirdsmay26",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "clubcumming-2026-05-28-hey-girl-with-missy-and-marty",
+      "title": "Hey, Girl! with Missy and Marty",
+      "startsAt": "2026-05-28T23:30:00.000Z",
+      "note": "So basically like what's up? Come hang with Marty and Missy while they do what they do best....talk! Scripted comedy has no place here! Seriously! Come for an hourish of laughs bui",
+      "price": "$15 GA",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/heygirl",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "clubcumming-2026-05-30-jmv-presents-queerlesque",
+      "title": "JMV Presents: QUEERLESQUE",
+      "startsAt": "2026-05-30T00:00:00.000Z",
+      "note": "JMV Presents QUEERLESQUE JMV Presents: Queerlesque, an all-queer, very entertaining show with spectacular performers putting on clothes to take them back off for you… oh, & for the",
+      "price": "$20 GA",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/2026/5/29/jmv-presents-queerlesque",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "clubcumming-2026-05-30-romy-michele-s-afternoon-tea-dance",
+      "title": "Romy & Michele's Afternoon Tea Dance",
+      "startsAt": "2026-05-30T20:00:00.000Z",
+      "note": "A Romy & Michele themed afternoon dance party with Bright Light Bright Light. A new theme every week. 4pm. No cover.",
+      "price": "No cover",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/jrreag789czd5wg-8my6p-x9k8a-hbw6j-2t8eh-ndbt6-xw4p8-8xffs",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "clubcumming-2026-05-31-the-anatomy-lesson-drink-draw",
+      "title": "The Anatomy Lesson: Drink & Draw",
+      "startsAt": "2026-05-31T21:00:00.000Z",
+      "note": "A weekly drink & draw event hosted by A.E. Kieran featuring a rotating cast of figure models. 5pm, every sunday.",
+      "price": "Check source",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/8eb2js67nwst4wk-dbs9z-c6djz-p9czl-fjgx7-84rdf-55mck-f7azz-wfxz3",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "clubcumming-2026-06-03-wednesday-night-live-with-oscar-taub",
+      "title": "Wednesday Night Live! with Oscar Taub",
+      "startsAt": "2026-06-03T23:30:00.000Z",
+      "note": "Wednesday, June 3rd will be the comedy show of your life. 7:30 pm at Club Cumming in the East Village, and Featuring 7 fabulous comedians, this is THE comedy event. Hosted by Oscar",
+      "price": "$15 GA",
+      "sourceUrl": "https://clubcummingnyc.com/schedule/2026/6/3/wednesday-night-live-with-oscar-taub",
+      "venueId": "clubcumming",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-05-27-rena-angel-dylan-isabella-jeffrey-zatta-jaren-meital-19-30",
+      "title": "Rena Angel | Dylan Isabella | Jeffrey Zatta | Jaren | Meital",
+      "startsAt": "2026-05-27T23:30:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$18.78",
+      "sourceUrl": "https://www.ticketweb.com/event/rena-angel-dylan-isabella-bowery-palace-tickets/14919543?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-05-29-benji-jimenez-marina-buendia-analise-20-0",
+      "title": "Benji Jimenez | Marina Buendia | Analise",
+      "startsAt": "2026-05-29T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/benji-jimenez-marina-buendia-bowery-palace-tickets/14910033?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-05-30-downing-service-department-studios-20-0",
+      "title": "Downing | Service Department Studios",
+      "startsAt": "2026-05-30T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$24.88",
+      "sourceUrl": "https://www.ticketweb.com/event/downing-service-department-studios-bowery-palace-tickets/14874613?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-05-31-my-girlfriends-boyfriends-summer-vacation-lauren-tung-20-0",
+      "title": "My Girlfriends’ Boyfriends | Summer Vacation | Lauren Tung",
+      "startsAt": "2026-05-31T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/my-girlfriends-boyfriends-summer-bowery-palace-tickets/14823993?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-05-31-back-to-the-nyhc-roots-overthrow-brass-knuckle-brigade-destroy-myself-ca-14-0",
+      "title": "Back to the NYHC Roots: Overthrow | Brass Knuckle Brigade | Destroy Myself Cancelled | Fracture | Tied By Fate",
+      "startsAt": "2026-05-31T18:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "Free",
+      "sourceUrl": "https://www.ticketweb.com/event/back-to-the-nyhc-roots-bowery-palace-tickets/14874593?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-01-ivy-otto-the-projections-seraphine-s-cleaver-terrazzo-20-30",
+      "title": "Ivy Otto | The Projections | Seraphine’s Cleaver | Terrazzo",
+      "startsAt": "2026-06-01T00:30:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/ivy-otto-the-projections-bowery-palace-tickets/14907733?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-02-tyler-okun-power-creep-cold-brew-20-0",
+      "title": "Tyler Okun | Power Creep | Cold Brew",
+      "startsAt": "2026-06-02T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/tyler-okun-power-creep-bowery-palace-tickets/14898423?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-02-itai-ebba-guy-gottesfeld-18-30",
+      "title": "Itai | EBBA | Guy Gottesfeld",
+      "startsAt": "2026-06-02T22:30:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/itai-ebba-bowery-palace-tickets/14892393?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-03-oudi-mistersister-21-30",
+      "title": "OUDi | MisterSister",
+      "startsAt": "2026-06-03T01:30:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/oudi-mistersister-bowery-palace-tickets/14907763?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-04-oscar-thom-harmony-dawn-becky-crosby-20-0",
+      "title": "Oscar Thom | Harmony Dawn | Becky Crosby",
+      "startsAt": "2026-06-04T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/oscar-thom-harmony-dawn-bowery-palace-tickets/14928733?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-05-melanie-herrera-natalie-kilic-20-0",
+      "title": "Melanie Herrera | Natalie Kilic",
+      "startsAt": "2026-06-05T00:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$24.88 - $58.44",
+      "sourceUrl": "https://www.ticketweb.com/event/melanie-herrera-natalie-kilic-bowery-palace-tickets/14868183?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-05-kings-constables-homebase-blindspot-fallow-days-19-30",
+      "title": "Kings & Constables | Homebase | Blindspot | Fallow Days",
+      "startsAt": "2026-06-05T23:30:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "$12.44",
+      "sourceUrl": "https://www.ticketweb.com/event/kings-constables-homebase-bowery-palace-tickets/14907713?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
       "venueId": "berlin",
       "title": "E.R.O.S. | Clorine | Effy Marella",
       "startsAt": "2026-05-07T18:30:00",
@@ -2102,6 +2294,66 @@
       "dataSource": "recurring",
       "sourceUrl": "https://www.dennislichtman.com/monas",
       "sourceName": "Dennis Lichtman",
+      "recurring": true
+    },
+    {
+      "venueId": "eleventhstbar",
+      "title": "Traditional Irish Seisiun",
+      "dayOfWeek": 0,
+      "time": "21:00",
+      "note": "Tony DeMarco and Isaac Alderson lead one of NYC's longest-running Irish sessions",
+      "price": "Tip bucket",
+      "dataSource": "recurring",
+      "sourceUrl": "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+      "sourceName": "Venue music page",
+      "recurring": true
+    },
+    {
+      "venueId": "eleventhstbar",
+      "title": "Jazz Night",
+      "dayOfWeek": 1,
+      "time": "21:00",
+      "note": "The 11th St. Quintet with rotating local jazz players",
+      "price": "Tip bucket",
+      "dataSource": "recurring",
+      "sourceUrl": "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+      "sourceName": "Venue music page",
+      "recurring": true
+    },
+    {
+      "venueId": "eleventhstbar",
+      "title": "Americana Night",
+      "dayOfWeek": 2,
+      "time": "21:00",
+      "note": "Local Americana, rock, country, or blues bands",
+      "price": "Tip bucket",
+      "dataSource": "recurring",
+      "sourceUrl": "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+      "sourceName": "Venue music page",
+      "recurring": true
+    },
+    {
+      "venueId": "eleventhstbar",
+      "title": "Americana Night",
+      "dayOfWeek": 3,
+      "time": "21:00",
+      "note": "Local Americana, rock, country, or blues bands",
+      "price": "Tip bucket",
+      "dataSource": "recurring",
+      "sourceUrl": "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+      "sourceName": "Venue music page",
+      "recurring": true
+    },
+    {
+      "venueId": "eleventhstbar",
+      "title": "Americana Night",
+      "dayOfWeek": 4,
+      "time": "21:00",
+      "note": "Local Americana, rock, country, or blues bands",
+      "price": "Tip bucket",
+      "dataSource": "recurring",
+      "sourceUrl": "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+      "sourceName": "Venue music page",
       "recurring": true
     }
   ]

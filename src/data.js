@@ -88,6 +88,83 @@ export const venueSeeds = [
     sourceUrl: "https://www.nublu.net/",
     sourceName: "Venue calendar",
     color: "#8f2f58"
+  },
+  {
+    id: "eleventhstbar",
+    name: "11th St. Bar",
+    address: "510 E 11th St",
+    lat: 40.7274,
+    lng: -73.9803,
+    vibe: "Irish session, jazz, Americana",
+    sourceUrl: "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    sourceName: "Venue music page",
+    color: "#5e7f45"
+  },
+  {
+    id: "clubcumming",
+    name: "Club Cumming",
+    address: "505 E 6th St",
+    lat: 40.7244,
+    lng: -73.9832,
+    vibe: "Cabaret, drag, piano, performance",
+    sourceUrl: "https://clubcummingnyc.com/schedule",
+    sourceName: "Venue calendar",
+    color: "#c24f7a"
+  },
+  {
+    id: "arlenes",
+    name: "Arlene's Grocery",
+    address: "95 Stanton St",
+    lat: 40.7216,
+    lng: -73.9888,
+    vibe: "LES rock, indie, local bands",
+    sourceUrl: "https://www.arlenesgrocerynyc.com/upcoming-events",
+    sourceName: "Venue events page",
+    color: "#8f3d2e"
+  },
+  {
+    id: "pianos",
+    name: "Pianos",
+    address: "158 Ludlow St",
+    lat: 40.7209,
+    lng: -73.9879,
+    vibe: "Indie bands, DJs, LES nightlife",
+    sourceUrl: "https://pianosnyc.com/",
+    sourceName: "Venue site",
+    color: "#455f9c"
+  },
+  {
+    id: "bowerypalace",
+    name: "Bowery Palace",
+    address: "327 Bowery",
+    lat: 40.7258,
+    lng: -73.9918,
+    vibe: "Rock, indie, dance parties",
+    sourceUrl: "https://www.bowerypalace.com/",
+    sourceName: "Venue calendar",
+    color: "#b86f2d"
+  },
+  {
+    id: "sourmouse",
+    name: "Sour Mouse",
+    address: "110 Delancey St",
+    lat: 40.7188,
+    lng: -73.9888,
+    vibe: "Games, DJs, jazz, live music",
+    sourceUrl: "https://www.sourmousenyc.com/events",
+    sourceName: "Venue events page",
+    color: "#3f8f4c"
+  },
+  {
+    id: "sugarmouse",
+    name: "Sugar Mouse",
+    address: "47 3rd Ave",
+    lat: 40.7312,
+    lng: -73.9886,
+    vibe: "Game hall, DJs, live music",
+    sourceUrl: "https://www.sugarmousenyc.com/events",
+    sourceName: "Venue calendar",
+    color: "#c07896"
   }
 ];
 
@@ -118,6 +195,61 @@ export const fallbackEventSeeds = [
     "recurring",
     "https://www.dennislichtman.com/monas",
     "Dennis Lichtman"
+  ),
+  recurring(
+    "eleventhstbar",
+    "Traditional Irish Seisiun",
+    0,
+    "21:00",
+    "Tony DeMarco and Isaac Alderson lead one of NYC's longest-running Irish sessions",
+    "Tip bucket",
+    "recurring",
+    "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    "Venue music page"
+  ),
+  recurring(
+    "eleventhstbar",
+    "Jazz Night",
+    1,
+    "21:00",
+    "The 11th St. Quintet with rotating local jazz players",
+    "Tip bucket",
+    "recurring",
+    "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    "Venue music page"
+  ),
+  recurring(
+    "eleventhstbar",
+    "Americana Night",
+    2,
+    "21:00",
+    "Local Americana, rock, country, or blues bands",
+    "Tip bucket",
+    "recurring",
+    "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    "Venue music page"
+  ),
+  recurring(
+    "eleventhstbar",
+    "Americana Night",
+    3,
+    "21:00",
+    "Local Americana, rock, country, or blues bands",
+    "Tip bucket",
+    "recurring",
+    "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    "Venue music page"
+  ),
+  recurring(
+    "eleventhstbar",
+    "Americana Night",
+    4,
+    "21:00",
+    "Local Americana, rock, country, or blues bands",
+    "Tip bucket",
+    "recurring",
+    "https://11thstbar.com/new-york-east-village-11th-st-bar-music",
+    "Venue music page"
   ),
 ];
 
