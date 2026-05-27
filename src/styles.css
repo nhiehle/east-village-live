@@ -17,6 +17,8 @@ body {
   background:
     linear-gradient(180deg, rgba(16, 24, 32, 0.04), rgba(16, 24, 32, 0) 260px),
     #f7f2e8;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
 }
 
 button,
@@ -29,6 +31,38 @@ select {
   width: min(100%, 720px);
   margin: 0 auto;
   padding: max(18px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
+  transition: transform 180ms ease;
+}
+
+.pull-refresh {
+  position: fixed;
+  top: calc(env(safe-area-inset-top) + 4px);
+  left: 50%;
+  z-index: 20;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -18px);
+  transition:
+    opacity 140ms ease,
+    transform 180ms ease;
+}
+
+.pull-refresh span {
+  display: block;
+  border: 1px solid rgba(16, 24, 32, 0.2);
+  border-radius: 999px;
+  background: #fffaf0;
+  box-shadow: 0 8px 20px rgba(16, 24, 32, 0.12);
+  color: #364038;
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 7px 10px;
+  white-space: nowrap;
+}
+
+.pull-refresh.ready span {
+  background: #101820;
+  color: #fffaf0;
 }
 
 .topbar {

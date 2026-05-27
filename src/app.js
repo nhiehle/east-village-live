@@ -18,6 +18,15 @@ const state = {
   }
 };
 
+const pullRefresh = {
+  startY: 0,
+  startX: 0,
+  distance: 0,
+  active: false,
+  tracking: false,
+  threshold: 72
+};
+
 function normalizeEvents(seeds) {
   return expandRecurring(seeds)
     .map((item) => ({
@@ -107,6 +116,9 @@ function render() {
   const filtered = filterEvents();
   const favoriteVenues = venues.filter((venue) => state.favorites.has(venue.id));
   app.innerHTML = `
+    <div class="pull-refresh" aria-hidden="true">
+      <span>Pull to refresh</span>
+    </div>
     <main class="shell">
       <header class="topbar">
         <div>
@@ -261,7 +273,16 @@ function escapeHtml(value) {
   return value.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" })[char]);
 }
 
-async function syncEvents() {
+async function syncEvents({ manual = false } = {}) {
+  if (manual) {
+    state.sync = {
+      ...state.sync,
+      loading: true,
+      message: "Refreshing listings..."
+    };
+    render();
+  }
+
   try {
     const payload = await fetchEventPayload();
     events = normalizeEvents(payload.events);
@@ -309,5 +330,90 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+installPullToRefresh();
 render();
 syncEvents();
+
+function installPullToRefresh() {
+  window.addEventListener(
+    "touchstart",
+    (event) => {
+      if (event.touches.length !== 1 || window.scrollY > 0 || state.sync.loading) return;
+      const touch = event.touches[0];
+      pullRefresh.startY = touch.clientY;
+      pullRefresh.startX = touch.clientX;
+      pullRefresh.distance = 0;
+      pullRefresh.tracking = true;
+      pullRefresh.active = false;
+    },
+    { passive: true }
+  );
+
+  window.addEventListener(
+    "touchmove",
+    (event) => {
+      if (!pullRefresh.tracking || event.touches.length !== 1) return;
+
+      const touch = event.touches[0];
+      const deltaY = touch.clientY - pullRefresh.startY;
+      const deltaX = Math.abs(touch.clientX - pullRefresh.startX);
+      if (deltaY <= 0 || deltaX > deltaY) return;
+
+      event.preventDefault();
+      pullRefresh.distance = Math.min(110, deltaY * 0.55);
+      pullRefresh.active = pullRefresh.distance >= pullRefresh.threshold;
+      updatePullRefreshIndicator();
+    },
+    { passive: false }
+  );
+
+  window.addEventListener(
+    "touchend",
+    () => {
+      if (!pullRefresh.tracking) return;
+      const shouldRefresh = pullRefresh.active;
+      resetPullRefreshIndicator();
+      pullRefresh.tracking = false;
+      pullRefresh.active = false;
+      pullRefresh.distance = 0;
+      if (shouldRefresh) syncEvents({ manual: true });
+    },
+    { passive: true }
+  );
+
+  window.addEventListener(
+    "touchcancel",
+    () => {
+      resetPullRefreshIndicator();
+      pullRefresh.tracking = false;
+      pullRefresh.active = false;
+      pullRefresh.distance = 0;
+    },
+    { passive: true }
+  );
+}
+
+function updatePullRefreshIndicator() {
+  const indicator = document.querySelector(".pull-refresh");
+  const shell = document.querySelector(".shell");
+  if (!indicator || !shell) return;
+
+  indicator.classList.toggle("ready", pullRefresh.active);
+  indicator.querySelector("span").textContent = pullRefresh.active ? "Release to refresh" : "Pull to refresh";
+  indicator.style.transform = `translate(-50%, ${Math.max(0, pullRefresh.distance - 50)}px)`;
+  indicator.style.opacity = String(Math.min(1, pullRefresh.distance / pullRefresh.threshold));
+  shell.style.transform = `translateY(${Math.min(36, pullRefresh.distance / 2.5)}px)`;
+}
+
+function resetPullRefreshIndicator() {
+  const indicator = document.querySelector(".pull-refresh");
+  const shell = document.querySelector(".shell");
+  if (indicator) {
+    indicator.classList.remove("ready");
+    indicator.style.transform = "";
+    indicator.style.opacity = "";
+    const label = indicator.querySelector("span");
+    if (label) label.textContent = "Pull to refresh";
+  }
+  if (shell) shell.style.transform = "";
+}
