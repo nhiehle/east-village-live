@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-28T14:08:00.423Z",
+  "fetchedAt": "2026-05-29T13:39:43.711Z",
   "adapterStatus": [
     {
       "venueId": "lucindas",
       "ok": true,
-      "count": 90,
+      "count": 94,
       "message": "Loaded from venue page"
     },
     {
@@ -40,13 +40,13 @@
     {
       "venueId": "drom",
       "ok": true,
-      "count": 7,
+      "count": 5,
       "message": "Loaded from venue page"
     },
     {
       "venueId": "clubcumming",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "message": "Loaded from venue page"
     },
     {
@@ -57,26 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "lucindas-3654",
-      "title": "FREE TWO STEP INSTRUCTION EVERY THURS 7:30-9",
-      "startsAt": "2026-05-28T19:30:00.000Z",
-      "note": "Show: 7:30 PM",
-      "price": "Free",
-      "sourceUrl": "https://www.lucindasnyc.com/tm-event/free-two-step-instruction-every-thurs-730-9-16/",
-      "venueId": "lucindas",
-      "dataSource": "live"
-    },
-    {
-      "id": "lucindas-4198",
-      "title": "East Village CXntry",
-      "startsAt": "2026-05-28T21:00:00.000Z",
-      "note": "Show: 9:00 PM",
-      "price": "Free",
-      "sourceUrl": "https://www.lucindasnyc.com/tm-event/east-village-cxntry/",
-      "venueId": "lucindas",
-      "dataSource": "live"
-    },
     {
       "id": "lucindas-4223",
       "title": "SPECIAL EARLY SHOW WITH THE WAYMORES",
@@ -124,6 +104,16 @@
       "note": "Show: 7:30 PM",
       "price": "$12.44",
       "sourceUrl": "https://www.lucindasnyc.com/tm-event/eric-mcentee-early-show-shayni-raes-truckstop-at-lucindas-nyc/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4229",
+      "title": "Tj Rosenthal",
+      "startsAt": "2026-06-01T21:00:00.000Z",
+      "note": "Show: 9:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/tj-rosenthal-3/",
       "venueId": "lucindas",
       "dataSource": "live"
     },
@@ -188,12 +178,32 @@
       "dataSource": "live"
     },
     {
+      "id": "lucindas-4228",
+      "title": "The West Side Cowboys",
+      "startsAt": "2026-06-07T19:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/the-west-side-cowboys-2/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
       "id": "lucindas-3306",
       "title": "Live Weekly Bluegrass with  Allison Kelly",
       "startsAt": "2026-06-09T20:00:00.000Z",
       "note": "Show: 8:00 PM",
       "price": "Free",
       "sourceUrl": "https://www.lucindasnyc.com/tm-event/live-weekly-bluegrass-with-allison-kelly-30/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4227",
+      "title": "king city corral",
+      "startsAt": "2026-06-10T19:30:00.000Z",
+      "note": "Show: 7:30 PM",
+      "price": "$24.88",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/king-city-corral/",
       "venueId": "lucindas",
       "dataSource": "live"
     },
@@ -234,6 +244,16 @@
       "note": "Show: 1:00 PM",
       "price": "Free",
       "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-31/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4230",
+      "title": "The Slide Stops",
+      "startsAt": "2026-06-14T19:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/the-slide-stops-3/",
       "venueId": "lucindas",
       "dataSource": "live"
     },
@@ -298,6 +318,16 @@
       "dataSource": "live"
     },
     {
+      "id": "lucindas-4231",
+      "title": "Honky Tonk Dancehall",
+      "startsAt": "2026-06-21T19:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/honky-tonk-dancehall/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
       "id": "lucindas-3310",
       "title": "Live Weekly Bluegrass with  Allison Kelly",
       "startsAt": "2026-06-23T20:00:00.000Z",
@@ -354,6 +384,16 @@
       "note": "Show: 1:00 PM",
       "price": "Free",
       "sourceUrl": "https://www.lucindasnyc.com/tm-event/sunday-songwriters-open-mic-every-week-at-lucindas-33/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
+      "id": "lucindas-4232",
+      "title": "Honky Tonk Sunday Free Two Step Lessons + Live Band",
+      "startsAt": "2026-06-28T19:00:00.000Z",
+      "note": "Show: 7:00 PM",
+      "price": "Free",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/honky-tonk-sunday-free-two-step-lessons-live-band/",
       "venueId": "lucindas",
       "dataSource": "live"
     },
@@ -958,26 +998,6 @@
       "dataSource": "live"
     },
     {
-      "id": "nublu-2026-05-28-pique-nique-presents-take-two-jesse-fischer-raydar-ellis-19:00",
-      "title": "Pique-nique Presents: Take Two Jesse Fischer & Raydar Ellis",
-      "startsAt": "2026-05-28T19:00:00.000Z",
-      "note": "Nublu 151",
-      "price": "Ticketed",
-      "sourceUrl": "https://posh.vip/e/piquenique-presents-take-twojesse-fischer-raydar-ellis",
-      "venueId": "nublu",
-      "dataSource": "live"
-    },
-    {
-      "id": "nublu-2026-05-28-1am-ilhan-ersahin-josh-werner-gintas-janusonis-23:00",
-      "title": "& 1am Ilhan Ersahin, Josh Werner, Gintas Janusonis",
-      "startsAt": "2026-05-28T23:00:00.000Z",
-      "note": "Nublu 151",
-      "price": "Ticketed",
-      "sourceUrl": "https://posh.vip/e/ilhan-ersahin-josh-werner-gintas-janusonis-2",
-      "venueId": "nublu",
-      "dataSource": "live"
-    },
-    {
       "id": "nublu-2026-05-29-nao-yoshioka-19:00",
       "title": "Nao Yoshioka",
       "startsAt": "2026-05-29T19:00:00.000Z",
@@ -1088,23 +1108,23 @@
       "dataSource": "live"
     },
     {
-      "id": "drom-2026-05-28-flamenkora-a-night-of-ancestral-crossings-and-new-world-fire",
-      "title": "FlamenKora — A Night of Ancestral Crossings and New‑World Fire",
-      "startsAt": "2026-05-28T18:30:00.000Z",
-      "note": "For the first time in New York City, FlamenKora steps onto the DROM stage carrying the breath of three distant homelands, woven into one lum",
+      "id": "nublu-2026-06-05-set-20:00",
+      "title": "Set",
+      "startsAt": "2026-06-05T20:00:00.000Z",
+      "note": "Nublu 151",
       "price": "Ticketed",
-      "sourceUrl": "https://dromnyc.com/event/flamenkora-a-night-of-ancestral-crossings-and-new%e2%80%91world-fire/",
-      "venueId": "drom",
+      "sourceUrl": "https://posh.vip/e/john-medeski-jonathan-goldberger-joe-russo",
+      "venueId": "nublu",
       "dataSource": "live"
     },
     {
-      "id": "drom-2026-05-28-nick-corredor-s-salsa-orchestra",
-      "title": "Nick Corredor’s Salsa Orchestra",
-      "startsAt": "2026-05-28T21:00:00.000Z",
-      "note": "Join us on May 28 for a fantastic night of salsa, bachata, merengue, and more! Live salsa music played by Nick Corredor's Salsa Orchestra.",
+      "id": "nublu-2026-06-05-set-22:00",
+      "title": "Set",
+      "startsAt": "2026-06-05T22:00:00.000Z",
+      "note": "Nublu 151",
       "price": "Ticketed",
-      "sourceUrl": "https://dromnyc.com/event/nick-corredor-y-su-orquesta-la-herencia/",
-      "venueId": "drom",
+      "sourceUrl": "https://posh.vip/e/john-medeski-jonathan-goldberger-joe-russo-1",
+      "venueId": "nublu",
       "dataSource": "live"
     },
     {
@@ -1158,16 +1178,6 @@
       "dataSource": "live"
     },
     {
-      "id": "clubcumming-2026-05-28-hey-girl-with-missy-and-marty",
-      "title": "Hey, Girl! with Missy and Marty",
-      "startsAt": "2026-05-28T19:30:00.000Z",
-      "note": "So basically like what's up? Come hang with Marty and Missy while they do what they do best....talk! Scripted comedy has no place here! Seriously! Come for an hourish of laughs bui",
-      "price": "$15 GA",
-      "sourceUrl": "https://clubcummingnyc.com/schedule/heygirl",
-      "venueId": "clubcumming",
-      "dataSource": "live"
-    },
-    {
       "id": "clubcumming-2026-05-29-jmv-presents-queerlesque",
       "title": "JMV Presents: QUEERLESQUE",
       "startsAt": "2026-05-29T20:00:00.000Z",
@@ -1218,21 +1228,11 @@
       "dataSource": "live"
     },
     {
-      "id": "bowerypalace-2026-05-28-benji-jimenez-marina-buendia-analise-20-0",
-      "title": "Benji Jimenez | Marina Buendia | Analise",
-      "startsAt": "2026-05-28T20:00:00.000Z",
-      "note": "Bowery Palace listing",
-      "price": "$18.78",
-      "sourceUrl": "https://www.ticketweb.com/event/benji-jimenez-marina-buendia-bowery-palace-tickets/14910033?pl=boweryelectric&amp;REFID=clientsitewp",
-      "venueId": "bowerypalace",
-      "dataSource": "live"
-    },
-    {
       "id": "bowerypalace-2026-05-29-downing-service-department-studios-20-0",
       "title": "Downing | Service Department Studios",
       "startsAt": "2026-05-29T20:00:00.000Z",
       "note": "Bowery Palace listing",
-      "price": "$24.88",
+      "price": "$30.47",
       "sourceUrl": "https://www.ticketweb.com/event/downing-service-department-studios-bowery-palace-tickets/14874613?pl=boweryelectric&amp;REFID=clientsitewp",
       "venueId": "bowerypalace",
       "dataSource": "live"
@@ -1334,6 +1334,16 @@
       "note": "Bowery Palace listing",
       "price": "$12.44",
       "sourceUrl": "https://www.ticketweb.com/event/brook-davis-picture-us-bowery-palace-tickets/14904793?pl=boweryelectric&amp;REFID=clientsitewp",
+      "venueId": "bowerypalace",
+      "dataSource": "live"
+    },
+    {
+      "id": "bowerypalace-2026-06-07-rebelmatic-incendiary-device-silence-equals-death-chemical-x-crossed-key-14-0",
+      "title": "Rebelmatic | Incendiary Device | Silence Equals Death | Chemical-X | Crossed Keys | DJ SDK Sound System",
+      "startsAt": "2026-06-07T14:00:00.000Z",
+      "note": "Bowery Palace listing",
+      "price": "Free",
+      "sourceUrl": "https://www.ticketweb.com/event/rebelmatic-incendiary-device-bowery-palace-tickets/14791033?pl=boweryelectric&amp;REFID=clientsitewp",
       "venueId": "bowerypalace",
       "dataSource": "live"
     },
