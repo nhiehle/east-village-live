@@ -27,22 +27,13 @@ const pullRefresh = {
   threshold: 72
 };
 
-const mapBounds = venues.reduce(
-  (bounds, venue) => ({
-    minLat: Math.min(bounds.minLat, venue.lat),
-    maxLat: Math.max(bounds.maxLat, venue.lat),
-    minLng: Math.min(bounds.minLng, venue.lng),
-    maxLng: Math.max(bounds.maxLng, venue.lng)
-  }),
-  {
-    minLat: HOME.lat,
-    maxLat: HOME.lat,
-    minLng: HOME.lng,
-    maxLng: HOME.lng
-  }
-);
+const mapState = {
+  zoom: 13,
+  minZoom: 12,
+  maxZoom: 16
+};
 
-const MAP = { width: 1080, height: 760, pad: 74 };
+const MAP = { tile: 256, pad: 220 };
 
 function normalizeEvents(seeds) {
   return expandRecurring(seeds)
@@ -229,6 +220,15 @@ function render() {
     });
   });
 
+  app.querySelectorAll("[data-map-zoom]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const nextZoom = Math.min(mapState.maxZoom, Math.max(mapState.minZoom, mapState.zoom + Number(button.dataset.mapZoom)));
+      if (nextZoom === mapState.zoom) return;
+      mapState.zoom = nextZoom;
+      render();
+    });
+  });
+
   centerMap();
 }
 
@@ -273,28 +273,32 @@ function renderMap(filtered) {
     acc[event.venueId] = (acc[event.venueId] || 0) + 1;
     return acc;
   }, {});
+  const metrics = mapMetrics(mapState.zoom);
 
   return `
     <section class="map-panel" aria-label="Venue map">
       <div class="map-meta">
         <strong>${state.venueFilter === "all" ? "Map" : escapeHtml(venues.find((venue) => venue.id === state.venueFilter)?.name || "Map")}</strong>
-        <span>${state.venueFilter === "all" ? "Drag the map, tap a pin" : "Tap the pin again to show all venues"}</span>
+        <span>${state.venueFilter === "all" ? "Drag, zoom, tap a pin" : "Tap the pin again to show all venues"}</span>
       </div>
       <div class="venue-map-scroll">
-        <div class="venue-map" style="width:${MAP.width}px;height:${MAP.height}px">
-          <div class="map-region east-village">East Village</div>
-          <div class="map-region les">Lower East Side</div>
-          <div class="map-region ridgewood">Ridgewood / Bushwick</div>
+        <div class="map-controls" aria-label="Map zoom controls">
+          <button data-map-zoom="1" type="button" ${mapState.zoom >= mapState.maxZoom ? "disabled" : ""}>+</button>
+          <button data-map-zoom="-1" type="button" ${mapState.zoom <= mapState.minZoom ? "disabled" : ""}>-</button>
+        </div>
+        <div class="venue-map" style="width:${metrics.width}px;height:${metrics.height}px">
+          ${renderMapTiles(metrics)}
           ${renderHomePin()}
           ${venues.map((venue) => renderMapPin(venue, counts[venue.id] || 0)).join("")}
         </div>
+        <a class="map-attribution" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
       </div>
     </section>
   `;
 }
 
 function renderHomePin() {
-  const point = mapPoint(HOME);
+  const point = mapPoint(HOME, mapMetrics(mapState.zoom));
   return `
     <div class="home-pin" style="left:${point.x}px;top:${point.y}px">
       <span></span>
@@ -304,7 +308,7 @@ function renderHomePin() {
 }
 
 function renderMapPin(venue, count) {
-  const point = mapPoint(venue);
+  const point = mapPoint(venue, mapMetrics(mapState.zoom));
   const selected = state.venueFilter === venue.id;
   return `
     <button
@@ -325,17 +329,69 @@ function centerMap() {
   if (!scroller) return;
 
   const focusVenue = venues.find((venue) => venue.id === state.venueFilter);
-  const point = mapPoint(focusVenue || HOME);
+  const point = mapPoint(focusVenue || HOME, mapMetrics(mapState.zoom));
   scroller.scrollLeft = Math.max(0, point.x - scroller.clientWidth / 2);
   scroller.scrollTop = Math.max(0, point.y - scroller.clientHeight / 2);
 }
 
-function mapPoint({ lat, lng }) {
-  const latSpan = Math.max(0.001, mapBounds.maxLat - mapBounds.minLat);
-  const lngSpan = Math.max(0.001, mapBounds.maxLng - mapBounds.minLng);
+function renderMapTiles(metrics) {
+  const tiles = [];
+  for (let x = metrics.tileMinX; x <= metrics.tileMaxX; x += 1) {
+    for (let y = metrics.tileMinY; y <= metrics.tileMaxY; y += 1) {
+      tiles.push(`
+        <img
+          class="map-tile"
+          src="https://tile.openstreetmap.org/${metrics.zoom}/${x}/${y}.png"
+          alt=""
+          loading="lazy"
+          style="left:${x * MAP.tile - metrics.originX}px;top:${y * MAP.tile - metrics.originY}px"
+        />
+      `);
+    }
+  }
+  return tiles.join("");
+}
+
+function mapMetrics(zoom) {
+  const points = [HOME, ...venues].map((point) => projectMapPoint(point, zoom));
+  const minX = Math.min(...points.map((point) => point.x)) - MAP.pad;
+  const maxX = Math.max(...points.map((point) => point.x)) + MAP.pad;
+  const minY = Math.min(...points.map((point) => point.y)) - MAP.pad;
+  const maxY = Math.max(...points.map((point) => point.y)) + MAP.pad;
+  const tileMinX = Math.floor(minX / MAP.tile);
+  const tileMaxX = Math.ceil(maxX / MAP.tile);
+  const tileMinY = Math.floor(minY / MAP.tile);
+  const tileMaxY = Math.ceil(maxY / MAP.tile);
+  const originX = tileMinX * MAP.tile;
+  const originY = tileMinY * MAP.tile;
+
   return {
-    x: MAP.pad + ((lng - mapBounds.minLng) / lngSpan) * (MAP.width - MAP.pad * 2),
-    y: MAP.pad + ((mapBounds.maxLat - lat) / latSpan) * (MAP.height - MAP.pad * 2)
+    zoom,
+    originX,
+    originY,
+    tileMinX,
+    tileMaxX,
+    tileMinY,
+    tileMaxY,
+    width: (tileMaxX - tileMinX + 1) * MAP.tile,
+    height: (tileMaxY - tileMinY + 1) * MAP.tile
+  };
+}
+
+function mapPoint(point, metrics) {
+  const projected = projectMapPoint(point, metrics.zoom);
+  return {
+    x: projected.x - metrics.originX,
+    y: projected.y - metrics.originY
+  };
+}
+
+function projectMapPoint({ lat, lng }, zoom) {
+  const scale = MAP.tile * 2 ** zoom;
+  const sinLat = Math.sin((lat * Math.PI) / 180);
+  return {
+    x: ((lng + 180) / 360) * scale,
+    y: (0.5 - Math.log((1 + sinLat) / (1 - sinLat)) / (4 * Math.PI)) * scale
   };
 }
 
