@@ -165,6 +165,39 @@ export const venueSeeds = [
     sourceUrl: "https://www.sugarmousenyc.com/events",
     sourceName: "Venue calendar",
     color: "#c07896"
+  },
+  {
+    id: "transpecos",
+    name: "Trans-Pecos",
+    address: "9-15 Wyckoff Ave",
+    lat: 40.6975,
+    lng: -73.9069,
+    vibe: "Underground, experimental, raves",
+    sourceUrl: "https://linktr.ee/trans.pecos",
+    sourceName: "Venue Linktree",
+    color: "#7057a8"
+  },
+  {
+    id: "hartbar",
+    name: "Hart Bar",
+    address: "538 Hart St",
+    lat: 40.6964,
+    lng: -73.9295,
+    vibe: "Basement shows, DJs, comedy",
+    sourceUrl: "https://www.hartbarnyc.com/shows",
+    sourceName: "Venue calendar",
+    color: "#b64d55"
+  },
+  {
+    id: "tveye",
+    name: "TV Eye",
+    address: "1647 Weirfield St",
+    lat: 40.7005,
+    lng: -73.9062,
+    vibe: "Punk, DJs, experimental, dance",
+    sourceUrl: "https://tveyenyc.com/calendar/",
+    sourceName: "Venue calendar",
+    color: "#c1000a"
   }
 ];
 

@@ -45,6 +45,21 @@ const adapterDefinitions = [
     venueId: "bowerypalace",
     url: "https://www.bowerypalace.com/",
     parse: parseBoweryPalace
+  },
+  {
+    venueId: "transpecos",
+    url: "https://linktr.ee/trans.pecos",
+    parse: parseTransPecos
+  },
+  {
+    venueId: "hartbar",
+    url: "https://calendar.google.com/calendar/ical/qhsrkjv5s7mb4vidjem575jvt4%40group.calendar.google.com/public/basic.ics",
+    parse: parseHartBarIcs
+  },
+  {
+    venueId: "tveye",
+    url: "https://tveyenyc.com/calendar/",
+    parse: parseTvEye
   }
 ];
 
@@ -464,6 +479,68 @@ function parseBoweryPalace(html) {
   return events;
 }
 
+function parseTransPecos(html) {
+  const events = [];
+  const anchorPattern = /<a\s+[^>]*href="(?<url>[^"]+)"[^>]*>(?<body>[\s\S]*?)<\/a>/gi;
+
+  for (const anchor of html.matchAll(anchorPattern)) {
+    const label = decodeHtml(stripTags(anchor.groups.body)).replace(/\s+/g, " ").trim();
+    const match = label.match(/^(\d{2})\/(\d{2})\/(\d{2})\s*@\s*(\d{1,2}(?::\d{2})?\s*(?:AM|PM))\s*:?\s*(.+)$/i);
+    if (!match) continue;
+
+    const [, month, day, year, time, rawTitle] = match;
+    const title = rawTitle.replace(/^[\s;:]+/, "").trim();
+    const startsAt = shortDateTime(year, month, day, time);
+    if (!title || !startsAt || startsAt < startOfDay(new Date())) continue;
+
+    events.push({
+      id: `transpecos-${startsAt.toISOString().slice(0, 10)}-${slug(title)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+      title: title.trim(),
+      startsAt: startsAt.toISOString(),
+      note: "Trans-Pecos listing",
+      price: "Ticketed",
+      sourceUrl: decodeHtml(anchor.groups.url)
+    });
+  }
+
+  return events;
+}
+
+function parseHartBarIcs(ics) {
+  return parseIcsEvents(ics, "hartbar", "https://www.hartbarnyc.com/shows");
+}
+
+function parseTvEye(html) {
+  const events = [];
+  const cardPattern = /<div[^>]+seetickets-list-event-container[\s\S]*?(?=<div[^>]+seetickets-list-event-container|<\/article>|$)/gi;
+
+  for (const match of html.matchAll(cardPattern)) {
+    const card = match[0];
+    const link = card.match(/<p class="fs-18 bold mb-12 title">\s*<a[^>]+href="(?<url>[^"]+)"[^>]*>(?<title>[\s\S]*?)<\/a>/i);
+    if (!link) continue;
+
+    const title = decodeHtml(stripTags(link.groups.title)).replace(/\s+/g, " ").trim();
+    const dateText = textFromMatch(card, /<p class="fs-18 bold mt-1r date">(?<text>[\s\S]*?)<\/p>/i);
+    const timeText = textFromMatch(card, /<span[^>]+class="see-showtime[^"]*"[^>]*>(?<text>[\s\S]*?)<\/span>/i);
+    const startsAt = monthDayTimeDate(dateText, timeText);
+    if (!title || !startsAt || startsAt < startOfDay(new Date())) continue;
+
+    const genre = textFromMatch(card, /<p class="fs-12 genre">(?<text>[\s\S]*?)<\/p>/i);
+    const price = cleanPrice(textFromMatch(card, /<span class="price">(?<text>[\s\S]*?)<\/span>/i));
+
+    events.push({
+      id: `tveye-${startsAt.toISOString().slice(0, 10)}-${slug(title)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+      title,
+      startsAt: startsAt.toISOString(),
+      note: genre || "TV Eye listing",
+      price: price || "Ticketed",
+      sourceUrl: decodeHtml(link.groups.url)
+    });
+  }
+
+  return events;
+}
+
 function boweryPalaceDate(value) {
   const match = value.match(/\b(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+([A-Z][a-z]+)\s+(\d{1,2})\s+@\s+(\d{1,2}):(\d{2})\s*([AP]M)/);
   if (!match) return null;
@@ -502,6 +579,92 @@ function dromDate(value) {
 
   const [hours, minutes] = toTwentyFourHour(`${hourText}:${minuteText || "00"}`, meridiem).split(":").map(Number);
   return new Date(year, month, Number(day), hours, minutes, 0, 0);
+}
+
+function shortDateTime(year, month, day, time) {
+  const fullYear = 2000 + Number(year);
+  const monthIndexValue = Number(month) - 1;
+  const timeMatch = time.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i);
+  if (!timeMatch || monthIndexValue < 0 || monthIndexValue > 11) return null;
+
+  const [hours, minutes] = toTwentyFourHour(`${timeMatch[1]}:${timeMatch[2] || "00"}`, timeMatch[3]).split(":").map(Number);
+  return new Date(fullYear, monthIndexValue, Number(day), hours, minutes, 0, 0);
+}
+
+function monthDayTimeDate(dateText, timeText) {
+  const dateMatch = dateText.match(/\b(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+([A-Z][a-z]+)\s+(\d{1,2})/i);
+  const timeMatch = timeText.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i);
+  if (!dateMatch || !timeMatch) return null;
+
+  const [, monthName, day] = dateMatch;
+  const month = monthIndex(monthName);
+  if (month === -1) return null;
+
+  const year = eventYear(monthName);
+  const [hours, minutes] = toTwentyFourHour(`${timeMatch[1]}:${timeMatch[2] || "00"}`, timeMatch[3]).split(":").map(Number);
+  return new Date(year, month, Number(day), hours, minutes, 0, 0);
+}
+
+function parseIcsEvents(ics, venueId, sourceUrl) {
+  const unfolded = ics.replace(/\r?\n[ \t]/g, "");
+  const events = [];
+  const now = startOfDay(new Date());
+
+  for (const block of unfolded.matchAll(/BEGIN:VEVENT\r?\n([\s\S]*?)\r?\nEND:VEVENT/g)) {
+    const fields = icsFields(block[1]);
+    const startsAt = icsDate(fields.DTSTART?.value || "");
+    const title = icsText(fields.SUMMARY?.value || "");
+    if (!startsAt || !title || startsAt < now) continue;
+
+    const description = icsText(fields.DESCRIPTION?.value || "").replace(/\s+/g, " ").trim();
+
+    events.push({
+      id: `${venueId}-${startsAt.toISOString().slice(0, 10)}-${slug(title)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+      title,
+      startsAt: startsAt.toISOString(),
+      note: description || "Venue calendar event",
+      price: priceFromText(description) || "Check source",
+      sourceUrl
+    });
+  }
+
+  return events;
+}
+
+function icsFields(value) {
+  const fields = {};
+  for (const line of value.split(/\r?\n/)) {
+    const separator = line.indexOf(":");
+    if (separator === -1) continue;
+    const keyPart = line.slice(0, separator);
+    const key = keyPart.split(";")[0];
+    fields[key] = {
+      params: keyPart,
+      value: line.slice(separator + 1)
+    };
+  }
+  return fields;
+}
+
+function icsDate(value) {
+  const match = value.match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})?(Z)?)?$/);
+  if (!match) return null;
+
+  const [, year, month, day, hour = "00", minute = "00", second = "00", utc] = match;
+  if (utc) {
+    return new Date(Date.UTC(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute), Number(second)));
+  }
+
+  return new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute), Number(second), 0);
+}
+
+function icsText(value) {
+  return decodeHtml(value)
+    .replace(/\\n/g, " ")
+    .replace(/\\,/g, ",")
+    .replace(/\\;/g, ";")
+    .replace(/\\\\/g, "\\")
+    .trim();
 }
 
 function eventYear(monthName) {
