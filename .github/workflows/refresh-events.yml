@@ -11,6 +11,8 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      TZ: America/New_York
     steps:
       - name: Check out repository
         uses: actions/checkout@v4

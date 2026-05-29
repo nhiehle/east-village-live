@@ -3,6 +3,8 @@ import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { loadUnifiedEvents } from "./src/adapters.js";
 
+process.env.TZ = "America/New_York";
+
 const root = process.cwd();
 const port = Number(process.env.PORT || 4173);
 const host = process.env.HOST || "127.0.0.1";

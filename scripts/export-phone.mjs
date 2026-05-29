@@ -2,6 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { loadUnifiedEvents } from "../src/adapters.js";
 import { HOME, venueSeeds } from "../src/data.js";
 
+process.env.TZ = "America/New_York";
+
 const outDir = "phone-export";
 const css = await readFile("src/styles.css", "utf8");
 const data = await loadUnifiedEvents();

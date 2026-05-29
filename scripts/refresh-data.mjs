@@ -1,6 +1,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { loadUnifiedEvents } from "../src/adapters.js";
 
+process.env.TZ = "America/New_York";
+
 const outDir = "data";
 const outFile = `${outDir}/events.json`;
 const data = await loadUnifiedEvents();
