@@ -27,6 +27,23 @@ const pullRefresh = {
   threshold: 72
 };
 
+const mapBounds = venues.reduce(
+  (bounds, venue) => ({
+    minLat: Math.min(bounds.minLat, venue.lat),
+    maxLat: Math.max(bounds.maxLat, venue.lat),
+    minLng: Math.min(bounds.minLng, venue.lng),
+    maxLng: Math.max(bounds.maxLng, venue.lng)
+  }),
+  {
+    minLat: HOME.lat,
+    maxLat: HOME.lat,
+    minLng: HOME.lng,
+    maxLng: HOME.lng
+  }
+);
+
+const MAP = { width: 1080, height: 760, pad: 74 };
+
 function normalizeEvents(seeds) {
   return expandRecurring(seeds)
     .map((item) => ({
@@ -155,6 +172,8 @@ function render() {
 
       ${favoriteVenues.length ? `<section class="favorites">Favorites: ${favoriteVenues.map((venue) => escapeHtml(venue.name)).join(", ")}</section>` : ""}
 
+      ${renderMap(filtered)}
+
       <section class="feed" aria-label="Unified schedule">
         ${filtered.length ? filtered.map(renderEvent).join("") : `<div class="empty">No matching shows in this range.</div>`}
       </section>
@@ -209,12 +228,14 @@ function render() {
       render();
     });
   });
+
+  centerMap();
 }
 
 function applySearch(value) {
   state.pendingQuery = value;
   state.query = value;
-  renderSchedule();
+  render();
 }
 
 function renderSchedule() {
@@ -245,6 +266,77 @@ function renderVenueChip(venue) {
       <span class="star ${favorite ? "saved" : ""}" data-favorite="${venue.id}" title="${favorite ? "Remove favorite" : "Save favorite"}">★</span>
     </button>
   `;
+}
+
+function renderMap(filtered) {
+  const counts = filtered.reduce((acc, event) => {
+    acc[event.venueId] = (acc[event.venueId] || 0) + 1;
+    return acc;
+  }, {});
+
+  return `
+    <section class="map-panel" aria-label="Venue map">
+      <div class="map-meta">
+        <strong>${state.venueFilter === "all" ? "Map" : escapeHtml(venues.find((venue) => venue.id === state.venueFilter)?.name || "Map")}</strong>
+        <span>${state.venueFilter === "all" ? "Drag the map, tap a pin" : "Tap the pin again to show all venues"}</span>
+      </div>
+      <div class="venue-map-scroll">
+        <div class="venue-map" style="width:${MAP.width}px;height:${MAP.height}px">
+          <div class="map-region east-village">East Village</div>
+          <div class="map-region les">Lower East Side</div>
+          <div class="map-region ridgewood">Ridgewood / Bushwick</div>
+          ${renderHomePin()}
+          ${venues.map((venue) => renderMapPin(venue, counts[venue.id] || 0)).join("")}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function renderHomePin() {
+  const point = mapPoint(HOME);
+  return `
+    <div class="home-pin" style="left:${point.x}px;top:${point.y}px">
+      <span></span>
+      <strong>14th & A</strong>
+    </div>
+  `;
+}
+
+function renderMapPin(venue, count) {
+  const point = mapPoint(venue);
+  const selected = state.venueFilter === venue.id;
+  return `
+    <button
+      class="map-pin ${selected ? "selected" : ""} ${count ? "" : "quiet"}"
+      data-venue="${venue.id}"
+      style="left:${point.x}px;top:${point.y}px;--venue:${venue.color}"
+      type="button"
+      title="${escapeHtml(venue.name)}"
+    >
+      <span class="map-dot">${count || ""}</span>
+      <span class="map-label">${escapeHtml(venue.name)}</span>
+    </button>
+  `;
+}
+
+function centerMap() {
+  const scroller = document.querySelector(".venue-map-scroll");
+  if (!scroller) return;
+
+  const focusVenue = venues.find((venue) => venue.id === state.venueFilter);
+  const point = mapPoint(focusVenue || HOME);
+  scroller.scrollLeft = Math.max(0, point.x - scroller.clientWidth / 2);
+  scroller.scrollTop = Math.max(0, point.y - scroller.clientHeight / 2);
+}
+
+function mapPoint({ lat, lng }) {
+  const latSpan = Math.max(0.001, mapBounds.maxLat - mapBounds.minLat);
+  const lngSpan = Math.max(0.001, mapBounds.maxLng - mapBounds.minLng);
+  return {
+    x: MAP.pad + ((lng - mapBounds.minLng) / lngSpan) * (MAP.width - MAP.pad * 2),
+    y: MAP.pad + ((mapBounds.maxLat - lat) / latSpan) * (MAP.height - MAP.pad * 2)
+  };
 }
 
 function renderEvent(item) {
