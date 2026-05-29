@@ -198,6 +198,17 @@ export const venueSeeds = [
     sourceUrl: "https://tveyenyc.com/calendar/",
     sourceName: "Venue calendar",
     color: "#c1000a"
+  },
+  {
+    id: "sultanroom",
+    name: "The Sultan Room",
+    address: "234 Starr St",
+    lat: 40.7056,
+    lng: -73.9223,
+    vibe: "Global grooves, indie, rooftop, DJs",
+    sourceUrl: "https://thesultanroom.com/",
+    sourceName: "Venue calendar",
+    color: "#753bbd"
   }
 ];
 

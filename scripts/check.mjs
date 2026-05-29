@@ -38,7 +38,8 @@ for (const venue of [
   "Sugar Mouse",
   "Trans-Pecos",
   "Hart Bar",
-  "TV Eye"
+  "TV Eye",
+  "The Sultan Room"
 ]) {
   if (!data.includes(venue)) throw new Error(`Missing venue: ${venue}`);
 }

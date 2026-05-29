@@ -60,6 +60,14 @@ const adapterDefinitions = [
     venueId: "tveye",
     url: "https://tveyenyc.com/calendar/",
     parse: parseTvEye
+  },
+  {
+    venueId: "sultanroom",
+    url: sultanRoomDiceUrl(),
+    headers: {
+      "x-api-key": "j3UZPWFkiQ2UFTppf79rFatRpao3ol7l5PWjmTE9"
+    },
+    parse: parseSultanRoom
   }
 ];
 
@@ -92,7 +100,8 @@ export async function loadUnifiedEvents() {
 async function loadAdapter(adapter) {
   const response = await fetch(adapter.url, {
     headers: {
-      "user-agent": "EastVillageLive/0.1 (+local personal schedule app)"
+      "user-agent": "EastVillageLive/0.1 (+local personal schedule app)",
+      ...(adapter.headers || {})
     },
     signal: AbortSignal.timeout(10000)
   });
@@ -539,6 +548,55 @@ function parseTvEye(html) {
   }
 
   return events;
+}
+
+function parseSultanRoom(json) {
+  const payload = JSON.parse(json);
+  return (payload.data || [])
+    .map((item) => {
+      const startsAt = new Date(item.date);
+      if (!item.name || Number.isNaN(startsAt.valueOf()) || startsAt < startOfDay(new Date())) return null;
+
+      const venue = item.venue || item.venues?.[0]?.name || "The Sultan Room";
+      const genre = (item.genre_tags || [])
+        .map((tag) => tag.split(":").pop())
+        .filter(Boolean)
+        .slice(0, 3)
+        .join(", ");
+
+      return {
+        id: `sultanroom-${startsAt.toISOString().slice(0, 10)}-${slug(item.name)}-${startsAt.getHours()}-${startsAt.getMinutes()}`,
+        title: decodeHtml(stripTags(item.name)).replace(/\s+/g, " ").trim(),
+        startsAt: startsAt.toISOString(),
+        note: venue === "The Sultan Room" ? genre || "Dice listing" : `${venue}${genre ? ` - ${genre}` : ""}`,
+        price: dicePrice(item),
+        sourceUrl: item.url || "https://thesultanroom.com/"
+      };
+    })
+    .filter(Boolean);
+}
+
+function sultanRoomDiceUrl() {
+  const url = new URL("https://partners-endpoint.dice.fm/api/v2/events");
+  url.searchParams.append("page[size]", "24");
+  url.searchParams.append("types", "linkout,event");
+  for (const venue of ["The Sultan Room", "The Turk's Inn", "The Sultan Room Rooftop"]) {
+    url.searchParams.append("filter[venues][]", venue);
+  }
+  url.searchParams.append("filter[flags][]", "going_ahead");
+  url.searchParams.append("filter[flags][]", "rescheduled");
+  return url.toString();
+}
+
+function dicePrice(item) {
+  if (item.sold_out) return "Sold out";
+  const prices = (item.ticket_types || [])
+    .map((ticket) => Number(ticket.price?.total || ticket.price?.face_value || ticket.price))
+    .filter((price) => Number.isFinite(price));
+  const price = prices.length ? Math.min(...prices) : Number(item.price);
+  if (!Number.isFinite(price)) return "Ticketed";
+  if (price === 0) return "Free";
+  return `${item.currency || "USD"} ${(price / 100).toFixed(2)}`;
 }
 
 function boweryPalaceDate(value) {
