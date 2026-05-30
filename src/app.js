@@ -30,7 +30,16 @@ const pullRefresh = {
 const mapState = {
   zoom: 13,
   minZoom: 12,
-  maxZoom: 16
+  maxZoom: 16,
+  pendingScroll: null
+};
+
+const mapGesture = {
+  active: false,
+  startDistance: 0,
+  lastDistance: 0,
+  anchorClientX: 0,
+  anchorClientY: 0
 };
 
 const MAP = { tile: 256, pad: 220 };
@@ -222,13 +231,14 @@ function render() {
 
   app.querySelectorAll("[data-map-zoom]").forEach((button) => {
     button.addEventListener("click", () => {
-      const nextZoom = Math.min(mapState.maxZoom, Math.max(mapState.minZoom, mapState.zoom + Number(button.dataset.mapZoom)));
-      if (nextZoom === mapState.zoom) return;
-      mapState.zoom = nextZoom;
-      render();
+      const scroller = document.querySelector(".venue-map-scroll");
+      if (!scroller) return;
+      const rect = scroller.getBoundingClientRect();
+      zoomMap(Number(button.dataset.mapZoom), scroller, rect.left + rect.width / 2, rect.top + rect.height / 2);
     });
   });
 
+  installMapGestures();
   centerMap();
 }
 
@@ -279,7 +289,7 @@ function renderMap(filtered) {
     <section class="map-panel" aria-label="Venue map">
       <div class="map-meta">
         <strong>${state.venueFilter === "all" ? "Map" : escapeHtml(venues.find((venue) => venue.id === state.venueFilter)?.name || "Map")}</strong>
-        <span>${state.venueFilter === "all" ? "Drag, zoom, tap a pin" : "Tap the pin again to show all venues"}</span>
+        <span>${state.venueFilter === "all" ? "Drag, pinch, tap a pin" : "Tap the pin again to show all venues"}</span>
       </div>
       <div class="venue-map-scroll">
         <div class="map-controls" aria-label="Map zoom controls">
@@ -328,10 +338,114 @@ function centerMap() {
   const scroller = document.querySelector(".venue-map-scroll");
   if (!scroller) return;
 
+  if (mapState.pendingScroll) {
+    scroller.scrollLeft = clampScroll(mapState.pendingScroll.left, scroller.scrollWidth, scroller.clientWidth);
+    scroller.scrollTop = clampScroll(mapState.pendingScroll.top, scroller.scrollHeight, scroller.clientHeight);
+    mapState.pendingScroll = null;
+    return;
+  }
+
   const focusVenue = venues.find((venue) => venue.id === state.venueFilter);
   const point = mapPoint(focusVenue || HOME, mapMetrics(mapState.zoom));
   scroller.scrollLeft = Math.max(0, point.x - scroller.clientWidth / 2);
   scroller.scrollTop = Math.max(0, point.y - scroller.clientHeight / 2);
+}
+
+function installMapGestures() {
+  const scroller = document.querySelector(".venue-map-scroll");
+  if (!scroller) return;
+
+  scroller.addEventListener(
+    "touchstart",
+    (event) => {
+      if (event.touches.length !== 2) return;
+      const midpoint = midpointBetweenTouches(event.touches);
+      mapGesture.active = true;
+      mapGesture.startDistance = distanceBetweenTouches(event.touches);
+      mapGesture.lastDistance = mapGesture.startDistance;
+      mapGesture.anchorClientX = midpoint.x;
+      mapGesture.anchorClientY = midpoint.y;
+    },
+    { passive: true }
+  );
+
+  scroller.addEventListener(
+    "touchmove",
+    (event) => {
+      if (!mapGesture.active || event.touches.length !== 2) return;
+      mapGesture.lastDistance = distanceBetweenTouches(event.touches);
+      const midpoint = midpointBetweenTouches(event.touches);
+      mapGesture.anchorClientX = midpoint.x;
+      mapGesture.anchorClientY = midpoint.y;
+      event.preventDefault();
+    },
+    { passive: false }
+  );
+
+  scroller.addEventListener("touchend", () => finishMapPinch(scroller));
+  scroller.addEventListener("touchcancel", () => {
+    mapGesture.active = false;
+  });
+}
+
+function finishMapPinch(scroller) {
+  if (!mapGesture.active) return;
+  mapGesture.active = false;
+
+  const ratio = mapGesture.lastDistance / mapGesture.startDistance;
+  const zoomDelta = pinchZoomDelta(ratio);
+  if (zoomDelta === 0) return;
+  zoomMap(zoomDelta, scroller, mapGesture.anchorClientX, mapGesture.anchorClientY);
+}
+
+function zoomMap(delta, scroller, clientX, clientY) {
+  const nextZoom = clampMapZoom(mapState.zoom + delta);
+  if (nextZoom === mapState.zoom) return;
+
+  const currentMetrics = mapMetrics(mapState.zoom);
+  const rect = scroller.getBoundingClientRect();
+  const anchorX = clientX - rect.left;
+  const anchorY = clientY - rect.top;
+  const anchorWorldX = currentMetrics.originX + scroller.scrollLeft + anchorX;
+  const anchorWorldY = currentMetrics.originY + scroller.scrollTop + anchorY;
+  const scale = 2 ** (nextZoom - mapState.zoom);
+  const nextMetrics = mapMetrics(nextZoom);
+
+  mapState.zoom = nextZoom;
+  mapState.pendingScroll = {
+    left: anchorWorldX * scale - nextMetrics.originX - anchorX,
+    top: anchorWorldY * scale - nextMetrics.originY - anchorY
+  };
+  render();
+}
+
+function clampMapZoom(value) {
+  return Math.min(mapState.maxZoom, Math.max(mapState.minZoom, value));
+}
+
+function clampScroll(value, scrollSize, clientSize) {
+  return Math.max(0, Math.min(value, scrollSize - clientSize));
+}
+
+function distanceBetweenTouches(touches) {
+  const [first, second] = touches;
+  return Math.hypot(second.clientX - first.clientX, second.clientY - first.clientY);
+}
+
+function midpointBetweenTouches(touches) {
+  const [first, second] = touches;
+  return {
+    x: (first.clientX + second.clientX) / 2,
+    y: (first.clientY + second.clientY) / 2
+  };
+}
+
+function pinchZoomDelta(ratio) {
+  if (ratio >= 1.75) return 2;
+  if (ratio >= 1.18) return 1;
+  if (ratio <= 0.55) return -2;
+  if (ratio <= 0.85) return -1;
+  return 0;
 }
 
 function renderMapTiles(metrics) {
