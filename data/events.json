@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-23T15:04:57.169Z",
+  "fetchedAt": "2026-09-24T15:13:52.583Z",
   "adapterStatus": [
     {
       "venueId": "lucindas",
       "ok": true,
-      "count": 51,
+      "count": 52,
       "message": "Loaded from venue page"
     },
     {
@@ -20,16 +20,16 @@
       "message": "nightclub101 returned 530"
     },
     {
-      "venueId": "unknown",
+      "venueId": "berlin",
       "ok": false,
       "count": 0,
-      "message": "The operation was aborted due to timeout"
+      "message": "berlin returned 403"
     },
     {
-      "venueId": "unknown",
+      "venueId": "mercury",
       "ok": false,
       "count": 0,
-      "message": "The operation was aborted due to timeout"
+      "message": "mercury returned 403"
     },
     {
       "venueId": "unknown",
@@ -46,7 +46,7 @@
     {
       "venueId": "clubcumming",
       "ok": true,
-      "count": 47,
+      "count": 45,
       "message": "Loaded from venue page"
     },
     {
@@ -58,13 +58,13 @@
     {
       "venueId": "transpecos",
       "ok": true,
-      "count": 14,
+      "count": 15,
       "message": "Loaded from venue page"
     },
     {
       "venueId": "hartbar",
       "ok": true,
-      "count": 64,
+      "count": 63,
       "message": "Loaded from venue page"
     },
     {
@@ -342,6 +342,16 @@
       "dataSource": "live"
     },
     {
+      "id": "lucindas-6611",
+      "title": "Raffaella",
+      "startsAt": "2026-10-23T00:15:00.000Z",
+      "note": "Show: 8:15 PM",
+      "price": "$27.11",
+      "sourceUrl": "https://www.lucindasnyc.com/tm-event/raffaella/",
+      "venueId": "lucindas",
+      "dataSource": "live"
+    },
+    {
       "id": "lucindas-4260",
       "title": "Live Band Country Karaoke",
       "startsAt": "2026-10-24T00:00:00.000Z",
@@ -592,26 +602,6 @@
       "dataSource": "live"
     },
     {
-      "id": "nublu-2026-09-23-joe-hertenstein-future-drone-anthony-coleman-jon-irabagon-live-at-porgy--19:00",
-      "title": "Joe Hertenstein - Future Drone Anthony Coleman - Jon Irabagon Live at Porgy&Bess Marty Ehrlich & Sean Conly",
-      "startsAt": "2026-09-23T23:00:00.000Z",
-      "note": "Nublu 151",
-      "price": "Ticketed",
-      "sourceUrl": "https://shotgun.live/events/joe-hertenstein-future-drone",
-      "venueId": "nublu",
-      "dataSource": "live"
-    },
-    {
-      "id": "nublu-2026-09-23-latin-wednesdays-live-band-and-great-latin-dj-s-22:00",
-      "title": "Latin Wednesdays -Live band and Great Latin Dj’s",
-      "startsAt": "2026-09-24T02:00:00.000Z",
-      "note": "Nublu 151",
-      "price": "Ticketed",
-      "sourceUrl": "https://shotgun.live/events/latin-wednesdays-4",
-      "venueId": "nublu",
-      "dataSource": "live"
-    },
-    {
       "id": "nublu-2026-09-24-private-event-22:00",
       "title": "Private Event",
       "startsAt": "2026-09-25T02:00:00.000Z",
@@ -628,6 +618,16 @@
       "note": "Nublu 151",
       "price": "Ticketed",
       "sourceUrl": "https://shotgun.live/events/haolan",
+      "venueId": "nublu",
+      "dataSource": "live"
+    },
+    {
+      "id": "nublu-2026-09-26-nublu-dance-all-hits-with-dj-greg-caz-22:00",
+      "title": "NUBLU - DANCE ALL HITS WITH DJ GREG CAZ",
+      "startsAt": "2026-09-27T02:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://shotgun.live/events/nublu-dance",
       "venueId": "nublu",
       "dataSource": "live"
     },
@@ -672,23 +672,13 @@
       "dataSource": "live"
     },
     {
-      "id": "clubcumming-2026-09-23-the-sleepover-show-with-missy-stew",
-      "title": "The Sleepover Show with Missy & Stew",
-      "startsAt": "2026-09-23T23:30:00.000Z",
-      "note": "You're invited to Missy McIntosh and Stewart Fullerton 's SLEEPOVER!!! Join Missy, Stew, and some of their favorite comedians for a night of nostalgia, comedy, and sleepover chaos,",
-      "price": "$15 GA",
-      "sourceUrl": "https://clubcummingnyc.com/schedule/sleepover",
-      "venueId": "clubcumming",
-      "dataSource": "live"
-    },
-    {
-      "id": "clubcumming-2026-09-24-the-lanessa-show-with-lanessa-long",
-      "title": "The Lanessa Show with Lanessa Long",
-      "startsAt": "2026-09-24T02:00:00.000Z",
-      "note": "Club Cumming event",
-      "price": "Check source",
-      "sourceUrl": "https://clubcummingnyc.com/schedule/2026/4/29/the-lanessa-show-with-lanessa-long-pcdxm",
-      "venueId": "clubcumming",
+      "id": "nublu-2026-10-01-guachinangos-special-guests-19:00",
+      "title": "GUACHINANGOS & SPECIAL GUESTS",
+      "startsAt": "2026-10-01T23:00:00.000Z",
+      "note": "Nublu 151",
+      "price": "Ticketed",
+      "sourceUrl": "https://shotgun.live/events/guachinangos-special-guests",
+      "venueId": "nublu",
       "dataSource": "live"
     },
     {
@@ -1252,6 +1242,16 @@
       "dataSource": "live"
     },
     {
+      "id": "transpecos-2026-10-24-gum-mp3-griffin-maxwell-brooks-archangel-giovanni-luciano-jauwshewuh-bod-23-0",
+      "title": "Gum.mp3 / Griffin Maxwell Brooks / Archangel / Giovanni Luciano / Jauwshewuh / Bodegaparty",
+      "startsAt": "2026-10-24T03:00:00.000Z",
+      "note": "Trans-Pecos listing",
+      "price": "Ticketed",
+      "sourceUrl": "https://tickets.venuepilot.com/e/gum-mp3-griffin-maxwell-brooks-archangel-giovanni-luciano-jauwshewuh-bodegaparty-2026-10-23-trans-pec-c0b34a",
+      "venueId": "transpecos",
+      "dataSource": "live"
+    },
+    {
       "id": "transpecos-2026-10-22-sarah-katherine-lawless-sofia-d-angelo-evangeline-young-19-0",
       "title": "Sarah Katherine Lawless / Sofia D’Angelo / Evangeline Young",
       "startsAt": "2026-10-22T23:00:00.000Z",
@@ -1282,9 +1282,199 @@
       "dataSource": "live"
     },
     {
+      "id": "hartbar-2026-09-25-tealeaf-presents-sleeper-little-slicer-car-girlfriend-jackson-dockery-18-30",
+      "title": "TEALEAF PRESENTS: Sleeper / Little Slicer / Car Girlfriend / Jackson Dockery",
+      "startsAt": "2026-09-25T22:30:00.000Z",
+      "note": "TEALEAF PRESENTS: Sleeper / Little Slicer / Car Girlfriend / Jackson Dockery<br>$15 advance / $20 day of show<br><u><a href=\"https://www.eventbrite.com/e/1998983522527?aff=oddtdtcreator\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br>630pm DOORS<br><br>7pm - Jackson Dockery<br>8pm - Car Girlfriend<br>9pm - Little Slicer<br>10pm - Sleeper",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-17-bushwick-rocks-19-0",
+      "title": "BUSHWICK ROCKS!!!",
+      "startsAt": "2026-10-17T23:00:00.000Z",
+      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br>Doors at 6:30PM<br><br>7pm Casey Crane <a href=\"http://instagram.com/caseycrane.8888\" target=\"_blank\">@caseycrane.8888</a><br>8pm Cherm @<a href=\"http://instagram.com/thechermproject\" target=\"_blank\">thechermproject</a><br>9pm Flag Day @<a href=\"http://instagram.com/flagdayband\" target=\"_blank\">flagdayband</a><br>10pm Dead Useless Hearts @<a href=\"http://instagram.com/deaduselesshearts\" target=\"_blank\">deaduselesshearts</a><br><br><a href=\"https://www.eventim.us/event/Casey-CraneChermFlag-DayDead-Useless-Hearts/698567\" target=\"_blank\">TICKETS</a>",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-09-26-girl-edm-dance-party-23-0",
+      "title": "Girl EDM Dance Party",
+      "startsAt": "2026-09-26T03:00:00.000Z",
+      "note": "Girl EDM Dance Party Free – With RSVP 11pm – 3am B2B Sounds By: lili gem dj tummyhertz jaeku dj fried bat mitzvah",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-18-bookie-w-plyers-offal-bloom-and-painted-faces-19-30",
+      "title": "BOOKIE w/ Plyers, Offal Bloom, and Painted Faces",
+      "startsAt": "2026-10-18T23:30:00.000Z",
+      "note": "BOOKIE w/ Plyers, Offal Bloom, and Painted Faces $15 Doors at 7:30PM 8pm- Painted faces (20-30min) 9pm- Offal Bloom (20-30min) 10pm- Plyers (30 min) 11pm- Bookie (30 min)",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-12-19-happy-almost-christmas-in-bushwick-18-30",
+      "title": "HAPPY ALMOST CHRISTMAS IN BUSHWICK!",
+      "startsAt": "2026-12-19T23:30:00.000Z",
+      "note": "HAPPY ALMOST CHRISTMAS IN BUSHWICK!<br>$10 ADVANCE; $15 DAY OF SHOW<br><u><a href=\"https://www.eventim.us/event/CopilotsChermMotorcycle-DiariesDead-Useless-Hearts/703715\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br>Doors at 6:30PM<br><br>7pm Copilots (instagram.com/copilotsnyc)<br>8pm Cherm (instagram.com/thechermproject)<br>9pm Motorcycle Diaries (instagram.com/motodiariesband)<br>10pm Dead Useless Hearts (instagram.com/deaduselesshearts)",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-16-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-10-16T02:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-22-folk-night-19-30",
+      "title": "Folk Night",
+      "startsAt": "2026-10-22T23:30:00.000Z",
+      "note": "Folk Night<br>$15<br>Doors at 7:30PM<br><br>8 pm: LINE <a href=\"https://www.instagram.com/linesoundslike\" target=\"_blank\"><u><u><u>@linesoundslike</u></u></u></a> <br>9 pm: Jackson Harden <a href=\"https://www.instagram.com/jacksonhardenmusic\" target=\"_blank\"><u><u><u>@jacksonhardenmusic</u></u></u></a><br>10 pm: Low Groves <a href=\"https://www.instagram.com/lowgroves/\" target=\"_blank\"><u><u><u>@lowgroves</u></u></u></a><br>11 pm: Rachel Angel <a href=\"https://www.instagram.com/rachelangelmusic/\" target=\"_blank\"><u><u><u>@rachelangelmusic</u></u></u></a>",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-04-nature-creeps-beneath-19-30",
+      "title": "Nature Creeps Beneath",
+      "startsAt": "2026-11-04T00:30:00.000Z",
+      "note": "Nature Creeps Beneath<br>$15<br>Doors at 7:30PM<br><br>8-8:45 pm - Bugwing<br>9-9:45 pm - Worbo Net<br>10-10:45 pm - Nature Creeps Beneath<br>11-11:45 pm - Milk from Mordor<br><br><u><a href=\"https://www.eventbrite.com/e/nature-creeps-beneath-milk-from-mordor-worbo-net-bugwing-hart-bar-tickets-1998692969475?aff=oddtdtcreator\" target=\"_blank\"><u>TICKETS</u></a></u>",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-09-27-all-night-thing-22-0",
+      "title": "All Night Thing",
+      "startsAt": "2026-09-27T02:00:00.000Z",
+      "note": "ALL NIGHT THING @allnightthing<br>Spinning 10-3AM in the upstairs cabin bar area!<br><div dir=\"auto\"><br><br><p dir=\"auto\">All Night Thing is a multigenerational disco and funk party with resident DJs Quiet Smith, Batman, and Reggie Bender spinning on wax and digital all night. </p><br>Sounds by:<div dir=\"auto\">@quiet_smith<div dir=\"auto\">@djbatman2120<div dir=\"auto\">@puremisogyny",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-19-bushwick-rocks-19-30",
+      "title": "BUSHWICK ROCKS!!!",
+      "startsAt": "2026-11-19T00:30:00.000Z",
+      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br><br>7pm Spiritbug @spiritbug.nyc<br>8pm SuperCollider @super.collider.nyc<br>9pm Lou Matthews @louissuds<br>10pm dammy @dammytheband<br><br><u><a href=\"https://www.eventim.us/event/SpiritbugSuperColliderLou-Matthewsdammy/702817\" target=\"_blank\"><u>https://www.eventim.us/event/SpiritbugSuperColliderLou-Matthewsdammy/702817</u></a></u>",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-20-bushwick-rocks-18-0",
+      "title": "Bushwick Rocks!",
+      "startsAt": "2026-11-20T23:00:00.000Z",
+      "note": "Bushwick Rocks!<br>$10 advance; $15 day of show<br>DOORS AT 6:30PM<br><u><a href=\"https://www.eventim.us/event/SodaPopRhodoraShy-FlyerFIRE-MAN-HART-BAR/702577\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br><br>7pm SodaPop! (instagram.com/sodapop.girliess)<br>8pm Rhodora (instagram.com/rhodora.band)<br>9pm Shy Flyer (instagram.com/shyflyerband)<br>10pm FIRE MAN (instagram.com/firemanband)",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-15-doghouse-djs-22-0",
+      "title": "Doghouse DJs",
+      "startsAt": "2026-11-15T03:00:00.000Z",
+      "note": "Doghouse DJs spinning 10-3AM in the Upstairs cabin bar area!!<br><br>Sounds by:<br><a href=\"https://www.instagram.com/gavinthesultan/\" target=\"_blank\"><u>Dialectic Disco</u></a> @gavinthesultan<br><a href=\"https://www.instagram.com/riticcini/\" target=\"_blank\"><u>Riti</u></a> @riticcini<br><a href=\"https://www.instagram.com/maniacalgroove?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==\" target=\"_blank\"><u>Maurice</u></a> @maniacalgroove",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-13-dot-dash-presents-19-30",
+      "title": "Dot Dash Presents",
+      "startsAt": "2026-11-13T00:30:00.000Z",
+      "note": "Dot Dash Presents<br>$15<br>7:30 Doors<br><br>8:30 - Point Break 2 <br>9:15 - Upper Wilds<br>10:00 - Axis:Sova <br><br><a href=\"https://www.eventbrite.com/e/dot-dash-presents-axissova-upper-wilds-point-break-2-tickets-1997275179828\"><u>https://www.eventbrite.com/e/dot-dash-presents-axissova-upper-wilds-point-break-2-tickets-1997275179828</u></a>",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-20-konnie-rene-blake-parker-19-30",
+      "title": "Konnie Rene & Blake Parker",
+      "startsAt": "2026-11-20T00:30:00.000Z",
+      "note": "Konnie Rene & Blake Parker $12 Doors at 7:30 -DJ Heemonomics -Eidah@helloeidah -Konnie Rene @konnierene - Vera Yvan @verayvan - Blake parker @pretentiousblackmale - Dj Heemonomics @hemmonomics",
+      "price": "$12",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-09-27-club-mustang-freakquencies-23-45",
+      "title": "Club Mustang: FREAKQUENCIES",
+      "startsAt": "2026-09-27T03:45:00.000Z",
+      "note": "Club Mustang: FREAKQUENCIES<br>@<a href=\"https://www.instagram.com/clubmust4ng?igsh=MWJzbThyZzUya3lnZA==\" target=\"_blank\"><u><u>clubmust4ng</u></u></a><br>5 adv or 10 / pwyc at door<br><br>boy_c0ded @boy_c0ded<br>actual angel @mackincey<br>esme2k @esme2k<br>brutal twink @conversion_therapy_llc<br><div dir=\"auto\"><br><a href=\"https://ra.co/events/2509905\" target=\"_blank\">https://ra.co/events/2509905</a><div dir=\"auto\"><u></u>",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-23-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-10-23T02:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-09-27-the-patti-rothberg-coincidence-friends-19-30",
+      "title": "The Patti Rothberg Coincidence & Friends",
+      "startsAt": "2026-09-27T23:30:00.000Z",
+      "note": "The Patti Rothberg Coincidence & Friends $10 730pm DOORS 8pm - Valkyrie's Vendetta 9pm - The Patti Rothberg Coincidence 10pm - SEANCE 11pm - mahal kita",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
       "id": "hartbar-2026-09-25-savage-karaoke-garage-22-0",
       "title": "Savage Karaoke! (GARAGE)",
       "startsAt": "2026-09-25T02:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-02-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-10-02T02:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-13-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-11-13T03:00:00.000Z",
       "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
       "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
@@ -1302,170 +1492,10 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-09-27-club-mustang-freakquencies-23-45",
-      "title": "Club Mustang: FREAKQUENCIES",
-      "startsAt": "2026-09-27T03:45:00.000Z",
-      "note": "Club Mustang: FREAKQUENCIES<br>@<a href=\"https://www.instagram.com/clubmust4ng?igsh=MWJzbThyZzUya3lnZA==\" target=\"_blank\"><u><u>clubmust4ng</u></u></a><br>5 adv or 10 / pwyc at door<br><br>boy_c0ded @boy_c0ded<br>actual angel @mackincey<br>esme2k @esme2k<br>brutal twink @conversion_therapy_llc<br><div dir=\"auto\"><br><a href=\"https://ra.co/events/2509905\" target=\"_blank\">https://ra.co/events/2509905</a><div dir=\"auto\"><u></u>",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-12-19-happy-almost-christmas-in-bushwick-18-30",
-      "title": "HAPPY ALMOST CHRISTMAS IN BUSHWICK!",
-      "startsAt": "2026-12-19T23:30:00.000Z",
-      "note": "HAPPY ALMOST CHRISTMAS IN BUSHWICK!<br>$10 ADVANCE; $15 DAY OF SHOW<br><u><a href=\"https://www.eventim.us/event/CopilotsChermMotorcycle-DiariesDead-Useless-Hearts/703715\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br>Doors at 6:30PM<br><br>7pm Copilots (instagram.com/copilotsnyc)<br>8pm Cherm (instagram.com/thechermproject)<br>9pm Motorcycle Diaries (instagram.com/motodiariesband)<br>10pm Dead Useless Hearts (instagram.com/deaduselesshearts)",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-20-konnie-rene-blake-parker-19-30",
-      "title": "Konnie Rene & Blake Parker",
-      "startsAt": "2026-11-20T00:30:00.000Z",
-      "note": "Konnie Rene & Blake Parker $12 Doors at 7:30 -DJ Heemonomics -Eidah@helloeidah -Konnie Rene @konnierene - Vera Yvan @verayvan - Blake parker @pretentiousblackmale - Dj Heemonomics @hemmonomics",
-      "price": "$12",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-18-bookie-w-plyers-offal-bloom-and-painted-faces-19-30",
-      "title": "BOOKIE w/ Plyers, Offal Bloom, and Painted Faces",
-      "startsAt": "2026-10-18T23:30:00.000Z",
-      "note": "BOOKIE w/ Plyers, Offal Bloom, and Painted Faces $15 Doors at 7:30PM 8pm- Painted faces (20-30min) 9pm- Offal Bloom (20-30min) 10pm- Plyers (30 min) 11pm- Bookie (30 min)",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-09-26-girl-edm-dance-party-23-0",
-      "title": "Girl EDM Dance Party",
-      "startsAt": "2026-09-26T03:00:00.000Z",
-      "note": "Girl EDM Dance Party Free – With RSVP 11pm – 3am B2B Sounds By: lili gem dj tummyhertz jaeku dj fried bat mitzvah",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-09-27-the-patti-rothberg-coincidence-friends-19-30",
-      "title": "The Patti Rothberg Coincidence & Friends",
-      "startsAt": "2026-09-27T23:30:00.000Z",
-      "note": "The Patti Rothberg Coincidence & Friends $10 730pm DOORS 8pm - Valkyrie's Vendetta 9pm - The Patti Rothberg Coincidence 10pm - SEANCE 11pm - mahal kita",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-19-bushwick-rocks-19-30",
-      "title": "BUSHWICK ROCKS!!!",
-      "startsAt": "2026-11-19T00:30:00.000Z",
-      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br><br>7pm Spiritbug @spiritbug.nyc<br>8pm SuperCollider @super.collider.nyc<br>9pm Lou Matthews @louissuds<br>10pm dammy @dammytheband<br><br><u><a href=\"https://www.eventim.us/event/SpiritbugSuperColliderLou-Matthewsdammy/702817\" target=\"_blank\"><u>https://www.eventim.us/event/SpiritbugSuperColliderLou-Matthewsdammy/702817</u></a></u>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-02-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-10-02T02:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-17-bushwick-rocks-19-0",
-      "title": "BUSHWICK ROCKS!!!",
-      "startsAt": "2026-10-17T23:00:00.000Z",
-      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br>Doors at 6:30PM<br><br>7pm Casey Crane <a href=\"http://instagram.com/caseycrane.8888\" target=\"_blank\">@caseycrane.8888</a><br>8pm Cherm @<a href=\"http://instagram.com/thechermproject\" target=\"_blank\">thechermproject</a><br>9pm Flag Day @<a href=\"http://instagram.com/flagdayband\" target=\"_blank\">flagdayband</a><br>10pm Dead Useless Hearts @<a href=\"http://instagram.com/deaduselesshearts\" target=\"_blank\">deaduselesshearts</a><br><br><a href=\"https://www.eventim.us/event/Casey-CraneChermFlag-DayDead-Useless-Hearts/698567\" target=\"_blank\">TICKETS</a>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-16-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-10-16T02:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-04-nature-creeps-beneath-19-30",
-      "title": "Nature Creeps Beneath",
-      "startsAt": "2026-11-04T00:30:00.000Z",
-      "note": "Nature Creeps Beneath<br>$15<br>Doors at 7:30PM<br><br>8-8:45 pm - Bugwing<br>9-9:45 pm - Worbo Net<br>10-10:45 pm - Nature Creeps Beneath<br>11-11:45 pm - Milk from Mordor<br><br><u><a href=\"https://www.eventbrite.com/e/nature-creeps-beneath-milk-from-mordor-worbo-net-bugwing-hart-bar-tickets-1998692969475?aff=oddtdtcreator\" target=\"_blank\"><u>TICKETS</u></a></u>",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
       "id": "hartbar-2026-11-11-beldame-rhonnie-tsunami-no-license-motorcycle-diaries-18-30",
       "title": "Beldame/Rhonnie Tsunami/No License/Motorcycle Diaries",
       "startsAt": "2026-11-11T23:30:00.000Z",
       "note": "Beldame/Rhonnie Tsunami/No License/Motorcycle Diaries<br>$10 advance; $15 day of show<br><br>7pm Beldame @beldame_____<br>8pm Rhonnie Tsunami @rhonnietsunami_band<br>9pm No License @nolicensefortheblind<br>10pm Motorcycle Diaries @motodiariesband<br><br><u><a href=\"https://www.eventim.us/event/BeldameRhonnie-TsunamiNo-LicenseMotorcycle-Diaries/702823\" target=\"_blank\"><u>https://www.eventim.us/event/BeldameRhonnie-TsunamiNo-LicenseMotorcycle-Diaries/702823</u></a></u>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-07-bushwick-rocks-18-30",
-      "title": "BUSHWICK ROCKS!!!",
-      "startsAt": "2026-10-07T22:30:00.000Z",
-      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br>DOORS AT 6:30PM<br><br>7pm BLESSER (<a href=\"http://instagram.com/blesserband\" target=\"_blank\">instagram.com/blesserband</a>)<br>8pm JUZU (<a href=\"http://instagram.com/juzu.me\" target=\"_blank\">instagram.com/juzu.me</a>)<br>9pm Esperinthym (<a href=\"http://instagram.com/esperinthym\" target=\"_blank\">instagram.com/esperinthym</a>)<br>10pm MARIMACHA (<a href=\"http://instagram.com/marimachaband\" target=\"_blank\">instagram.com/marimachaband</a>)<br><br>ADVANCE TICKETS: <br><a href=\"https://www.eventim.us/event/BLESSERJUZUEsperinthymMARIMACHA/699031\" target=\"_blank\">https://www.eventim.us/event/<u></u>BLESSERJUZUEsperinthymMARIMACH<u></u>A/699031</a>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-22-folk-night-19-30",
-      "title": "Folk Night",
-      "startsAt": "2026-10-22T23:30:00.000Z",
-      "note": "Folk Night<br>$15<br>Doors at 7:30PM<br><br>8 pm: LINE <a href=\"https://www.instagram.com/linesoundslike\" target=\"_blank\"><u><u><u>@linesoundslike</u></u></u></a> <br>9 pm: Jackson Harden <a href=\"https://www.instagram.com/jacksonhardenmusic\" target=\"_blank\"><u><u><u>@jacksonhardenmusic</u></u></u></a><br>10 pm: Low Groves <a href=\"https://www.instagram.com/lowgroves/\" target=\"_blank\"><u><u><u>@lowgroves</u></u></u></a><br>11 pm: Rachel Angel <a href=\"https://www.instagram.com/rachelangelmusic/\" target=\"_blank\"><u><u><u>@rachelangelmusic</u></u></u></a>",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-15-doghouse-djs-22-0",
-      "title": "Doghouse DJs",
-      "startsAt": "2026-11-15T03:00:00.000Z",
-      "note": "Doghouse DJs spinning 10-3AM in the Upstairs cabin bar area!!<br><br>Sounds by:<br><a href=\"https://www.instagram.com/gavinthesultan/\" target=\"_blank\"><u>Dialectic Disco</u></a> @gavinthesultan<br><a href=\"https://www.instagram.com/riticcini/\" target=\"_blank\"><u>Riti</u></a> @riticcini<br><a href=\"https://www.instagram.com/maniacalgroove?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==\" target=\"_blank\"><u>Maurice</u></a> @maniacalgroove",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-06-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-11-06T03:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-12-13-femmerock-19-0",
-      "title": "FEMMEROCK!",
-      "startsAt": "2026-12-13T00:00:00.000Z",
-      "note": "FEMMEROCK!<br>$10 advance $15 day of show<br>Doors at 6PM<br><br>7pm strudlmaus (instagram.com/strudlmaus)<br>8pm Stella &amp; the Rockets (instagram.com/stellabiase)<br>9pm Keddjra (instagram.com/keddjra)<br>10pm PAULA T (instagram.com/paulatartell)<br><br><u><a href=\"https://www.eventim.us/event/FEMMEROCK-strudlmausStella-and-the-RocketsKeddjraPAULA-T/702525\" target=\"_blank\"><u>https://www.eventim.us/event/FEMMEROCK-strudlmausStella-and-the-RocketsKeddjraPAULA-T/702525</u></a></u>",
       "price": "$10",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
@@ -1482,69 +1512,19 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-09-27-all-night-thing-22-0",
-      "title": "All Night Thing",
-      "startsAt": "2026-09-27T02:00:00.000Z",
-      "note": "ALL NIGHT THING @allnightthing<br>Spinning 10-3AM in the upstairs cabin bar area!<br><div dir=\"auto\"><br><br><p dir=\"auto\">All Night Thing is a multigenerational disco and funk party with resident DJs Quiet Smith, Batman, and Reggie Bender spinning on wax and digital all night. </p><br>Sounds by:<div dir=\"auto\">@quiet_smith<div dir=\"auto\">@djbatman2120<div dir=\"auto\">@puremisogyny",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-13-dot-dash-presents-19-30",
-      "title": "Dot Dash Presents",
-      "startsAt": "2026-11-13T00:30:00.000Z",
-      "note": "Dot Dash Presents<br>$15<br>7:30 Doors<br><br>8:30 - Point Break 2 <br>9:15 - Upper Wilds<br>10:00 - Axis:Sova <br><br><a href=\"https://www.eventbrite.com/e/dot-dash-presents-axissova-upper-wilds-point-break-2-tickets-1997275179828\"><u>https://www.eventbrite.com/e/dot-dash-presents-axissova-upper-wilds-point-break-2-tickets-1997275179828</u></a>",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-09-misschiff-liv-canova-the-madelines-pop-alma-19-0",
-      "title": "MissChiff | Liv Canova | The Madelines | Pop Alma",
-      "startsAt": "2026-10-09T23:00:00.000Z",
-      "note": "MissChiff | Liv Canova | The Madelines | Pop Alma<br>10 presale 15 at door<br>Doors at 7PM<br><u><a href=\"https://www.eventbrite.com/e/misschiff-liv-canova-the-madelines-pop-alma-tickets-1998821410646\" target=\"_blank\"><u>TICKETS</u></a></u><br><br>730 Misschiff<br>8pm - The Madelines<br>9pm - Liv Canova<br>10pm - Pop alma",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-13-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-11-13T03:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-09-25-tealeaf-presents-sleeper-little-slicer-car-girlfriend-jackson-dockery-18-30",
-      "title": "TEALEAF PRESENTS: Sleeper / Little Slicer / Car Girlfriend / Jackson Dockery",
-      "startsAt": "2026-09-25T22:30:00.000Z",
-      "note": "TEALEAF PRESENTS: Sleeper / Little Slicer / Car Girlfriend / Jackson Dockery<br>$15 advance / $20 day of show<br><u><a href=\"https://www.eventbrite.com/e/1998983522527?aff=oddtdtcreator\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br>630pm DOORS<br><br>7pm - Jackson Dockery<br>8pm - Car Girlfriend<br>9pm - Little Slicer<br>10pm - Sleeper",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-20-bushwick-rocks-18-0",
-      "title": "Bushwick Rocks!",
-      "startsAt": "2026-11-20T23:00:00.000Z",
-      "note": "Bushwick Rocks!<br>$10 advance; $15 day of show<br>DOORS AT 6:30PM<br><u><a href=\"https://www.eventim.us/event/SodaPopRhodoraShy-FlyerFIRE-MAN-HART-BAR/702577\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br><br>7pm SodaPop! (instagram.com/sodapop.girliess)<br>8pm Rhodora (instagram.com/rhodora.band)<br>9pm Shy Flyer (instagram.com/shyflyerband)<br>10pm FIRE MAN (instagram.com/firemanband)",
+      "id": "hartbar-2026-12-13-femmerock-19-0",
+      "title": "FEMMEROCK!",
+      "startsAt": "2026-12-13T00:00:00.000Z",
+      "note": "FEMMEROCK!<br>$10 advance $15 day of show<br>Doors at 6PM<br><br>7pm strudlmaus (instagram.com/strudlmaus)<br>8pm Stella &amp; the Rockets (instagram.com/stellabiase)<br>9pm Keddjra (instagram.com/keddjra)<br>10pm PAULA T (instagram.com/paulatartell)<br><br><u><a href=\"https://www.eventim.us/event/FEMMEROCK-strudlmausStella-and-the-RocketsKeddjraPAULA-T/702525\" target=\"_blank\"><u>https://www.eventim.us/event/FEMMEROCK-strudlmausStella-and-the-RocketsKeddjraPAULA-T/702525</u></a></u>",
       "price": "$10",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-23-savage-karaoke-garage-22-0",
+      "id": "hartbar-2026-11-06-savage-karaoke-garage-22-0",
       "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-10-23T02:00:00.000Z",
+      "startsAt": "2026-11-06T03:00:00.000Z",
       "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
       "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
@@ -1562,51 +1542,61 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-12-11-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-12-11T03:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-13-tealeaf-presents-cereal-monogamy-a-billion-bugs-lawns-the-fictionals-18-30",
-      "title": "TEALEAF PRESENTS: Cereal Monogamy / A Billion Bugs / Lawns / The Fictionals",
-      "startsAt": "2026-10-13T22:30:00.000Z",
-      "note": "TEALEAF PRESENTS: Cereal Monogamy / A Billion Bugs / Lawns / The Fictionals<br>$15 advance / $20 day of show<br>6:30PM: DOORS<br><br>7:00pm: A BILLION BUGS<br>8:00pm: LAWNS<br>9:00pm: THE FICTIONALS<br>10:00pm: CEREAL MONOGAMY<br><br><u><a href=\"https://www.eventbrite.com/e/cereal-monogamy-the-fictionals-lawns-a-billion-bugs-tickets-1998986719088?aff=oddtdtcreator\" target=\"_blank\"><u>TICKETS</u></a></u>",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-10-music-charisma-mountain-19-30",
-      "title": "Music Charisma Mountain",
-      "startsAt": "2026-10-10T23:30:00.000Z",
-      "note": "Music Charisma Mountain Connor & Isaiah $10 730pm DOORS 8pm - catchem 9pm - amelia murray 10pm - hazzard 11pm - jude icarus",
+      "id": "hartbar-2026-10-07-bushwick-rocks-18-30",
+      "title": "BUSHWICK ROCKS!!!",
+      "startsAt": "2026-10-07T22:30:00.000Z",
+      "note": "BUSHWICK ROCKS!!!<br>$10 advance; $15 day of show<br>DOORS AT 6:30PM<br><br>7pm BLESSER (<a href=\"http://instagram.com/blesserband\" target=\"_blank\">instagram.com/blesserband</a>)<br>8pm JUZU (<a href=\"http://instagram.com/juzu.me\" target=\"_blank\">instagram.com/juzu.me</a>)<br>9pm Esperinthym (<a href=\"http://instagram.com/esperinthym\" target=\"_blank\">instagram.com/esperinthym</a>)<br>10pm MARIMACHA (<a href=\"http://instagram.com/marimachaband\" target=\"_blank\">instagram.com/marimachaband</a>)<br><br>ADVANCE TICKETS: <br><a href=\"https://www.eventim.us/event/BLESSERJUZUEsperinthymMARIMACHA/699031\" target=\"_blank\">https://www.eventim.us/event/<u></u>BLESSERJUZUEsperinthymMARIMACH<u></u>A/699031</a>",
       "price": "$10",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-11-08-dot-dash-presents-20-0",
-      "title": "Dot Dash Presents",
-      "startsAt": "2026-11-08T01:00:00.000Z",
-      "note": "Dot Dash Presents $16 8PM doors 8:45PM - PSINCERITY 9:30PM - NOD (Rochester, NY) 10:30PM - VAGUE PLOT",
-      "price": "$16",
+      "id": "hartbar-2026-10-09-misschiff-liv-canova-the-madelines-pop-alma-19-0",
+      "title": "MissChiff | Liv Canova | The Madelines | Pop Alma",
+      "startsAt": "2026-10-09T23:00:00.000Z",
+      "note": "MissChiff | Liv Canova | The Madelines | Pop Alma<br>10 presale 15 at door<br>Doors at 7PM<br><u><a href=\"https://www.eventbrite.com/e/misschiff-liv-canova-the-madelines-pop-alma-tickets-1998821410646\" target=\"_blank\"><u>TICKETS</u></a></u><br><br>730 Misschiff<br>8pm - The Madelines<br>9pm - Liv Canova<br>10pm - Pop alma",
+      "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-01-lanky-fuego-presents-chromaramara-tour-19-30",
-      "title": "Lanky Fuego Presents: Chromaramara Tour",
-      "startsAt": "2026-10-01T23:30:00.000Z",
-      "note": "Lanky Fuego Presents: Chromaramara Tour $5 Doors 7:30 Flat Girther:8:00-8:25 Chromaramara 8:35-9:00 Gavin Kelly 9:10-9:30 FUGU 9:40-10:00~",
-      "price": "$5",
+      "id": "hartbar-2026-10-24-jeerleader-balloon-snake-dog-park-and-winnifred-19-30",
+      "title": "Jeerleader, Balloon Snake, Dog Park, and Winnifred",
+      "startsAt": "2026-10-24T23:30:00.000Z",
+      "note": "Doors at 6:00PM $10 7pm - Winnifred 8pm - Dog Park 9pm - Jeerleader 10pm - Balloon Snake",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-25-sam-cope-field-album-release-show-with-panther-hollow-untitled-freak-d-a-19-30",
+      "title": "Sam Cope \"Field\" Album Release Show with Panther Hollow, Untitled Freak, & D.A. Crimson",
+      "startsAt": "2026-10-25T23:30:00.000Z",
+      "note": "Sam Cope \"Field\" Album Release Show with Panther Hollow, Untitled Freak, &amp; D.A. Crimson<br>$12<br><br>Untitled Freak <a href=\"https://www.instagram.com/untitled.freak/\" target=\"_blank\"><u><u>@untitled.freak</u></u></a><br>D.A. Crimson<br>Panther Hollow<br>Sam Cope <a href=\"https://www.instagram.com/copesam/?hl=en\" target=\"_blank\"><u><u>@copesam</u></u></a>",
+      "price": "$12",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-23-muzak-la-ellie-shannon-jolee-gordon-salem-june-19-0",
+      "title": "Muzak (LA), Ellie Shannon, Jolee Gordon, Salem June",
+      "startsAt": "2026-11-23T00:00:00.000Z",
+      "note": "Muzak (LA), Ellie Shannon, Jolee Gordon, Salem June $ 10 7:00pm - Doors 8:00pm - Muzak (LA) 8:45pm - Ellie Shannon 9:30pm - Jolee Go 10:15pm - Salem June",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-03-dj-lampalot-noah-g-22-0",
+      "title": "DJ LAMPALOT & NOAH G",
+      "startsAt": "2026-10-03T02:00:00.000Z",
+      "note": "DJ LAMPALOT & NOAH G Spinning 10-3am in the upstairs cabin bar area",
+      "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
@@ -1622,6 +1612,96 @@
       "dataSource": "live"
     },
     {
+      "id": "hartbar-2026-10-04-sayonara-joe-mclaughlin-and-palmetto-chain-19-30",
+      "title": "Sayonara, Joe McLaughlin, and Palmetto Chain",
+      "startsAt": "2026-10-04T23:30:00.000Z",
+      "note": "Sayonara, Joe McLaughlin, and Palmetto Chain<br>$10<br>Doors at 7:30PM<br><br>8pm - Palmetto Chain <a><u><u>@palmettochain</u></u></a><br>9pm - Joe McLaughlin @20goto20 @kling_klang_band<br>10pm - Sayonara <a><u><u>@sayonara.nyc</u></u></a>",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-10-music-charisma-mountain-19-30",
+      "title": "Music Charisma Mountain",
+      "startsAt": "2026-10-10T23:30:00.000Z",
+      "note": "Music Charisma Mountain Connor & Isaiah $10 730pm DOORS 8pm - catchem 9pm - amelia murray 10pm - hazzard 11pm - jude icarus",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-20-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-11-20T03:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-24-hilla-bundem-friends-22-0",
+      "title": "Hilla BunDem & Friends",
+      "startsAt": "2026-10-24T02:00:00.000Z",
+      "note": "<p><b>Hilla BunDem &amp; Friends</b></p><p>@moversandhealers<br>@hilla_bundem<br>@wahdudem</p><p>Movers &amp; Healers is Wah DuDem’s year round dance party dedicated to wellness, using music, movement and community as a soft approach to mental health and connection. This October edition celebrates World Mental Health Month, with Movers &amp; Healers DJs moving across house, pop, dancehall, Afrobeats and salsa for a night centered on dancing, connection and feeling good.</p>",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-06-sybil-creek-secaydia-marina-buendia-john-grace-19-30",
+      "title": "Sybil Creek / Secaydia / Marina Buendia / John Grace",
+      "startsAt": "2026-10-06T23:30:00.000Z",
+      "note": "Sybil Creek / Secaydia / Marina Buendia / April Sugar $10 advance, $15 day of show 7:30 Doors 8pm John Grace @aprilsugarband 9pm Marina Buendia @marina.buendia 10pm Sybil Creek @cassieecollins 11pm Secaydia @secaydia",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-08-john-kasper-imaginary-tricks-cowboy-girl-ciggy-bop-19-30",
+      "title": "John Kasper/Imaginary Tricks/Cowboy Girl/Ciggy Bop",
+      "startsAt": "2026-10-08T23:30:00.000Z",
+      "note": "John Kasper/Imaginary Tricks/Cowboy Girl/Ciggy Bop $12 7:30- Doors 8:00- John Kasper @johnkaspermusic 9:00- Imaginary Tricks @imaginarytricks 10:00- Cowboy Girl @cowboygirlband 11:00- Ciggy Bop @ciggybop",
+      "price": "$12",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-03-nyc-femmerock-fest-18-30",
+      "title": "NYC FEMMEROCK FEST!",
+      "startsAt": "2026-10-03T22:30:00.000Z",
+      "note": "BUSHWICK ROCKS!!!<br>$10 advance, $15 day of show; <b>21+ w/ID</b><br>6:30pm DOORS<br><br>7pm Elle Prado (<a href=\"http://instagram.com/ellepradoofficial\" target=\"_blank\">instagram.com/<wbr />ellepradoofficial</a>)<br>8pm Luana Sandoval &amp; Friends (<a href=\"http://instagram.com/luanasandoval.official\" target=\"_blank\">instagram.com/luanasandoval.<wbr />official</a>)<br>9pm Code of Conduct (<a href=\"http://instagram.com/codeofconductband\" target=\"_blank\">instagram.com/<wbr />codeofconductband</a>)<br>10pm Parkies (<a href=\"http://instagram.com/parkiesband\" target=\"_blank\">instagram.com/parkiesband</a>)<br><br>ADVANCE TICKETS: <a href=\"https://www.eventim.us/event/Elle-PradoLuana-SandovalCode-of-ConductParkies/698040\" target=\"_blank\">https://www.eventim.us/event/<wbr />Elle-PradoLuana-SandovalCode-<wbr />of-ConductParkies/698040</a>",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-23-cellophane-kiss-album-release-show-17-30",
+      "title": "Cellophane Kiss Album Release Show",
+      "startsAt": "2026-10-23T21:30:00.000Z",
+      "note": "Cellophane Kiss Album Release Show<br>$15<br><p>5:30pm Doors</p><br><a href=\"https://www.eventbrite.com/e/the-litter-trail-album-release-tickets-2001808537222?utm-campaign=social&amp;utm-content=attendeeshare&amp;utm-medium=discovery&amp;utm-term=listing&amp;utm-source=wsa&amp;aff=ebdsshwebmobile\" target=\"_blank\">TICKETS</a><br><div dir=\"auto\"><p>6:00pm- Dracula &amp; His Band The Draculas</p><p>7:00pm-Silvera</p><p>8:00pm-Fallow Days</p><p>9:00pm-Cellophane Kiss</p>",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-21-cyber-friends-fest-17-30",
+      "title": "Cyber friends fest",
+      "startsAt": "2026-11-21T22:30:00.000Z",
+      "note": "Cyber friends fest FriendshipQuestBooking Presents $20 Doors 5:30p 5:45 - 6:15 - Nelly was nervous 6:30 - 7 - (T-T)b 7:15 - 7:45 - Gulfwargameboy 8 - 8:30 - gosh Diggity 8:45 - 9:15 - battlemode 9:30 - 10 - bubblegum octopus 10:15 - 10:45 - ultra deluxe",
+      "price": "$20",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
       "id": "hartbar-2026-11-02-iquan-celine-kang-group-kai-burns-partial-package-18-30",
       "title": "Iquan, Celine Kang Group, Kai Burns, Partial Package",
       "startsAt": "2026-11-02T23:30:00.000Z",
@@ -1632,20 +1712,50 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-09-26-disco-derby-22-0",
-      "title": "Disco Derby",
-      "startsAt": "2026-09-26T02:00:00.000Z",
-      "note": "Welcome to Disco Derby, where the dance floor becomes the race and the only rule is to keep moving. Get ready to dance through glittering disco grooves, funky basslines, and hard-hitting tech house as the night builds from feel-good classics into a full-speed late-night sprint. Lace up your dancing shoes, find your rhythm, and race beneath the disco ball until the final track.<br>10-3AM in the upstairs cabin bar area!<br><br><br>10pm - Scribble <b><a>@</a>scr.ibbl.e</b><br>11pm - MISS VEE <a><b>@victoriarosevargas</b></a><br>12am - ALEX PAN <b>@alexpanmusic</b><br>1am - Zeeva <a><b>@zeeva_music</b></a><br>2am - NDRS <a><b>@ndrs.wav</b></a>",
+      "id": "hartbar-2026-10-11-dj-bradman-22-0",
+      "title": "DJ Bradman",
+      "startsAt": "2026-10-11T02:00:00.000Z",
+      "note": "DJ Bradman spinning 10-3AM upstairs in the cabin bar area! @therealbradman",
       "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-12-12-ok-cuddle-ultra-deluxe-atrophy-wife-suroor-19-30",
-      "title": "Ok cuddle, ultra deluxe, atrophy wife, Suroor",
-      "startsAt": "2026-12-12T00:30:00.000Z",
-      "note": "Ok cuddle, ultra deluxe, atrophy wife, Suroor $15 7:30pm - doors 8 - 8:30 - atrophy wife 8:45 - 9:15 - Suroor 9:30 - 10 - ultra deluxe 10:15 - 10:45 - ok, cuddle",
+      "id": "hartbar-2026-11-07-posture-19-30",
+      "title": "Posture",
+      "startsAt": "2026-11-07T00:30:00.000Z",
+      "note": "Posture $10 730pm DOORS 8pm - Star Card 9 pm - Genuine Connection 10pm - Posture 11pm - TBA",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-18-warm-leatherette-22-0",
+      "title": "Warm Leatherette",
+      "startsAt": "2026-10-18T02:00:00.000Z",
+      "note": "My Darx, its the roll call for Warm Leatherette Fcukers next to Egyptian Lover. Lebanon Hanover folded into Tiga. No requests until you've worked up a sweat and brought us a tequila shot as a trade. Darkwave dance, synth, 80's, 90’s, and every nocturnal frequency your body was built for w/ your instigators @ivyohwowwee @dialjess 💫 Hart Bar · Sat Oct 17 · 10PM–Late · 21+ RSVP NOW // NO COVER 🫠",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-11-08-dot-dash-presents-20-0",
+      "title": "Dot Dash Presents",
+      "startsAt": "2026-11-08T01:00:00.000Z",
+      "note": "Dot Dash Presents $16 8PM doors 8:45PM - PSINCERITY 9:30PM - NOD (Rochester, NY) 10:30PM - VAGUE PLOT",
+      "price": "$16",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-13-tealeaf-presents-cereal-monogamy-a-billion-bugs-lawns-the-fictionals-18-30",
+      "title": "TEALEAF PRESENTS: Cereal Monogamy / A Billion Bugs / Lawns / The Fictionals",
+      "startsAt": "2026-10-13T22:30:00.000Z",
+      "note": "TEALEAF PRESENTS: Cereal Monogamy / A Billion Bugs / Lawns / The Fictionals<br>$15 advance / $20 day of show<br>6:30PM: DOORS<br><br>7:00pm: A BILLION BUGS<br>8:00pm: LAWNS<br>9:00pm: THE FICTIONALS<br>10:00pm: CEREAL MONOGAMY<br><br><u><a href=\"https://www.eventbrite.com/e/cereal-monogamy-the-fictionals-lawns-a-billion-bugs-tickets-1998986719088?aff=oddtdtcreator\" target=\"_blank\"><u>TICKETS</u></a></u>",
       "price": "$15",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
@@ -1672,101 +1782,11 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-16-apostrophebeats-presents-vampyr-blackchai-tonsil-hockey-19-0",
-      "title": "Apostrophebeats presents “Vampyr”/ blackchai/ tonsil hockey",
-      "startsAt": "2026-10-16T23:00:00.000Z",
-      "note": "Apostrophebeats presents “Vampyr”/ blackchai/ tonsil hockey $15 7pm - doors 8-8:30 - tonsil hockey 8:45 - 9:15 - blackchai 9:30 - 11 - apostrophebeats",
+      "id": "hartbar-2027-01-03-friendship-quest-presents-tiger-would-better-living-tonsil-hockey-fire-e-19-0",
+      "title": "Friendship Quest Presents: Tiger would/ better living/ tonsil hockey/ fire escape/ kid vivid",
+      "startsAt": "2027-01-03T00:00:00.000Z",
+      "note": "Friendship Quest Presents: Tiger would/ better living/ tonsil hockey/ fire escape/ kid vivid $15 7pm - doors 7:15 - 7:45 - kid vivid 8 - 8:30 - tonsil hockey 8:45 - 9:15 - fire escape 9:30 - 10 - better living. 10:15 - 10:45 - Tiger would",
       "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-21-cyber-friends-fest-17-30",
-      "title": "Cyber friends fest",
-      "startsAt": "2026-11-21T22:30:00.000Z",
-      "note": "Cyber friends fest FriendshipQuestBooking Presents $20 Doors 5:30p 5:45 - 6:15 - Nelly was nervous 6:30 - 7 - (T-T)b 7:15 - 7:45 - Gulfwargameboy 8 - 8:30 - gosh Diggity 8:45 - 9:15 - battlemode 9:30 - 10 - bubblegum octopus 10:15 - 10:45 - ultra deluxe",
-      "price": "$20",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-07-posture-19-30",
-      "title": "Posture",
-      "startsAt": "2026-11-07T00:30:00.000Z",
-      "note": "Posture $10 730pm DOORS 8pm - Star Card 9 pm - Genuine Connection 10pm - Posture 11pm - TBA",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-20-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-11-20T03:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-18-warm-leatherette-22-0",
-      "title": "Warm Leatherette",
-      "startsAt": "2026-10-18T02:00:00.000Z",
-      "note": "My Darx, its the roll call for Warm Leatherette Fcukers next to Egyptian Lover. Lebanon Hanover folded into Tiga. No requests until you've worked up a sweat and brought us a tequila shot as a trade. Darkwave dance, synth, 80's, 90’s, and every nocturnal frequency your body was built for w/ your instigators @ivyohwowwee @dialjess 💫 Hart Bar · Sat Oct 17 · 10PM–Late · 21+ RSVP NOW // NO COVER 🫠",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-03-dj-lampalot-noah-g-22-0",
-      "title": "DJ LAMPALOT & NOAH G",
-      "startsAt": "2026-10-03T02:00:00.000Z",
-      "note": "DJ LAMPALOT & NOAH G Spinning 10-3am in the upstairs cabin bar area",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-02-kitchenette-19-0",
-      "title": "Kitchenette",
-      "startsAt": "2026-10-02T23:00:00.000Z",
-      "note": "Kitchenette<br>$15<br>7pm Doors<br><br>8pm Love Free Spirit @scarab.21<br>9pm Julia Santoli @ilotnasailuj<br>10pm Kitchenette @mimis_wholesale_img_imporium @amy_shapiro @risnoli @jules.per.sec<br>11pm Axine M @axine.m<br><br><div dir=\"auto\"><div dir=\"auto\">Love Free Spirit @scarab.21<div dir=\"auto\"><div dir=\"auto\">Kitchenette @mimis_wholesale_img_imporium<div dir=\"auto\">@amy_shapiro<div dir=\"auto\">@risnoli<div dir=\"auto\">@jules.per.sec",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-03-nyc-femmerock-fest-18-30",
-      "title": "NYC FEMMEROCK FEST!",
-      "startsAt": "2026-10-03T22:30:00.000Z",
-      "note": "BUSHWICK ROCKS!!!<br>$10 advance, $15 day of show; <b>21+ w/ID</b><br>6:30pm DOORS<br><br>7pm Elle Prado (<a href=\"http://instagram.com/ellepradoofficial\" target=\"_blank\">instagram.com/<wbr />ellepradoofficial</a>)<br>8pm Luana Sandoval &amp; Friends (<a href=\"http://instagram.com/luanasandoval.official\" target=\"_blank\">instagram.com/luanasandoval.<wbr />official</a>)<br>9pm Code of Conduct (<a href=\"http://instagram.com/codeofconductband\" target=\"_blank\">instagram.com/<wbr />codeofconductband</a>)<br>10pm Parkies (<a href=\"http://instagram.com/parkiesband\" target=\"_blank\">instagram.com/parkiesband</a>)<br><br>ADVANCE TICKETS: <a href=\"https://www.eventim.us/event/Elle-PradoLuana-SandovalCode-of-ConductParkies/698040\" target=\"_blank\">https://www.eventim.us/event/<wbr />Elle-PradoLuana-SandovalCode-<wbr />of-ConductParkies/698040</a>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-23-cellophane-kiss-album-release-show-17-30",
-      "title": "Cellophane Kiss Album Release Show",
-      "startsAt": "2026-10-23T21:30:00.000Z",
-      "note": "Cellophane Kiss Album Release Show<br>$15<br><p>5:30pm Doors</p><br><a href=\"https://www.eventbrite.com/e/the-litter-trail-album-release-tickets-2001808537222?utm-campaign=social&amp;utm-content=attendeeshare&amp;utm-medium=discovery&amp;utm-term=listing&amp;utm-source=wsa&amp;aff=ebdsshwebmobile\" target=\"_blank\">TICKETS</a><br><div dir=\"auto\"><p>6:00pm- Dracula &amp; His Band The Draculas</p><p>7:00pm-Silvera</p><p>8:00pm-Fallow Days</p><p>9:00pm-Cellophane Kiss</p>",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-24-jeerleader-balloon-snake-dog-park-and-winnifred-19-30",
-      "title": "Jeerleader, Balloon Snake, Dog Park, and Winnifred",
-      "startsAt": "2026-10-24T23:30:00.000Z",
-      "note": "Doors at 6:00PM $10 7pm - Winnifred 8pm - Dog Park 9pm - Jeerleader 10pm - Balloon Snake",
-      "price": "$10",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
@@ -1782,20 +1802,40 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-24-hilla-bundem-friends-22-0",
-      "title": "Hilla BunDem & Friends",
-      "startsAt": "2026-10-24T02:00:00.000Z",
-      "note": "<p><b>Hilla BunDem &amp; Friends</b></p><p>@moversandhealers<br>@hilla_bundem<br>@wahdudem</p><p>Movers &amp; Healers is Wah DuDem’s year round dance party dedicated to wellness, using music, movement and community as a soft approach to mental health and connection. This October edition celebrates World Mental Health Month, with Movers &amp; Healers DJs moving across house, pop, dancehall, Afrobeats and salsa for a night centered on dancing, connection and feeling good.</p>",
+      "id": "hartbar-2026-10-01-lanky-fuego-presents-chromaramara-tour-19-30",
+      "title": "Lanky Fuego Presents: Chromaramara Tour",
+      "startsAt": "2026-10-01T23:30:00.000Z",
+      "note": "Lanky Fuego Presents: Chromaramara Tour $5 Doors 7:30 Flat Girther:8:00-8:25 Chromaramara 8:35-9:00 Gavin Kelly 9:10-9:30 FUGU 9:40-10:00~",
+      "price": "$5",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-10-12-dremel-19-30",
+      "title": "Dremel",
+      "startsAt": "2026-10-12T23:30:00.000Z",
+      "note": "Dremel $10-15 sliding scale 7:30pm Doors 8pm Christa 8:45pm Di Anita 9:30pm Dremel 10:15pm Alex Perloff",
+      "price": "$10",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-12-04-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-12-04T03:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
       "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-09-23-sounds-and-melodies-19-0",
-      "title": "SOUNDS AND MELODIES",
-      "startsAt": "2026-09-23T23:00:00.000Z",
-      "note": "SOUNDS AND MELODIES<br>$15<br>DOORS 7PM<br><u><a href=\"https://posh.vip/e/sounds-and-melodies?u=martiantickets&amp;_t=mu11v8fs&amp;os=ios&amp;src=event_page\" target=\"_blank\"><u><u>TICKETS</u></u></a></u><br><br>8-10PM - SHOWCASE<br>10PM - DJ KADAR SET",
+      "id": "hartbar-2026-10-16-apostrophebeats-presents-vampyr-blackchai-tonsil-hockey-19-0",
+      "title": "Apostrophebeats presents “Vampyr”/ blackchai/ tonsil hockey",
+      "startsAt": "2026-10-16T23:00:00.000Z",
+      "note": "Apostrophebeats presents “Vampyr”/ blackchai/ tonsil hockey $15 7pm - doors 8-8:30 - tonsil hockey 8:45 - 9:15 - blackchai 9:30 - 11 - apostrophebeats",
       "price": "$15",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
@@ -1812,76 +1852,6 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-11-dj-bradman-22-0",
-      "title": "DJ Bradman",
-      "startsAt": "2026-10-11T02:00:00.000Z",
-      "note": "DJ Bradman spinning 10-3AM upstairs in the cabin bar area! @therealbradman",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-06-sybil-creek-secaydia-marina-buendia-john-grace-19-30",
-      "title": "Sybil Creek / Secaydia / Marina Buendia / John Grace",
-      "startsAt": "2026-10-06T23:30:00.000Z",
-      "note": "Sybil Creek / Secaydia / Marina Buendia / April Sugar $10 advance, $15 day of show 7:30 Doors 8pm John Grace @aprilsugarband 9pm Marina Buendia @marina.buendia 10pm Sybil Creek @cassieecollins 11pm Secaydia @secaydia",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2027-01-03-friendship-quest-presents-tiger-would-better-living-tonsil-hockey-fire-e-19-0",
-      "title": "Friendship Quest Presents: Tiger would/ better living/ tonsil hockey/ fire escape/ kid vivid",
-      "startsAt": "2027-01-03T00:00:00.000Z",
-      "note": "Friendship Quest Presents: Tiger would/ better living/ tonsil hockey/ fire escape/ kid vivid $15 7pm - doors 7:15 - 7:45 - kid vivid 8 - 8:30 - tonsil hockey 8:45 - 9:15 - fire escape 9:30 - 10 - better living. 10:15 - 10:45 - Tiger would",
-      "price": "$15",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-04-sayonara-joe-mclaughlin-and-palmetto-chain-19-30",
-      "title": "Sayonara, Joe McLaughlin, and Palmetto Chain",
-      "startsAt": "2026-10-04T23:30:00.000Z",
-      "note": "Sayonara, Joe McLaughlin, and Palmetto Chain<br>$10<br>Doors at 7:30PM<br><br>8pm - Palmetto Chain <a><u><u>@palmettochain</u></u></a><br>9pm - Joe McLaughlin @20goto20 @kling_klang_band<br>10pm - Sayonara <a><u><u>@sayonara.nyc</u></u></a>",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-10-12-dremel-19-30",
-      "title": "Dremel",
-      "startsAt": "2026-10-12T23:30:00.000Z",
-      "note": "Dremel $10-15 sliding scale 7:30pm Doors 8pm Christa 8:45pm Di Anita 9:30pm Dremel 10:15pm Alex Perloff",
-      "price": "$10",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-11-23-muzak-la-ellie-shannon-jolee-gordon-salem-june-19-0",
-      "title": "Muzak (LA), Ellie Shannon, Jolee Gordon, Salem June",
-      "startsAt": "2026-11-23T00:00:00.000Z",
-      "note": "Muzak (LA), Ellie Shannon, Jolee Gordon, Salem June $ 10 7:00pm - Doors 8:00pm - Muzak (LA) 8:45pm - Ellie Shannon 9:30pm - Jolee Go 10:15pm - Salem June",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
-      "id": "hartbar-2026-12-04-savage-karaoke-garage-22-0",
-      "title": "Savage Karaoke! (GARAGE)",
-      "startsAt": "2026-12-04T03:00:00.000Z",
-      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
-      "price": "Check source",
-      "sourceUrl": "https://www.hartbarnyc.com/shows",
-      "venueId": "hartbar",
-      "dataSource": "live"
-    },
-    {
       "id": "hartbar-2026-09-26-two-steppes-the-spookfish-clairaudience-alien-d-19-30",
       "title": "Two Steppes, The Spookfish, clairaudience, Alien D",
       "startsAt": "2026-09-26T23:30:00.000Z",
@@ -1892,21 +1862,31 @@
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-25-sam-cope-field-album-release-show-with-panther-hollow-untitled-freak-d-a-19-30",
-      "title": "Sam Cope \"Field\" Album Release Show with Panther Hollow, Untitled Freak, & D.A. Crimson",
-      "startsAt": "2026-10-25T23:30:00.000Z",
-      "note": "Sam Cope \"Field\" Album Release Show with Panther Hollow, Untitled Freak, &amp; D.A. Crimson<br>$12<br><br>Untitled Freak <a href=\"https://www.instagram.com/untitled.freak/\" target=\"_blank\"><u><u>@untitled.freak</u></u></a><br>D.A. Crimson<br>Panther Hollow<br>Sam Cope <a href=\"https://www.instagram.com/copesam/?hl=en\" target=\"_blank\"><u><u>@copesam</u></u></a>",
-      "price": "$12",
+      "id": "hartbar-2026-09-26-disco-derby-22-0",
+      "title": "Disco Derby",
+      "startsAt": "2026-09-26T02:00:00.000Z",
+      "note": "Welcome to Disco Derby, where the dance floor becomes the race and the only rule is to keep moving. Get ready to dance through glittering disco grooves, funky basslines, and hard-hitting tech house as the night builds from feel-good classics into a full-speed late-night sprint. Lace up your dancing shoes, find your rhythm, and race beneath the disco ball until the final track.<br>10-3AM in the upstairs cabin bar area!<br><br><br>10pm - Scribble <b><a>@</a>scr.ibbl.e</b><br>11pm - MISS VEE <a><b>@victoriarosevargas</b></a><br>12am - ALEX PAN <b>@alexpanmusic</b><br>1am - Zeeva <a><b>@zeeva_music</b></a><br>2am - NDRS <a><b>@ndrs.wav</b></a>",
+      "price": "Check source",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
     },
     {
-      "id": "hartbar-2026-10-08-john-kasper-imaginary-tricks-cowboy-girl-ciggy-bop-19-30",
-      "title": "John Kasper/Imaginary Tricks/Cowboy Girl/Ciggy Bop",
-      "startsAt": "2026-10-08T23:30:00.000Z",
-      "note": "John Kasper/Imaginary Tricks/Cowboy Girl/Ciggy Bop $12 7:30- Doors 8:00- John Kasper @johnkaspermusic 9:00- Imaginary Tricks @imaginarytricks 10:00- Cowboy Girl @cowboygirlband 11:00- Ciggy Bop @ciggybop",
-      "price": "$12",
+      "id": "hartbar-2026-12-11-savage-karaoke-garage-22-0",
+      "title": "Savage Karaoke! (GARAGE)",
+      "startsAt": "2026-12-11T03:00:00.000Z",
+      "note": "10pm Doors Get your dranks and be ready to hit that microphone with all you got by 10:30pm!",
+      "price": "Check source",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
+      "dataSource": "live"
+    },
+    {
+      "id": "hartbar-2026-12-12-ok-cuddle-ultra-deluxe-atrophy-wife-suroor-19-30",
+      "title": "Ok cuddle, ultra deluxe, atrophy wife, Suroor",
+      "startsAt": "2026-12-12T00:30:00.000Z",
+      "note": "Ok cuddle, ultra deluxe, atrophy wife, Suroor $15 7:30pm - doors 8 - 8:30 - atrophy wife 8:45 - 9:15 - Suroor 9:30 - 10 - ultra deluxe 10:15 - 10:45 - ok, cuddle",
+      "price": "$15",
       "sourceUrl": "https://www.hartbarnyc.com/shows",
       "venueId": "hartbar",
       "dataSource": "live"
@@ -1922,33 +1902,13 @@
       "dataSource": "live"
     },
     {
-      "id": "sultanroom-2026-09-23-amythyst-kiah-with-emily-hines-19-0",
-      "title": "Amythyst Kiah with Emily Hines",
-      "startsAt": "2026-09-23T23:00:00.000Z",
-      "note": "Dice listing",
-      "price": "USD 31.90",
-      "sourceUrl": "https://thesultanroom.com/",
-      "venueId": "sultanroom",
-      "dataSource": "live"
-    },
-    {
-      "id": "sultanroom-2026-09-23-amythyst-kiah-19-0",
-      "title": "Amythyst Kiah",
-      "startsAt": "2026-09-23T23:00:00.000Z",
-      "note": "Dice listing",
-      "price": "USD 31.90",
-      "sourceUrl": "https://thesultanroom.com/",
-      "venueId": "sultanroom",
-      "dataSource": "live"
-    },
-    {
-      "id": "sultanroom-2026-09-23-mood-drills-19-0",
-      "title": "Mood Drills",
-      "startsAt": "2026-09-23T23:00:00.000Z",
-      "note": "The Sultan Room Rooftop - alternative",
-      "price": "USD 23.80",
-      "sourceUrl": "https://link.dice.fm/Rbd5849772fb",
-      "venueId": "sultanroom",
+      "id": "hartbar-2026-10-02-kitchenette-19-0",
+      "title": "Kitchenette",
+      "startsAt": "2026-10-02T23:00:00.000Z",
+      "note": "Kitchenette<br>$15<br>7pm Doors<br><br>8pm Love Free Spirit @scarab.21<br>9pm Julia Santoli @ilotnasailuj<br>10pm Kitchenette @mimis_wholesale_img_imporium @amy_shapiro @risnoli @jules.per.sec<br>11pm Axine M @axine.m<br><br><div dir=\"auto\"><div dir=\"auto\">Love Free Spirit @scarab.21<div dir=\"auto\"><div dir=\"auto\">Kitchenette @mimis_wholesale_img_imporium<div dir=\"auto\">@amy_shapiro<div dir=\"auto\">@risnoli<div dir=\"auto\">@jules.per.sec",
+      "price": "$15",
+      "sourceUrl": "https://www.hartbarnyc.com/shows",
+      "venueId": "hartbar",
       "dataSource": "live"
     },
     {
@@ -1995,7 +1955,7 @@
       "id": "sultanroom-2026-09-26-verano-eterno-17-0",
       "title": "Verano Eterno",
       "startsAt": "2026-09-26T21:00:00.000Z",
-      "note": "The Sultan Room Rooftop - salsa, cumbia",
+      "note": "The Sultan Room Rooftop - latin_tropical, salsa, cumbia",
       "price": "USD 13.91",
       "sourceUrl": "https://link.dice.fm/Rb548c4a9408",
       "venueId": "sultanroom",
@@ -2022,10 +1982,10 @@
       "dataSource": "live"
     },
     {
-      "id": "sultanroom-2026-09-27-pillow-talk-sessions-ft-lil-t-b2b-greg-eversoul-shane-one-b2b-holmar-car-19-0",
+      "id": "sultanroom-2026-09-27-pillow-talk-sessions-ft-lil-t-b2b-greg-eversoul-shane-one-b2b-holmar-car-16-0",
       "title": "Pillow Talk Sessions ft. Lil'T B2B Greg Eversoul, Shane One B2B Holmar, Carlo Sine",
-      "startsAt": "2026-09-27T23:00:00.000Z",
-      "note": "The Sultan Room Rooftop - house, disco",
+      "startsAt": "2026-09-27T20:00:00.000Z",
+      "note": "The Sultan Room Rooftop - techno, house, disco",
       "price": "USD 20.09",
       "sourceUrl": "https://link.dice.fm/r0bf84a16b84",
       "venueId": "sultanroom",
@@ -2158,6 +2118,36 @@
       "note": "hyperpop, hiphop, urban_underground",
       "price": "USD 23.80",
       "sourceUrl": "https://link.dice.fm/M5864cf75d54",
+      "venueId": "sultanroom",
+      "dataSource": "live"
+    },
+    {
+      "id": "sultanroom-2026-10-09-she-keeps-bees-pink-mexico-parlor-walls-the-huntress-and-holder-of-hands-18-0",
+      "title": "She Keeps Bees, Pink Mexico, Parlor Walls, & The Huntress and Holder of Hands",
+      "startsAt": "2026-10-09T22:00:00.000Z",
+      "note": "indie, blues, americana",
+      "price": "USD 20.09",
+      "sourceUrl": "https://link.dice.fm/Oe1482a81943",
+      "venueId": "sultanroom",
+      "dataSource": "live"
+    },
+    {
+      "id": "sultanroom-2026-10-09-bobby-bare-jr-of-guided-by-voices-19-0",
+      "title": "Bobby Bare Jr. of Guided By Voices",
+      "startsAt": "2026-10-09T23:00:00.000Z",
+      "note": "The Sultan Room Rooftop",
+      "price": "USD 31.90",
+      "sourceUrl": "https://thesultanroom.com/",
+      "venueId": "sultanroom",
+      "dataSource": "live"
+    },
+    {
+      "id": "sultanroom-2026-10-10-the-eel-pit-x-silkpunk-presents-ph0-pair-of-sloths-piranhana-dj-lobo-cam-19-0",
+      "title": "The Eel Pit X Silkpunk Presents: Ph0, Pair of Sloths, Piranhana, DJ Lobo Camilo & Marjorine",
+      "startsAt": "2026-10-10T23:00:00.000Z",
+      "note": "The Sultan Room Rooftop - synthpunk, electronic",
+      "price": "USD 20.09",
+      "sourceUrl": "https://link.dice.fm/Fd4b201e08b5",
       "venueId": "sultanroom",
       "dataSource": "live"
     },
